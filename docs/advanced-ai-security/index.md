@@ -1,4 +1,4 @@
-# AI 安全进阶
+﻿# AI 安全进阶
 
 > 模型安全评估、AI 红队测试、Agent 安全深度攻防
 
@@ -437,4 +437,4 @@ class SecureMemory:
 5. [Google AI Red Team](https://blog.google/technology/safety-security/google-ai-red-team/)
 6. [NIST AI 安全指南](https://www.nist.gov/artificial-intelligence)
 7. [Agent Security Papers](https://arxiv.org/abs/2306.05499)
-8. [OpenClaw Agent 安全架构](03-openclaw-security.md)
+8. [OpenClaw Agent 安全架构](../ai-security/03-openclaw-security.md)
