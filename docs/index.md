@@ -1,4 +1,4 @@
-<div class="hero" markdown="1">
+<div class=hero markdown=1>
 
 # 🛡️ 安全漏洞实战手册
 
@@ -6,9 +6,9 @@
 
 </div>
 
-<div class="feature-grid" markdown="1">
+<div class=feature-grid markdown=1>
 
-<div class="feature-card" markdown="1">
+<div class=feature-card markdown=1>
 
 ### 🏪 入门基础
 **从零开始的安全之路**
@@ -21,7 +21,7 @@
 
 </div>
 
-<div class="feature-card" markdown="1">
+<div class=feature-card markdown=1>
 
 ### 🔴 Web 安全
 **OWASP Top 10 深度解析**。每个漏洞都包含：
@@ -35,7 +35,7 @@
 
 </div>
 
-<div class="feature-card" markdown="1">
+<div class=feature-card markdown=1>
 
 ### 🎯 学习路径
 不只是漏洞清单。从零基础到安全工程师的完整路线：
@@ -47,7 +47,7 @@
 
 </div>
 
-<div class="feature-card" markdown="1">
+<div class=feature-card markdown=1>
 
 ### 🤖 AI 安全
 **大模型时代的安全新挑战**：

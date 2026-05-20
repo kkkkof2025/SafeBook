@@ -30,6 +30,24 @@
 - [推荐学习平台](learning/02-platforms.md)
 - [安全职业发展](learning/03-career-development.md)
 
+## 云安全
+
+- [云安全概述](cloud-security/index.md)
+- [共享责任模型](cloud-security/01-shared-responsibility.md)
+- [IAM 与身份安全](cloud-security/02-iam.md)
+- [云存储安全](cloud-security/03-storage-security.md)
+- [云网络安全](cloud-security/04-network-security.md)
+- [Serverless 安全](cloud-security/05-serverless-security.md)
+- [云合规与治理](cloud-security/06-compliance-governance.md)
+- [CSPM 与工具链](cloud-security/07-cspm-tools.md)
+
+## 容器与 K8s 安全
+
+- [容器安全概述](container-security/index.md)
+- [Docker 安全](container-security/01-docker-security.md)
+- [Kubernetes 安全](container-security/02-kubernetes-security.md)
+- [容器供应链安全](container-security/03-supply-chain.md)
+
 ## AI 安全
 
 - [AI 安全概述](ai-security/index.md)
