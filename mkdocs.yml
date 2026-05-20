@@ -1,4 +1,4 @@
-site_name: 安全漏洞实战手册
+﻿site_name: 安全漏洞实战手册
 site_description: 从 Web 安全到 AI 安全 — 每个漏洞的原理、案例、POC 与修复 — 从入门到精通的安全成长之路
 site_url: https://kkkkof2025.github.io/SafeBook/
 repo_url: https://github.com/kkkkof2025/SafeBook
@@ -109,14 +109,23 @@ nav:
       - 容器供应链安全: container-security/03-supply-chain.md
   - 供应链安全:
       - 供应链安全概述: supply-chain-security/index.md
+      - CI/CD 管道安全: supply-chain-security/01-cicd-security.md
+      - 依赖管理与投毒防御: supply-chain-security/02-dependency-security.md
   - 移动安全:
       - 移动安全概述: mobile-security/index.md
+      - Android 安全测试: mobile-security/01-android-security.md
+      - iOS 安全测试: mobile-security/02-ios-security.md
   - 系统安全:
       - 系统安全概述: system-security/index.md
+      - 缓冲区溢出实战: system-security/01-buffer-overflow.md
+      - Linux 提权技术: system-security/02-privilege-escalation.md
   - 数据隐私与合规:
       - 数据隐私与合规: data-privacy/index.md
+      - 数据脱敏与隐私保护技术: data-privacy/01-data-masking.md
   - AI 安全进阶:
       - AI 安全进阶: advanced-ai-security/index.md
+      - AI 红队测试实战手册: advanced-ai-security/01-red-team.md
+      - Agent 多步攻击与权限逃逸: advanced-ai-security/02-agent-security.md
   - AI 安全:
       - AI 安全概述: ai-security/index.md
       - LLM 安全漏洞: ai-security/01-llm-vulns.md
