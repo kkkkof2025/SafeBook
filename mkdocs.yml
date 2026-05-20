@@ -143,6 +143,10 @@ nav:
   - HVV 护网行动:
       - HVV 护网行动指南: hvv/index.md
       - 红蓝对抗实战方法论: hvv/01-red-blue-team.md
+  - 安全学习平台与 CTF:
+      - 安全学习平台全览: security-platforms/index.md
+      - CTF 赛事与练习策略: security-platforms/01-ctf-practice.md
+      - 社区与深度资源: security-platforms/02-community-resources.md
   - 漏洞数据库平台:
       - 漏洞数据库全览: vulnerability-databases/index.md
       - CNVD 与 CNNVD 详解: vulnerability-databases/01-cnvd-cnnvd.md
