@@ -1,46 +1,95 @@
-# 安全漏洞实战手册
+<div class="hero" markdown="1">
 
-> 从认识漏洞到修复漏洞
+# 🛡️ 安全漏洞实战手册
+
+**从认识漏洞到修复漏洞 — 不止于原理，更重于实战**
+
+</div>
+
+<div class="feature-grid" markdown="1">
+
+<div class="feature-card" markdown="1">
+
+### 🏪 入门基础
+**从零开始的安全之路**
+- 计算机网络与 HTTP 协议
+- Web 应用架构解析
+- 安全工具与信息收集
+- **适合零基础读者入门**
+
+[进入入门基础章节 →](basics/00-intro.md)
+
+</div>
+
+<div class="feature-card" markdown="1">
+
+### 🔴 Web 安全
+**OWASP Top 10 深度解析**。每个漏洞都包含：
+- **原理剖析**：为什么发生，底层机制
+- **真实案例**：历史上著名的安全事件
+- **简单 POC**：可复现的演示代码
+- **修复方案**：代码级 + 架构级防御
+- **检测工具**：扫描器、WAF、手工检测
+
+[进入 Web 安全章节 →](chapters/01-web-security/index.md)
+
+</div>
+
+<div class="feature-card" markdown="1">
+
+### 🎯 学习路径
+不只是漏洞清单。从零基础到安全工程师的完整路线：
+- 零基础怎么开始学安全
+- 推荐学习平台和资源
+- 安全行业的职业发展
+
+[进入学习路径章节 →](learning/index.md)
+
+</div>
+
+<div class="feature-card" markdown="1">
+
+### 🤖 AI 安全
+**大模型时代的安全新挑战**：
+- Prompt 注入与防御
+- LLM 特有的安全漏洞
+- Agent 平台安全（OpenClaw）
+- AI 辅助钓鱼与内容污染
+
+[进入 AI 安全章节 →](ai-security/index.md)
+
+</div>
+
+</div>
 
 ---
 
-## 目录
+## 阅读建议
 
-- [首页](index.md)
-- [完整目录](docs/SUMMARY.md)
+| 你的背景 | 推荐阅读顺序 |
+|----------|-------------|
+| 零基础 | 入门基础 → Web 安全 → 学习路径 → AI 安全 |
+| 有 Web 基础 | Web 安全 → AI 安全 → 学习路径 |
+| 安全从业者 | 按需阅读，重点看 AI 安全 |
+| 开发者 | 按漏洞类型阅读，重点关注修复方案 |
 
-### Web 安全
+---
 
-- [分类概述](docs/chapters/01-web-security/index.md)
-- [SQL 注入](docs/chapters/01-web-security/01-sql-injection.md)
-- [XSS 跨站脚本](docs/chapters/01-web-security/02-xss.md)
-- [CSRF 跨站请求伪造](docs/chapters/01-web-security/03-csrf.md)
-- [SSRF 服务端请求伪造](docs/chapters/01-web-security/04-ssrf.md)
-- [远程代码执行](docs/chapters/01-web-security/05-rce.md)
-- [认证绕过](docs/chapters/01-web-security/06-authentication-bypass.md)
-- [IDOR 越权访问](docs/chapters/01-web-security/07-idor.md)
-- [文件上传漏洞](docs/chapters/01-web-security/08-file-upload.md)
-- [XXE 外部实体注入](docs/chapters/01-web-security/09-xxe.md)
-- [反序列化攻击](docs/chapters/01-web-security/10-deserialization.md)
+## 更新日志
 
-### 学习路径
+### 2026-05-20 — 第二阶段：重构导航 + 新增入门基础
+- ✅ 修复导航配置，侧边栏导航现在可用
+- ✅ 新增入门基础章节（6 篇：入门指南、网络基础、HTTP 协议、Web 架构、安全工具、信息收集）
+- ✅ mkdocs.yml 配置优化（正确的 site_url、repo_url）
+- ✅ 新增 navigation.instant.progress、toc.follow 等导航增强特性
+- ✅ 修复所有内部链接路径
 
-- [学习路线总览](docs/learning/index.md)
-- [安全学习路线图](docs/learning/01-learning-path.md)
-- [推荐学习平台](docs/learning/02-platforms.md)
-- [安全职业发展](docs/learning/03-career-development.md)
+### 2026-05-20 — 第一版发布
+- ✅ 完整的 mkdocs 书籍框架
+- ✅ Web 安全 10 篇经典漏洞
+- ✅ AI 安全 6 篇 + 学习路径 4 篇 + 附录 3 篇
+- ✅ 基于 GitHub Pages 发布
 
-### AI 安全
+---
 
-- [AI 安全概述](docs/ai-security/index.md)
-- [LLM 安全漏洞](docs/ai-security/01-llm-vulns.md)
-- [Prompt 注入攻击](docs/ai-security/02-prompt-injection.md)
-- [OpenClaw 安全](docs/ai-security/03-openclaw-security.md)
-- [AI 辅助钓鱼与防护](docs/ai-security/04-phishing-ai.md)
-- [内容污染鉴别](docs/ai-security/05-content-pollution.md)
-
-### 附录
-
-- [资源与引用](docs/appendix/resources.md)
-- [术语表](docs/appendix/glossary.md)
-- [安全检查清单](docs/appendix/checklists.md)
+> **目标**：认真读完这本书的人，能够进入安全行业。
