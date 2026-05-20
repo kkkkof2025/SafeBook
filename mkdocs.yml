@@ -140,6 +140,9 @@ nav:
       - Awesome-POC 实战指南: cve-poc/01-awesome-poc.md
       - 中间件 CVE 深度分析: cve-poc/02-middleware-cve.md
       - 框架漏洞 CVE: cve-poc/03-framework-cve.md
+  - HVV 护网行动:
+      - HVV 护网行动指南: hvv/index.md
+      - 红蓝对抗实战方法论: hvv/01-red-blue-team.md
   - 漏洞数据库平台:
       - 漏洞数据库全览: vulnerability-databases/index.md
       - CNVD 与 CNNVD 详解: vulnerability-databases/01-cnvd-cnnvd.md
