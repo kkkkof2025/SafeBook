@@ -140,6 +140,11 @@ nav:
       - Awesome-POC 实战指南: cve-poc/01-awesome-poc.md
       - 中间件 CVE 深度分析: cve-poc/02-middleware-cve.md
       - 框架漏洞 CVE: cve-poc/03-framework-cve.md
+  - 漏洞数据库平台:
+      - 漏洞数据库全览: vulnerability-databases/index.md
+      - CNVD 与 CNNVD 详解: vulnerability-databases/01-cnvd-cnnvd.md
+      - NVD/CVE/MITRE/CWE/CVSS: vulnerability-databases/02-nvd-cve-mitre.md
+      - 其他漏洞数据平台: vulnerability-databases/03-other-databases.md
   - 附录:
       - 资源与引用: appendix/resources.md
       - 术语表: appendix/glossary.md

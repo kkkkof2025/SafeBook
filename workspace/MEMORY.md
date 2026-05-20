@@ -1,22 +1,31 @@
-2026-05-20 12:42-12:58：第五阶段 — 扩展9篇子文章+修复CSS+修复Pages部署
+# 第六轮更新总结 — CSS修复 + 导航折叠 + CVE/POC章节
 
-【修复】CSS代码块中文显示问题
-  - 消除 .highlight .err 的黑色背景+黑色文字冲突
-  - 统一代码块文字颜色
+## 完成的修改
 
-【修复】GitHub Pages部署
-  - 创建 .github/workflows/deploy.yml
-  - 改用官方 configure-pages@v5 + deploy-pages@v4
-  - 网站 https://kkkkof2025.github.io/SafeBook/ 已正常上线
-  - 左侧导航栏、右侧目录、上下页链接全部正常工作
+### 1. CSS 代码块可读性修复（参考 prompts 项目风格）
+- 代码块背景改为浅色 `#f5f2f0`，文字 `#333`
+- 精确配色: YAML键=蓝、字符串=深蓝、注释=灰斜体、关键字=红粗体
+- 行内代码灰底红字 `#f0e8e8/#c62828`
+- 表格表头红色主题
+- 消除 `.highlight .err` 导致的中文文字不可见问题
 
-【扩展子文章】
-  - 供应链安全(+2): CI/CD管道安全、依赖管理与投毒防御
-  - 系统安全(+2): 缓冲区溢出实战(含Docker POC)、Linux提权技术(3种CVE利用)
-  - 移动安全(+2): Android安全测试(Frida/Hook/MobSF)、iOS安全测试与加固
-  - 数据隐私(+1): 数据脱敏与隐私保护技术(含差分隐私Python实现)
-  - AI安全进阶(+2): AI红队测试实战手册(含自动化脚本)、Agent多步攻击与权限逃逸
+### 2. 导航折叠 JS
+- `docs/javascripts/extra.js` — 页面加载后自动折叠非当前章节
+- 仅展开当前页面所在章节组
+- 支持 Material 即时导航（SPA）
 
-【总规模】
-  14个章节 | 55篇文章 | 59 HTML页面构建通过
-  mkdocs Material红色主题，完整导航和目录
+### 3. 新增 CVE/POC 章节（3篇文章）
+每篇完整的: 原理 + HTTP-POC/Python-脚本 + CVSS评分 + 修复 + NVD/GitHub链接
+- **Awesome-POC 实战指南**: Log4Shell/Spring4Shell/Shiro/FastJSON/Nacos 等 CVE 索引
+- **中间件 CVE**: Log4j远程执行/Tomcat Ghostcat/WebLogic反序列化/JBoss/Nginx
+- **框架漏洞 CVE**: ThinkPHP RCE/Spring Cloud Gateway/Shiro-550/FastJSON
+
+### 4. 所有引用添加真实链接
+- 每个 CVE 附 NVD 官方页面链接
+- POC 指向 Awesome-POC/POChouse/VulHub/PeiQi-WIKI
+- 文章引用: 火山引擎、博客园、知乎、Moonsec、HVV PDF
+
+## 总规模
+- **15个章节** → **58篇文章** → **63 HTML页面**
+- 红色 Material 主题，完整导航+目录，导航折叠，代码块清晰可读
+- 所有文章含: 原理 + 案例 + POC + 修复 + 参考链接
