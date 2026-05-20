@@ -141,6 +141,54 @@
 
 </div>
 
+<div class="feature-card" markdown="1">
+
+### 🧪 CVE 漏洞库与 POC
+**中间件与框架漏洞实战合集**。
+- Awesome-POC 使用指南
+- WebLogic/Shiro/Spring CVE 深度分析
+- 真实漏洞复现与 POC 代码
+
+[进入 CVE/POC 章节 →](cve-poc/index.md)
+
+</div>
+
+<div class="feature-card" markdown="1">
+
+### ⚔️ HVV 护网行动
+**中国最大规模攻防演练**。
+- 2016-2026 十年发展史
+- 红队攻击 4 阶段 + 蓝队防守 3 维体系
+- 历年高价值漏洞 TOP 清单
+
+[进入 HVV 章节 →](hvv/index.md)
+
+</div>
+
+<div class="feature-card" markdown="1">
+
+### 🎮 安全学习平台与 CTF
+**从新手到大神的练习地图**。
+- 20+ 国际/15+ 国内平台评测
+- CTF 分类与训练策略
+- 公众号/UP主/认证体系全览
+
+[进入学习平台章节 →](security-platforms/index.md)
+
+</div>
+
+<div class="feature-card" markdown="1">
+
+### 📡 漏洞数据库平台
+**CVE/CNVD/CNNVD/NVD 体系全解**。
+- CNVD vs CNNVD 对比
+- CVE/CWE/CVSS 评分体系
+- Exploit-DB/Seebug/VulDB 聚合搜索
+
+[进入数据库章节 →](vulnerability-databases/index.md)
+
+</div>
+
 </div>
 
 ---
@@ -150,13 +198,23 @@
 | 你的背景 | 推荐阅读顺序 |
 |----------|-------------|
 | 零基础 | 入门基础 → Web 安全 → 云安全 → 学习路径 → AI 安全 |
-| 有 Web 基础 | Web 安全 → 云安全 → 容器 → AI → 进阶 |
-| 安全从业者 | 按需阅读，重点看 AI 安全 / 云安全 / 供应链 |
-| 开发者 | Web 安全 + 容器安全 + 数据隐私 |
+| 有 Web 基础 | Web 安全 → 云安全 → 容器 → AI → 进阶 → CVE/POC |
+| 安全从业者 | 按需阅读，重点看 AI 安全 / 云安全 / 供应链 / HVV |
+| CTF 选手 | Web 安全 + 系统安全 + 学习平台 + 漏洞数据库 |
+| 开发者 | Web 安全 + 容器安全 + 数据隐私 + 供应链安全 |
 
 ---
 
 ## 更新日志
+
+### 2026-05-20 — 第五阶段：新增 CVE/POC、HVV 护网行动、学习平台、漏洞数据库
+- ✅ CVE/POC 合集：Awesome-POC 实战指南、中间件/框架 CVE 深度分析
+- ✅ HVV 护网行动：2016-2026 发展史、红蓝对抗全流程、攻击链可视化
+- ✅ 安全学习平台与 CTF：20+ 国际/15+ 国内平台、CTF 策略、WeChat 公众号
+- ✅ 漏洞数据库平台：CNVD/CNNVD/NVD/CVE/CWE/CVSS/CPE 全体系
+- ✅ GitHub Actions 自动部署（对齐 prompts 项目）
+- ✅ README.md：项目简介 + Badges + 路线图
+- ✅ 首页显示全部 18 个章节入口
 
 ### 2026-05-20 — 第四阶段：新增 5 个大章（供应链安全、移动安全、系统安全、数据隐私、AI 安全进阶）
 - ✅ 供应链安全：覆盖 SolarWinds/xz 后门案例、SLSA 框架、CI/CD 管道安全
@@ -164,8 +222,6 @@
 - ✅ 系统安全：缓冲区溢出 POC、提权路径、训练服务器加固
 - ✅ 数据隐私与合规：PIPL/GDPR/CCPA 对比、AI 训练合规、数据脱敏
 - ✅ AI 安全进阶：模型安全评估、红队测试、Agent 工具调用安全、多 Agent 安全
-- ✅ 导航已在 mkdocs build 验证通过
-- ✅ 首页显示全部 14 个章节入口
 
 ### 2026-05-20 — 第三阶段：新增云安全 + 容器安全
 - 云安全 8 篇、容器 K8s 安全 4 篇
@@ -178,4 +234,13 @@
 
 ---
 
-> **目标**：认真读完这本书的人，能够进入安全行业。
+## 📊 当前规模
+
+| 指标 | 数值 |
+|------|------|
+| **章节** | 18 |
+| **文章** | 70+ |
+| **HTML 页面** | 72 |
+| **自动部署** | GitHub Actions ✅ |
+
+> **目标**：让认真读完这本书的人，能够进入安全行业。
