@@ -20,6 +20,7 @@ desktop.ini
 # Build outputs
 _site/
 site/
+safe-site/
 dist/
 build/
 
