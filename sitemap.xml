@@ -13,6 +13,14 @@
          <lastmod>2026-05-20</lastmod>
     </url>
     <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/advanced-ai-security/01-red-team/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/advanced-ai-security/02-agent-security/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
          <loc>https://kkkkof2025.github.io/SafeBook/ai-security/</loc>
          <lastmod>2026-05-20</lastmod>
     </url>
@@ -165,7 +173,35 @@
          <lastmod>2026-05-20</lastmod>
     </url>
     <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/cve-poc/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/cve-poc/01-awesome-poc/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/cve-poc/02-middleware-cve/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/cve-poc/03-framework-cve/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
          <loc>https://kkkkof2025.github.io/SafeBook/data-privacy/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/data-privacy/01-data-masking/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/hvv/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/hvv/01-red-blue-team/</loc>
          <lastmod>2026-05-20</lastmod>
     </url>
     <url>
@@ -189,11 +225,63 @@
          <lastmod>2026-05-20</lastmod>
     </url>
     <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/mobile-security/01-android-security/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/mobile-security/02-ios-security/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/security-platforms/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/security-platforms/01-ctf-practice/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/security-platforms/02-community-resources/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
          <loc>https://kkkkof2025.github.io/SafeBook/supply-chain-security/</loc>
          <lastmod>2026-05-20</lastmod>
     </url>
     <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/supply-chain-security/01-cicd-security/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/supply-chain-security/02-dependency-security/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
          <loc>https://kkkkof2025.github.io/SafeBook/system-security/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/system-security/01-buffer-overflow/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/system-security/02-privilege-escalation/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/vulnerability-databases/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/vulnerability-databases/01-cnvd-cnnvd/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/vulnerability-databases/02-nvd-cve-mitre/</loc>
+         <lastmod>2026-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://kkkkof2025.github.io/SafeBook/vulnerability-databases/03-other-databases/</loc>
          <lastmod>2026-05-20</lastmod>
     </url>
 </urlset>
