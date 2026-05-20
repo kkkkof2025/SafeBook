@@ -89,6 +89,9 @@ nav:
       - 文件上传漏洞: chapters/01-web-security/08-file-upload.md
       - XXE 外部实体注入: chapters/01-web-security/09-xxe.md
       - 反序列化攻击: chapters/01-web-security/10-deserialization.md
+      - WebSocket 安全: chapters/01-web-security/11-websocket-security.md
+      - OAuth/SSO 安全: chapters/01-web-security/12-oauth-sso.md
+      - SSTI 模板注入: chapters/01-web-security/13-ssti.md
   - 学习路径:
       - 学习路线总览: learning/index.md
       - 安全学习路线图: learning/01-learning-path.md
@@ -112,28 +115,58 @@ nav:
       - 供应链安全概述: supply-chain-security/index.md
       - CI/CD 管道安全: supply-chain-security/01-cicd-security.md
       - 依赖管理与投毒防御: supply-chain-security/02-dependency-security.md
+      - SBOM 物料清单: supply-chain-security/03-sbom.md
+      - SLSA 框架: supply-chain-security/04-slsa.md
+      - 签名与验证: supply-chain-security/05-signing-verification.md
   - 移动安全:
       - 移动安全概述: mobile-security/index.md
       - Android 安全测试: mobile-security/01-android-security.md
       - iOS 安全测试: mobile-security/02-ios-security.md
+      - Android 加固: mobile-security/03-android-hardening.md
+      - iOS 安全测试进阶: mobile-security/04-ios-security.md
   - 系统安全:
       - 系统安全概述: system-security/index.md
       - 缓冲区溢出实战: system-security/01-buffer-overflow.md
       - Linux 提权技术: system-security/02-privilege-escalation.md
+      - 缓冲区溢出进阶: system-security/03-buffer-overflow-advanced.md
+      - Linux 权限维持: system-security/04-linux-persistence.md
+      - Windows 安全机制: system-security/05-windows-security.md
   - 数据隐私与合规:
       - 数据隐私与合规: data-privacy/index.md
       - 数据脱敏与隐私保护技术: data-privacy/01-data-masking.md
+      - 全球数据保护法规: data-privacy/02-data-protection-laws.md
+      - 数据泄露应急响应: data-privacy/03-data-breach-response.md
+      - Privacy by Design: data-privacy/04-privacy-by-design.md
   - AI 安全进阶:
       - AI 安全进阶: advanced-ai-security/index.md
       - AI 红队测试实战手册: advanced-ai-security/01-red-team.md
       - Agent 多步攻击与权限逃逸: advanced-ai-security/02-agent-security.md
-  - AI 安全:
+      - AI 红队进阶: advanced-ai-security/03-ai-redteam-advanced.md
+      - 模型安全评估: advanced-ai-security/04-model-security-eval.md
+      - 数据投毒与模型劫持: advanced-ai-security/05-data-poisoning.md
+  - AI 安全（大语言模型）:
       - AI 安全概述: ai-security/index.md
       - LLM 安全漏洞: ai-security/01-llm-vulns.md
       - Prompt 注入攻击: ai-security/02-prompt-injection.md
       - OpenClaw 安全: ai-security/03-openclaw-security.md
       - AI 辅助钓鱼与防护: ai-security/04-phishing-ai.md
       - 内容污染鉴别: ai-security/05-content-pollution.md
+  - 密码学基础:
+      - 密码学概述: cryptography/index.md
+      - 哈希算法: cryptography/01-hash.md
+      - 对称与非对称加密: cryptography/02-symmetric-encryption.md
+      - TLS/SSL 与 PKI: cryptography/03-tls-pki.md
+  - OWASP Top 10 深度解析:
+      - OWASP Top 10: owasp-top10/01-owasp-top10.md
+  - API 安全:
+      - API 安全测试: api-security/01-api-security.md
+  - IoT 安全:
+      - IoT 安全概述: iot-security/01-iot-security.md
+  - DevSecOps:
+      - DevSecOps 实践: devsecops/01-devsecops.md
+      - 渗透测试方法论: devsecops/02-pentest-methodology.md
+  - 安全运维（蓝队）:
+      - SIEM 与事件响应: blue-team/01-siem-soc.md
   - CVE 漏洞库与 POC 合集:
       - POC 合集概述: cve-poc/index.md
       - Awesome-POC 实战指南: cve-poc/01-awesome-poc.md
@@ -142,6 +175,8 @@ nav:
   - HVV 护网行动:
       - HVV 护网行动指南: hvv/index.md
       - 红蓝对抗实战方法论: hvv/01-red-blue-team.md
+      - HVV 攻击技术实战: hvv/02-attack-techniques.md
+      - HVV 防御策略: hvv/03-defense-strategy.md
   - 安全学习平台与 CTF:
       - 安全学习平台全览: security-platforms/index.md
       - CTF 赛事与练习策略: security-platforms/01-ctf-practice.md

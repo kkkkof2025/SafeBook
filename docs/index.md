@@ -189,6 +189,79 @@
 
 </div>
 
+
+<div class="feature-card" markdown="1">
+
+### 🔐 密码学基础
+**安全的核心数学基础**。
+- 哈希算法与完整性校验
+- AES/ChaCha20/RSA/ECC
+- TLS 协议与 PKI 证书体系
+
+[进入密码学章节 →](cryptography/index.md)
+
+</div>
+
+<div class="feature-card" markdown="1">
+
+### 🌐 OWASP Top 10
+**Web 安全权威指南深度解析**。
+- 失效访问控制到 SSRF
+- 真实攻击案例与修复方案
+- 开发者的安全圣经
+
+[进入 OWASP Top 10 →](owasp-top10/01-owasp-top10.md)
+
+</div>
+
+<div class="feature-card" markdown="1">
+
+### 🔌 API 安全
+**应用集成的安全门禁**。
+- REST/GraphQL 安全测试
+- 过度数据暴露与批量分配
+- API 安全配置清单
+
+[进入 API 安全 →](api-security/01-api-security.md)
+
+</div>
+
+<div class="feature-card" markdown="1">
+
+### 🏭 IoT 安全
+**万物互联的安全挑战**。
+- 固件分析与逆向
+- MQTT/CoAP 协议安全
+- OTA 更新与 Secure Boot
+
+[进入 IoT 安全 →](iot-security/01-iot-security.md)
+
+</div>
+
+<div class="feature-card" markdown="1">
+
+### 🔧 DevSecOps
+**将安全嵌入 DevOps 流水线**。
+- SAST/DAST/SCA/IAST 全链路
+- CI/CD 安全门禁
+- 渗透测试方法论
+
+[进入 DevSecOps →](devsecops/01-devsecops.md)
+
+</div>
+
+<div class="feature-card" markdown="1">
+
+### 🛡️ 安全运维（蓝队）
+**持续监控与事件响应**。
+- SIEM 架构与 Wazuh 部署
+- 攻防对抗与告警分析
+- 应急响应 SOP
+
+[进入蓝队章节 →](blue-team/01-siem-soc.md)
+
+</div>
+
 </div>
 
 ---
@@ -238,9 +311,9 @@
 
 | 指标 | 数值 |
 |------|------|
-| **章节** | 18 |
-| **文章** | 70+ |
-| **HTML 页面** | 72 |
+| **章节** | 24 |
+| **文章** | 85+ |
+| **HTML 页面** | 98 |
 | **自动部署** | GitHub Actions ✅ |
 
 > **目标**：让认真读完这本书的人，能够进入安全行业。

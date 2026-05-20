@@ -34,3 +34,9 @@ tmp/*
 temp/
 *.tmp
 content-health-report.md
+# Temp files
+check_deploy.py
+local_preview.html
+deploy-verify.html
+*.pyc
+__pycache__/
