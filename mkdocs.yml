@@ -22,6 +22,7 @@ exclude_docs: |
 theme:
   name: material
   language: zh
+  font: false
   features:
     - navigation.sections
     - navigation.indexes
@@ -45,8 +46,6 @@ theme:
       accent: amber
 extra_css:
   - stylesheets/extra.css
-extra_javascript:
-  - javascripts/extra.js
 plugins:
   - search:
       lang:
