@@ -49,6 +49,36 @@
   border-color: #b71c1c;
 }
 
+/* Fix: Chinese characters in code blocks invisible on dark background */
+.highlight .err, code .err {
+  color: inherit !important;
+  background-color: transparent !important;
+}
+
+.highlight span, .highlight code, .highlight pre {
+  color: #eeebe6 !important;
+}
+
+/* Code block Chinese text fix */
+.md-typeset code, .md-typeset pre code {
+  color: #e8e6e3;
+}
+
+.highlight .c, .highlight .c1, .highlight .cm {
+  color: #7f8c8d !important;
+}
+
+/* Inline code fix */
+.md-typeset code {
+  background-color: rgba(0,0,0,0.15);
+  color: #e53935;
+}
+
+/* List styling for inline code in bullet points */
+.md-typeset li code {
+  color: #e53935;
+}
+
 .md-typeset code {
   background: #f5f5f5;
   border-radius: 3px;
