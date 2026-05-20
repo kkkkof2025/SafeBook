@@ -45,6 +45,8 @@ theme:
       accent: amber
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
 plugins:
   - search:
       lang:
@@ -133,6 +135,11 @@ nav:
       - OpenClaw 安全: ai-security/03-openclaw-security.md
       - AI 辅助钓鱼与防护: ai-security/04-phishing-ai.md
       - 内容污染鉴别: ai-security/05-content-pollution.md
+  - CVE 漏洞库与 POC 合集:
+      - POC 合集概述: cve-poc/index.md
+      - Awesome-POC 实战指南: cve-poc/01-awesome-poc.md
+      - 中间件 CVE 深度分析: cve-poc/02-middleware-cve.md
+      - 框架漏洞 CVE: cve-poc/03-framework-cve.md
   - 附录:
       - 资源与引用: appendix/resources.md
       - 术语表: appendix/glossary.md
