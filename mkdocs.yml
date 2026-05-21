@@ -189,6 +189,7 @@ nav:
       - 对称与非对称加密: cryptography/02-symmetric-encryption.md
       - TLS/SSL 与 PKI: cryptography/03-tls-pki.md
       - 数字签名: cryptography/04-digital-signatures.md
+      - 密码学攻击向量: cryptography/05-crypto-attacks.md
   - 区块链安全:
       - 区块链安全概述: blockchain-security/index.md
       - Web3 与智能合约安全: blockchain-security/01-blockchain-security.md
@@ -273,6 +274,7 @@ nav:
       - C2 框架与基础设施: red-team-infra/02-c2-framework.md
   - 无线安全:
       - 无线网络安全: wireless-security/01-wireless-security.md
+      - WiFi/蓝牙/RFID 攻击: wireless-security/02-wireless-advanced.md
   - 工控安全:
       - 工控系统安全: ics-security/01-ics-security.md
       - 工控安全实战: ics-security/02-ics-security.md
