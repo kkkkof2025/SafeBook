@@ -200,6 +200,7 @@ nav:
   - 身份与访问管理(IAM):
       - 零信任架构: iam-security/01-zero-trust.md
       - PAM 与 IGA 实战: iam-security/02-iam-pam.md
+      - 零信任落地实战: iam-security/03-zero-trust-deep.md
   - 安全编码实践:
       - 安全编码概述: secure-coding/index.md
       - Python 安全编码: secure-coding/01-secure-coding-python.md
@@ -216,6 +217,7 @@ nav:
   - IoT 安全:
       - IoT 安全概述: iot-security/01-iot-security.md
       - 固件分析与漏洞挖掘: iot-security/02-iot-firmware.md
+      - ZigBee/BLE/MQTT 协议安全: iot-security/03-iot-protocol-security.md
   - OSINT 进阶:
       - OSINT 情报收集: osint/index.md
       - OSINT 进阶与社工库: osint/01-osint-advanced.md
@@ -263,6 +265,11 @@ nav:
       - 逆向工程概述: reverse-engineering/index.md
       - 逆向工程基础: reverse-engineering/01-reverse-basics.md
       - Android 逆向与 Hook: reverse-engineering/02-android-reverse.md
+      - Frida 高级使用: reverse-engineering/03-frida-advanced.md
+  - 红队基础设施:
+      - 红队基础架构: red-team-infra/index.md
+      - 红队基础设施实践: red-team-infra/01-red-team-infra.md
+      - C2 框架与基础设施: red-team-infra/02-c2-framework.md
   - 无线安全:
       - 无线网络安全: wireless-security/01-wireless-security.md
   - 工控安全:
