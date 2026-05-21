@@ -167,6 +167,7 @@ nav:
       - 全球数据保护法规: data-privacy/02-data-protection-laws.md
       - 数据泄露应急响应: data-privacy/03-data-breach-response.md
       - Privacy by Design: data-privacy/04-privacy-by-design.md
+      - 数据分类与 DLP: data-privacy/05-data-classification.md
   - AI 安全进阶:
       - AI 安全进阶: advanced-ai-security/index.md
       - AI 红队测试实战手册: advanced-ai-security/01-red-team.md
@@ -207,8 +208,8 @@ nav:
   - API 安全:
       - API 安全测试: api-security/01-api-security.md
       - API 渗透测试清单: api-security/02-api-pentesting.md
-      - API 认证与授权: api-security/03-api-auth.md
-      - GraphQL API 安全: api-security/04-graphql-security.md
+      - API 认证与授权: api-security/02-api-auth.md
+      - GraphQL API 安全: api-security/03-graphql-security.md
   - IoT 安全:
       - IoT 安全概述: iot-security/01-iot-security.md
       - 固件分析与漏洞挖掘: iot-security/02-iot-firmware.md
@@ -259,8 +260,21 @@ nav:
       - 无线网络安全: wireless-security/01-wireless-security.md
   - 工控安全:
       - 工控系统安全: ics-security/01-ics-security.md
-  - 红队基础设施:
-      - 红队基础设施: red-team-infra/01-red-team-infra.md
+  - 云原生安全深潜:
+      - 云原生安全概述: cloud-native-security/index.md
+      - 云原生安全实战: cloud-native-security/01-cloud-native-security.md
+      - Service Mesh 安全: cloud-native-security/02-istio-security.md
+  - 安全合规与审计:
+      - 合规审计概述: compliance-audit/index.md
+      - 合规框架与实践: compliance-audit/01-compliance-audit.md
+  - Windows 内部安全:
+      - Windows 安全机制: windows-internals/01-windows-internals.md
+  - 浏览器安全:
+      - 浏览器安全机制: browser-security/01-browser-security.md
+  - 勒索软件与 APT:
+      - 勒索软件与 APT 案例: ransomware-apt/01-ransomware-apt.md
+  - 电子邮箱安全:
+      - 电子邮件安全: email-security/01-email-security.md
   - 附录:
       - 资源与引用: appendix/resources.md
       - 术语表: appendix/glossary.md
