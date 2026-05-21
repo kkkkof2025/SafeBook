@@ -135,6 +135,7 @@ nav:
       - Serverless 安全: cloud-security/05-serverless-security.md
       - 云合规与治理: cloud-security/06-compliance-governance.md
       - CSPM 与工具链: cloud-security/07-cspm-tools.md
+      - AWS 安全实战: aws-security/01-aws-security.md
   - 容器与 K8s 安全:
       - 容器安全概述: container-security/index.md
       - Docker 安全: container-security/01-docker-security.md
@@ -198,6 +199,7 @@ nav:
       - 威胁狩猎与攻击溯源: threat-intelligence/02-threat-hunting.md
   - 身份与访问管理(IAM):
       - 零信任架构: iam-security/01-zero-trust.md
+      - PAM 与 IGA 实战: iam-security/02-iam-pam.md
   - 安全编码实践:
       - 安全编码概述: secure-coding/index.md
       - Python 安全编码: secure-coding/01-secure-coding-python.md
@@ -205,6 +207,7 @@ nav:
   - OWASP Top 10 深度解析:
       - OWASP Top 10: owasp-top10/01-owasp-top10.md
       - 完整条目深度解析: owasp-top10/02-owasp-detailed.md
+      - OWASP 深潜:访问控制/加密/注入: owasp-top10/03-owasp-deep.md
   - API 安全:
       - API 安全测试: api-security/01-api-security.md
       - API 渗透测试清单: api-security/02-api-pentesting.md
@@ -213,6 +216,7 @@ nav:
   - IoT 安全:
       - IoT 安全概述: iot-security/01-iot-security.md
       - 固件分析与漏洞挖掘: iot-security/02-iot-firmware.md
+      - OSINT 进阶与社工库: iot-security/03-osint-advanced.md
   - DevSecOps:
       - DevSecOps 实践: devsecops/01-devsecops.md
       - 渗透测试方法论: devsecops/02-pentest-methodology.md
