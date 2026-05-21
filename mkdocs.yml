@@ -216,7 +216,9 @@ nav:
   - IoT 安全:
       - IoT 安全概述: iot-security/01-iot-security.md
       - 固件分析与漏洞挖掘: iot-security/02-iot-firmware.md
-      - OSINT 进阶与社工库: iot-security/03-osint-advanced.md
+  - OSINT 进阶:
+      - OSINT 情报收集: osint/index.md
+      - OSINT 进阶与社工库: osint/01-osint-advanced.md
   - DevSecOps:
       - DevSecOps 实践: devsecops/01-devsecops.md
       - 渗透测试方法论: devsecops/02-pentest-methodology.md
