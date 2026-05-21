@@ -221,6 +221,7 @@ nav:
   - OSINT 进阶:
       - OSINT 情报收集: osint/index.md
       - OSINT 进阶与社工库: osint/01-osint-advanced.md
+      - OSINT 信息收集实战: osint/02-osint-practical.md
   - DevSecOps:
       - DevSecOps 实践: devsecops/01-devsecops.md
       - 渗透测试方法论: devsecops/02-pentest-methodology.md
@@ -274,10 +275,12 @@ nav:
       - 无线网络安全: wireless-security/01-wireless-security.md
   - 工控安全:
       - 工控系统安全: ics-security/01-ics-security.md
+      - 工控安全实战: ics-security/02-ics-security.md
   - 云原生安全深潜:
       - 云原生安全概述: cloud-native-security/index.md
       - 云原生安全实战: cloud-native-security/01-cloud-native-security.md
       - Service Mesh 安全: cloud-native-security/02-istio-security.md
+      - K8s 攻击链与逃逸: cloud-native-security/03-cloud-native-security-advanced.md
   - 安全合规与审计:
       - 合规审计概述: compliance-audit/index.md
       - 合规框架与实践: compliance-audit/01-compliance-audit.md
