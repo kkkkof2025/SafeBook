@@ -160,6 +160,7 @@ nav:
       - 缓冲区溢出进阶: system-security/03-buffer-overflow-advanced.md
       - Linux 权限维持: system-security/04-linux-persistence.md
       - Windows 安全机制: system-security/05-windows-security.md
+      - Active Directory 安全: system-security/06-ad-security.md
   - 数据隐私与合规:
       - 数据隐私与合规: data-privacy/index.md
       - 数据脱敏与隐私保护技术: data-privacy/01-data-masking.md
@@ -186,15 +187,31 @@ nav:
       - 对称与非对称加密: cryptography/02-symmetric-encryption.md
       - TLS/SSL 与 PKI: cryptography/03-tls-pki.md
       - 数字签名: cryptography/04-digital-signatures.md
+  - 区块链安全:
+      - 区块链安全概述: blockchain-security/index.md
+      - Web3 与智能合约安全: blockchain-security/01-blockchain-security.md
+      - DeFi 安全与审计: blockchain-security/02-defi-security.md
+  - 威胁情报:
+      - 威胁情报概述: threat-intelligence/index.md
+      - MITRE ATT&CK 与威胁情报: threat-intelligence/01-threat-intel.md
+      - 威胁狩猎与攻击溯源: threat-intelligence/02-threat-hunting.md
+  - 身份与访问管理(IAM):
+      - 零信任架构: iam-security/01-zero-trust.md
+  - 安全编码实践:
+      - 安全编码概述: secure-coding/index.md
+      - Python 安全编码: secure-coding/01-secure-coding-python.md
+      - Web/JS 安全编码: secure-coding/02-secure-coding-web.md
   - OWASP Top 10 深度解析:
       - OWASP Top 10: owasp-top10/01-owasp-top10.md
       - 完整条目深度解析: owasp-top10/02-owasp-detailed.md
   - API 安全:
       - API 安全测试: api-security/01-api-security.md
       - API 渗透测试清单: api-security/02-api-pentesting.md
+      - API 认证与授权: api-security/03-api-auth.md
+      - GraphQL API 安全: api-security/04-graphql-security.md
   - IoT 安全:
       - IoT 安全概述: iot-security/01-iot-security.md
-      - 固件安全分析: iot-security/02-iot-firmware.md
+      - 固件分析与漏洞挖掘: iot-security/02-iot-firmware.md
   - DevSecOps:
       - DevSecOps 实践: devsecops/01-devsecops.md
       - 渗透测试方法论: devsecops/02-pentest-methodology.md
