@@ -221,6 +221,7 @@ nav:
       - SIEM 与事件响应: blue-team/01-siem-soc.md
       - 日常安全运营: blue-team/02-blue-team-ops.md
       - DFIR 应急响应: blue-team/03-dfir.md
+      - SOC 自动化与 SOAR: blue-team/04-soc-soar.md
   - CVE 漏洞库与 POC 合集:
       - POC 合集概述: cve-poc/index.md
       - Awesome-POC 实战指南: cve-poc/01-awesome-poc.md
@@ -275,6 +276,22 @@ nav:
       - 勒索软件与 APT 案例: ransomware-apt/01-ransomware-apt.md
   - 电子邮箱安全:
       - 电子邮件安全: email-security/01-email-security.md
+  - 密码安全与无密码认证:
+      - 无密码认证体系: passwordless-security/index.md
+      - FIDO2/Passkeys 实战: passwordless-security/01-passwordless-security.md
+  - 恶意软件分析:
+      - 恶意软件分析概述: malware-analysis/index.md
+      - 静态分析: malware-analysis/01-malware-static-analysis.md
+      - 动态分析: malware-analysis/02-malware-dynamic-analysis.md
+  - 中国网络安全法规:
+      - 法律法规全景: china-laws/index.md
+      - 网络安全法/数据安全法/个保法: china-laws/01-china-cybersecurity-laws.md
+  - 网络架构安全:
+      - 网络架构与防御: network-architecture/index.md
+      - 企业网络安全架构: network-architecture/01-network-architecture-security.md
+  - 国密算法:
+      - 国密算法: sm-crypto/index.md
+      - SM2/SM3/SM4/SM9: sm-crypto/01-sm-crypto.md
   - 附录:
       - 资源与引用: appendix/resources.md
       - 术语表: appendix/glossary.md
