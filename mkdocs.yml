@@ -60,14 +60,43 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      social_url_shortener: true
+      user: kkkkof2025
+      repo: SafeBook
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 nav:
   - 首页: index.md
   - 入门基础:
@@ -156,6 +185,7 @@ nav:
       - 哈希算法: cryptography/01-hash.md
       - 对称与非对称加密: cryptography/02-symmetric-encryption.md
       - TLS/SSL 与 PKI: cryptography/03-tls-pki.md
+      - 数字签名: cryptography/04-digital-signatures.md
   - OWASP Top 10 深度解析:
       - OWASP Top 10: owasp-top10/01-owasp-top10.md
       - 完整条目深度解析: owasp-top10/02-owasp-detailed.md
@@ -186,6 +216,11 @@ nav:
       - 安全学习平台全览: security-platforms/index.md
       - CTF 赛事与练习策略: security-platforms/01-ctf-practice.md
       - 社区与深度资源: security-platforms/02-community-resources.md
+      - CTF Web 题型精讲: security-platforms/03-ctf-web.md
+      - CTF PWN 二进制安全: security-platforms/04-ctf-pwn.md
+      - CTF 密码学与取证: security-platforms/05-ctf-crypto-forensics.md
+      - CTF 工具箱速查: security-platforms/06-ctf-toolkit.md
+      - CTF 赛题精讲: security-platforms/07-ctf-writeups.md
   - 漏洞数据库平台:
       - 漏洞数据库全览: vulnerability-databases/index.md
       - CNVD 与 CNNVD 详解: vulnerability-databases/01-cnvd-cnnvd.md
