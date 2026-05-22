@@ -206,6 +206,7 @@ nav:
       - MITRE ATT&CK 与威胁情报: threat-intelligence/01-threat-intel.md
       - 威胁狩猎与攻击溯源: threat-intelligence/02-threat-hunting.md
       - threat-intel/03-threat-intel-analysis.md
+      - threat-intel/02-tip-automation.md
   - 身份与访问管理(IAM):
       - 零信任架构: iam-security/01-zero-trust.md
       - PAM 与 IGA 实战: iam-security/02-iam-pam.md
