@@ -426,6 +426,7 @@ nav:
       - soc/02-soc-automation.md
       - soc/03-siem-rules.md
       - soc/index.md
+      - soc/04-soc-automation.md
   - 量子安全:
       - quantum-security/index.md
       - quantum-security/01-quantum-threat-pqc.md
