@@ -142,6 +142,7 @@ nav:
       - Kubernetes 安全: container-security/02-kubernetes-security.md
       - 容器供应链安全: container-security/03-supply-chain.md
       - container-security/05-container-escape.md
+      - container-security/04-container-image-security.md
   - 供应链安全:
       - 供应链安全概述: supply-chain-security/index.md
       - CI/CD 管道安全: supply-chain-security/01-cicd-security.md

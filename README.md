@@ -89,27 +89,39 @@ mkdocs serve
 
 ## 🚧 待补充计划
 
-### 第一梯队 — 零覆盖领域（每领域 2-3 篇）
+### ✅ 已完成（2026-05-22 审查修复）
 
-- [ ] **密码安全专项** — FIDO2/WebAuthn/Passkeys/密码管理器安全
-- [ ] **恶意软件分析** — 静态分析/动态沙箱/脱壳/反混淆
-- [ ] **中国安全法规** — 网络安全法/数据安全法/个保法/审查办法
-- [ ] **网络架构安全** — 防火墙策略/VPC设计/CDN/DDoS高防
-- [ ] **SOC自动化深潜** — SOAR/威胁情报平台集成/剧本编排
-- [ ] **AWS/Azure/GCP云安全深潜** — IAM Policy/KMS/GuardDuty/安全中心
-- [ ] **国密算法** — SM2/SM3/SM4/SM9 实现与应用
-- [ ] **零信任落地扩展** — CAP/持续验证/SASE场景化落地
-- [ ] **OSINT进阶** — Telegram监控/暗网/社工库/人物画像
-- [ ] **容器镜像安全** — distroless/multi-stage/COSIGN/SBOM实操
+- [x] OWASP Top 10 深度解析（18000 字全面重写）
+- [x] 密码学概述页（时间线+三大支柱+误区表）
+- [x] 学习路径总览（4阶段路线图+周计划+里程碑）
+- [x] OpenClaw→Agent 平台安全实战
+- [x] CI/CD 新增 Jenkins Pipeline + GitLab CI
+- [x] 统计数据统一（50+章/250+篇）
+- [x] SUMMARY.md 完整同步
+- [x] SBOM 去重
 
-### 第二梯队 — 薄弱章节加厚（每章 2-3 篇）
+### 待办 — 内容深度
 
-- [ ] **OWASP Top 10 深潜** — 每个漏洞独立深度分析（Broken Access Control/Crypto Failures/Injection...）
-- [ ] **IAM 扩展** — SSO/OAuth/PAM/IGA 实战
-- [ ] **IoT 扩展** — 智能家居/ZigBee/BLE 协议安全
-- [ ] **逆向工程扩展** — 脱壳/Xposed/Frida 高级
-- [ ] **红队基础设施扩展** — C2框架/域前置/反溯源/CDN重定向
-- [ ] **工控/无线安全扩展** — Modbus/DNP3/WiFi攻击/HackRF
+- [ ] **CVE/POC 实战分析** — Log4Shell 完整走一遍：公告→分析→POC→验证→修复
+- [ ] **容器安全概述充實** — 补充攻击面图、top 5 误区
+- [ ] **漏洞数据库章节正文** — CNVD/CNNVD 深度、NVD/CVE/MITRE 使用
+- [ ] **云安全深潜** — AWS GuardDuty/SecurityHub + Azure Defender + GCP SCC
+- [ ] **SOC 扩展** — SIEM 规则优化、威胁狩猎进阶
+- [ ] **欺骗防御扩展** — 蜜罐数据分析、自动化欺骗响应
+- [ ] **量子安全扩展** — 后量子迁移案例研究
+- [ ] **硬件安全扩展** — 芯片安全攻击（故障注入/侧信道进阶）
+
+### 待办 — 章节补齐
+
+- [ ] **蓝队防御扩展** — 日志分析/事件响应/SOAR 进阶
+- [ ] **OSINT 扩展** — 社交媒体情报高级技巧
+- [ ] **合规审计扩展** — 等保 2.0 三级/密评
+
+### 待办 — 网站质量
+
+- [ ] 修复缺失导航页（container-image-security, osint-advanced-tools 等）
+- [ ] 修复锚点链接警告（_03 系列文件的"上一篇/下一篇"中文链接）
+- [ ] 所有章节添加 index.md 概述页
 
 ---
 
