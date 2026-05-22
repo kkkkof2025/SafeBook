@@ -355,6 +355,7 @@ nav:
       - legal/03-cybersecurity-law-enforcement.md
       - legal/04-data-security-law.md
       - legal/05-personal-information-law.md
+      - china-laws/02-data-security-law-details.md
   - 网络架构安全:
       - 网络架构与防御: network-architecture/index.md
       - 企业网络安全架构: network-architecture/01-network-architecture-security.md
@@ -389,10 +390,12 @@ nav:
       - quantum-security/index.md
       - quantum-security/01-quantum-threat-pqc.md
       - quantum-security/02-pqc-migration.md
+      - quantum-security/03-quantum-key-distribution.md
   - 硬件安全:
       - hardware-security/index.md
       - hardware-security/01-hardware-hacking.md
       - hardware-security/02-firmware-reverse.md
+      - hardware-security/03-chip-security.md
   - 附录:
       - appendix/index.md
       - 资源与引用: appendix/resources.md
