@@ -373,12 +373,16 @@ nav:
       - automotive-security/05-automotive-forensics.md
   - 欺骗防御:
       - deception/01-deception-technology.md
+      - deception/02-honeynet-deployment.md
   - SOC安全运营:
       - soc/01-soc-building.md
+      - soc/02-soc-automation.md
   - 量子安全:
       - quantum-security/01-quantum-threat-pqc.md
+      - quantum-security/02-pqc-migration.md
   - 硬件安全:
       - hardware-security/01-hardware-hacking.md
+      - hardware-security/02-firmware-reverse.md
   - 附录:
       - 资源与引用: appendix/resources.md
       - 术语表: appendix/glossary.md
