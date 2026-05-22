@@ -137,6 +137,7 @@ nav:
       - 云合规与治理: cloud-security/06-compliance-governance.md
       - CSPM 与工具链: cloud-security/07-cspm-tools.md
       - AWS 安全实战: aws-security/01-aws-security.md
+      - aws-security/02-azure-security.md
   - 容器与 K8s 安全:
       - 容器安全概述: container-security/index.md
       - Docker 安全: container-security/01-docker-security.md
@@ -311,6 +312,7 @@ nav:
       - red-team/03-red-team-infrastructure.md
       - red-team/01-red-team-tactics.md
       - red-team/index.md
+      - red-team-infra/03-anti-detection.md
   - 无线安全:
       - 无线网络安全: wireless-security/01-wireless-security.md
       - WiFi/蓝牙/RFID 攻击: wireless-security/02-wireless-advanced.md
@@ -339,6 +341,7 @@ nav:
       - compliance-audit/05-dengbao2.md
       - compliance/02-iso27001-overview.md
       - compliance/index.md
+      - compliance/04-gdpr-vs-china-laws.md
   - Windows 内部安全:
       - Windows 安全机制: windows-internals/01-windows-internals.md
       - 安全加固与防御: windows-internals/02-windows-defenses.md
@@ -384,6 +387,7 @@ nav:
       - legal/05-personal-information-law.md
       - china-laws/02-data-security-law-details.md
       - legal/index.md
+      - china-laws/03-pip-cross-border-data.md
   - 网络架构安全:
       - 网络架构与防御: network-architecture/index.md
       - 企业网络安全架构: network-architecture/01-network-architecture-security.md
