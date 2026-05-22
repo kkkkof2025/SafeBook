@@ -162,6 +162,7 @@ nav:
       - Linux 权限维持: system-security/04-linux-persistence.md
       - Windows 安全机制: system-security/05-windows-security.md
       - Active Directory 安全: system-security/06-ad-security.md
+      - system-security/07-ad-attack-paths.md
   - 数据隐私与合规:
       - 数据隐私与合规: data-privacy/index.md
       - 数据脱敏与隐私保护技术: data-privacy/01-data-masking.md
@@ -209,6 +210,7 @@ nav:
       - 安全编码概述: secure-coding/index.md
       - Python 安全编码: secure-coding/01-secure-coding-python.md
       - Web/JS 安全编码: secure-coding/02-secure-coding-web.md
+      - secure-coding/04-secure-coding-checklist.md
   - OWASP Top 10 深度解析:
       - OWASP Top 10: owasp-top10/01-owasp-top10.md
       - 完整条目深度解析: owasp-top10/02-owasp-detailed.md
@@ -296,6 +298,8 @@ nav:
       - 合规审计概述: compliance-audit/index.md
       - 合规框架与实践: compliance-audit/01-compliance-audit.md
       - compliance/03-pci-dss-implementation.md
+      - compliance-audit/03-iso27001-implementation.md
+      - compliance-audit/04-soc2-compliance.md
   - Windows 内部安全:
       - Windows 安全机制: windows-internals/01-windows-internals.md
       - 安全加固与防御: windows-internals/02-windows-defenses.md
@@ -308,6 +312,7 @@ nav:
       - 勒索软件与 APT 案例: ransomware-apt/01-ransomware-apt.md
       - APT 组织深度分析: ransomware-apt/02-apt-groups.md
       - 勒索软件防御与恢复: ransomware-apt/03-ransomware-defense.md
+      - ransomware-apt/04-incident-response-recovery.md
   - 电子邮箱安全:
       - 电子邮件安全: email-security/01-email-security.md
       - 邮件攻击技术: email-security/02-email-attacks.md
@@ -320,6 +325,8 @@ nav:
       - 恶意软件分析概述: malware-analysis/index.md
       - 静态分析: malware-analysis/01-malware-static-analysis.md
       - 动态分析: malware-analysis/02-malware-dynamic-analysis.md
+      - malware-analysis/03-yara-rules.md
+      - malware-analysis/04-memory-forensics.md
   - 中国网络安全法规:
       - 法律法规全景: china-laws/index.md
       - 网络安全法/数据安全法/个保法: china-laws/01-china-cybersecurity-laws.md
@@ -328,6 +335,7 @@ nav:
       - 网络架构与防御: network-architecture/index.md
       - 企业网络安全架构: network-architecture/01-network-architecture-security.md
       - 零信任网络设计: network-architecture/02-zero-trust-network.md
+      - network-architecture/03-microsegmentation.md
   - 国密算法:
       - 国密算法: sm-crypto/index.md
       - SM2/SM3/SM4/SM9: sm-crypto/01-sm-crypto.md
