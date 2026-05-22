@@ -365,4 +365,4 @@ fi
 
 ---
 
-*上一篇：[Kubernetes RBAC 加固](./03-kubernetes-rbac-hardening.md)*
+*上一篇：[容器安全工具链](./04-container-image-security.md)*

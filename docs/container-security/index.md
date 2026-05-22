@@ -59,7 +59,7 @@ CI/CD    → 容器镜像流式构建推送
 |------|----------|------|
 | [Docker 安全](01-docker-security.md) | 镜像安全、运行时、最佳实践清单 | ⭐⭐ |
 | [Kubernetes 安全](02-kubernetes-security.md) | Pod Security、RBAC、网络策略 | ⭐⭐⭐ |
-| [容器供应链安全](03-container-supply-chain.md) | 镜像签名、漏洞扫描、准入控制 | ⭐⭐⭐ |
+| [容器供应链安全](03-supply-chain.md) | 镜像签名、漏洞扫描、准入控制 | ⭐⭐⭐ |
 | [容器安全工具链](04-container-image-security.md) | Trivy/Syft/Falco/Cosign 工具链 | ⭐⭐⭐ |
 | [容器逃逸技术](05-container-escape.md) | CVE-2019-5736/CVE-2022-0492/Capabilities | ⭐⭐⭐⭐ |
 

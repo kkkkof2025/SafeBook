@@ -27,12 +27,12 @@
 
 | 周次 | 主题 | 资源 | 本书章节 |
 |------|------|------|----------|
-| 1-2 | 计算机网络基础 | 《计算机网络：自顶向下》或 B 站视频 | [已读 →](basics/01-networking.md) |
-| 3-4 | HTTP 协议深入 | MDN HTTP 文档 + Burp Suite 实战 | [已读 →](basics/02-http.md) |
+| 1-2 | 计算机网络基础 | 《计算机网络：自顶向下》或 B 站视频 | [已读 →](../basics/01-networking.md) |
+| 3-4 | HTTP 协议深入 | MDN HTTP 文档 + Burp Suite 实战 | [已读 →](../basics/02-http.md) |
 | 5-6 | Linux 命令行 | ` overthewire.org/bandit` | ... |
 | 7-8 | Python 编程基础 | `automatetheboringstuff.com` | ... |
-| 9-10 | Web 应用架构 | 前端/后端/数据库交互理解 | [已读 →](basics/03-web-architecture.md) |
-| 11-12 | 安全工具入门 | Nmap/Burp/ZAP/Wireshark | [已读 →](basics/04-tools.md) |
+| 9-10 | Web 应用架构 | 前端/后端/数据库交互理解 | [已读 →](../basics/03-web-architecture.md) |
+| 11-12 | 安全工具入门 | Nmap/Burp/ZAP/Wireshark | [已读 →](../basics/04-tools.md) |
 
 **里程碑**：能独立搭建 DVWA 靶场，理解 HTTP 请求/响应结构。
 

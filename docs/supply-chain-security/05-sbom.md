@@ -317,4 +317,4 @@ class SBOMVulnerabilityMonitor:
 
 ---
 
-*上一篇：[CI/CD 安全加固](./03-cicd-security.md)*
+*上一篇：[CI/CD 安全加固](./01-cicd-security.md)*

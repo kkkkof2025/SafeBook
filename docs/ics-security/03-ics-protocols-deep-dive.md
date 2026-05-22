@@ -334,4 +334,4 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 ---
 
-**下一步：** 学习 [工控安全事件响应](#工控安全事件响应)，掌握 ICS 应急响应流程。
+**下一步：** 学习 响应)，掌握 ICS 应急响应流程。

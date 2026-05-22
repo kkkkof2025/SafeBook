@@ -307,4 +307,4 @@ contract ZKKYCVerifier {
 
 ---
 
-*上一篇：[密码学算法与应用](./03-crypto-algorithms-deep-dive.md)*
+*上一篇：[TLS/HTTPS 与 PKI](./03-tls-pki.md)*

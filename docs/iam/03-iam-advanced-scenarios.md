@@ -411,4 +411,4 @@ report.to_excel('iam_compliance_report.xlsx', index=False)
 
 ---
 
-**下一步：** 学习 [DevSecOps](#DevSecOps)，掌握安全左移实践。
+**下一步：** 学习 )，掌握安全左移实践。

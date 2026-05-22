@@ -385,4 +385,4 @@ curl -X POST https://api.crowdstrike.com/indicators/entities/v1 \
 
 ---
 
-**下一步：** 学习 [身份与访问管理](#身份与访问管理)，掌握 IAM 安全技术。
+*上一篇：[威胁情报分析入门](../threat-intelligence/01-threat-intel.md)*

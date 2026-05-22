@@ -279,4 +279,4 @@ lora.send(captured_packet)
 
 ---
 
-**下一步：** 学习 [无线渗透测试实战](#无线渗透测试实战)，掌握 WiFi/Bluetooth 渗透技术。
+**下一步：** 学习 实战)，掌握 WiFi/Bluetooth 渗透技术。

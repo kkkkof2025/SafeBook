@@ -66,10 +66,10 @@
 
 | 章节 | 内容 | 核心知识 |
 |------|------|----------|
-| [哈希算法](01-hash-algorithms.md) | MD5/SHA/BLAKE3 | 完整性验证、密码存储、文件校验 |
+| [哈希算法](01-hash.md) | MD5/SHA/BLAKE3 | 完整性验证、密码存储、文件校验 |
 | [对称加密](02-symmetric-encryption.md) | AES/ChaCha20/SM4 | 数据加密、TLS 密码套件、块密码模式 |
-| [TLS/HTTPS](03-tls-https.md) | SSL/TLS 1.3 | 证书链、握手过程、Forward Secrecy |
-| [非对称加密与签名](04-asymmetric-signatures.md) | RSA/ECDSA/Ed25519 | 密钥交换、数字签名、证书体系 |
+| [TLS/HTTPS](03-tls-pki.md) | SSL/TLS 1.3 | 证书链、握手过程、Forward Secrecy |
+| [非对称加密与签名](04-digital-signatures.md) | RSA/ECDSA/Ed25519 | 密钥交换、数字签名、证书体系 |
 | [零知识证明](04-zkp-zero-knowledge.md) | ZK-SNARK/STARK | 隐私计算、区块链 L2、身份认证 |
 
 ---
@@ -94,4 +94,4 @@
 
 ---
 
-*下一篇：[哈希算法与完整性校验](01-hash-algorithms.md)*
+*下一篇：[哈希算法与完整性校验](01-hash.md)*

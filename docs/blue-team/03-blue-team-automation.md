@@ -258,4 +258,4 @@ class BlueTeamAutoResponder:
 
 ---
 
-*上一篇：[蓝队威胁狩猎](02-threat-hunting.md)*
+*上一篇：[蓝队防御运营](02-blue-team-ops.md)*

@@ -596,4 +596,4 @@ echo "0 0 * * * /usr/local/bin/self_destruct.sh" | crontab -
 
 ---
 
-**下一步：** 学习 [法律法规](#法律法规)，掌握网络安全相关法律。
+**下一步：** 学习 。

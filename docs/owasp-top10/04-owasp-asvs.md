@@ -260,4 +260,4 @@ class ASVSChecklist:
 
 ---
 
-*上一篇：[OWASP Web 测试指南](./03-owasp-testing-guide.md)*
+*上一篇：[OWASP 深度解析](./03-owasp-deep.md)*

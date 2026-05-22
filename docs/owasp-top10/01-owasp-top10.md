@@ -11,7 +11,7 @@ OWASP Top 10 是全球最权威的 Web 应用安全风险清单，每 3-4 年更
 | 排名 | 风险 | 变化 | CVSS 平均 | 本书详细章节 |
 |------|------|------|-----------|-------------|
 | A01 | 失效的访问控制 | ↑5 | 7.5 | [IDOR ↗](../chapters/01-web-security/07-idor.md) |
-| A02 | 加密机制失效 | ↓1 | 8.2 | [密码学基础 ↗](../cryptography/01-hash-algorithms.md) |
+| A02 | 加密机制失效 | ↓1 | 8.2 | [密码学基础 ↗](../cryptography/01-hash.md) |
 | A03 | 注入 | ↓2 | 7.8 | [SQL注入 ↗](../chapters/01-web-security/01-sql-injection.md) · [命令注入](#a03-injection) |
 | A04 | 不安全设计 | 新增 | 7.0 | [威胁建模](#a04-insecure-design) |
 | A05 | 安全配置错误 | ↑1 | 6.5 | [安全基线](#a05-security-misconfiguration) |

@@ -459,5 +459,5 @@ def decrypt_runtime_strings(decrypt_func_ea, call_sites):
 
 ---
 
-*上一篇：[二进制静态分析](./02-binary-static-analysis.md)*
-*下一篇：[Ghidra 逆向实践](./05-ghidra-reverse.md)*
+*上一篇：[Frida 高级逆向](./03-frida-advanced.md)*
+*下一篇：待补充*

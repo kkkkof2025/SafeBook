@@ -447,4 +447,4 @@ curl -u "$QUALYS_USER:$QUALYS_PASSWORD" "https://$QUALYS_SERVER/api/2.0/ams/wind
 
 ---
 
-**下一步：** 学习 [红队技术](#红队技术)，掌握高级渗透测试方法。
+*上一篇：[PCI-DSS 实施指南](03-pci-dss-implementation.md)*

@@ -298,4 +298,4 @@ def authenticate(request):
 
 ---
 
-**下一步：** 学习 [国密算法](#国密算法)，掌握中国商用密码标准。
+*上一篇：[无密码安全概述](01-passwordless-security.md)*

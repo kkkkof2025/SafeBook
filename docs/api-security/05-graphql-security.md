@@ -455,4 +455,4 @@ GraphQL 安全基线:
 
 ---
 
-*上一篇：[API 安全专题](./03-api-security-patterns.md)*
+*上一篇：[GraphQL 安全入门](./03-graphql-security.md)*

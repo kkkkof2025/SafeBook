@@ -381,4 +381,4 @@ class ZeroTrustSSO:
 
 ---
 
-*下一篇：[PAM 特权访问管理](03-pam-implementation.md)*
+*上一篇：[零信任架构](01-zero-trust.md)*
