@@ -1,6 +1,6 @@
-# OpenClaw 安全
+# Agent 平台安全实战
 
-> Agent 平台的安全风险 —— 如何安全地使用和配置 OpenClaw
+> Agent 平台的安全风险 —— 以 OpenClaw 为例，覆盖 LangChain/AutoGPT/CrewAI 等平台
 
 ---
 

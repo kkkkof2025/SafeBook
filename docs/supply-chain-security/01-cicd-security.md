@@ -124,7 +124,149 @@ jobs:
 
 ---
 
+## Jenkins Pipeline 安全
+
+> Jenkins 是国内企业使用最多的 CI/CD 工具。以下是 Jenkinsfile 安全模板。
+
+```groovy
+// Jenkinsfile — 安全管道模板
+
+pipeline {
+    agent any
+
+    environment {
+        // 密钥通过 Jenkins Credentials 绑定
+        DOCKER_REGISTRY = credentials('docker-registry')
+        SONAR_TOKEN      = credentials('sonar-token')
+        
+        // 禁止在日志中暴露密钥
+        GIT_COMMIT = sh(script: 'git rev-parse HEAD', returnStdout: true).trim()
+    }
+
+    stages {
+        stage('Security Scan') {
+            parallel {
+                stage('SAST') {
+                    steps {
+                        // SonarQube 代码扫描
+                        withSonarQubeEnv('SonarQube') {
+                            sh 'mvn sonar:sonar -Dsonar.projectKey=myapp'
+                        }
+                    }
+                }
+                stage('Dependency Check') {
+                    steps {
+                        // OWASP Dependency-Check
+                        sh '''
+                            dependency-check --project myapp \
+                                --scan ./target/ --out . --format HTML
+                        '''
+                    }
+                }
+                stage('Secret Scan') {
+                    steps {
+                        // Gitleaks 密钥扫描
+                        sh 'gitleaks detect --source . --report-path gitleaks.json'
+                    }
+                }
+            }
+        }
+
+        stage('Quality Gate') {
+            steps {
+                // 等待 SonarQube 质量门
+                timeout(time: 1, unit: 'HOURS') {
+                    waitForQualityGate abortPipeline: true
+                }
+            }
+        }
+
+        stage('Build & Sign') {
+            steps {
+                sh 'docker build -t app:latest .'
+                // Cosign 镜像签名
+                sh 'cosign sign --key jenkins-cosign.key app:latest'
+            }
+        }
+
+        stage('Deploy to Staging') {
+            when {
+                branch 'main'
+            }
+            steps {
+                sh 'cosign verify app:latest'
+                sh 'kubectl apply -f k8s/staging/'
+            }
+        }
+
+        stage('Deploy to Production') {
+            when {
+                branch 'main'
+            }
+            // 需要人工审批
+            input {
+                message 'Deploy to production?'
+                ok 'Yes, deploy!'
+            }
+            steps {
+                sh 'kubectl apply -f k8s/production/'
+            }
+        }
+    }
+
+    post {
+        always {
+            // 清理敏感文件
+            sh 'rm -f *.key *.pem'
+            cleanWs()
+        }
+        failure {
+            // 失败通知
+            slackSend(
+                channel: '#ci-alerts',
+                color: 'danger',
+                message: "Pipeline failed: ${env.JOB_NAME} #${env.BUILD_NUMBER}"
+            )
+        }
+    }
+}
+```
+
+### GitLab CI 安全要点
+
+```yaml
+# .gitlab-ci.yml 安全最佳实践
+
+variables:
+  # 不暴露密钥到日志
+  DOCKER_AUTH_CONFIG: ${DOCKER_AUTH_CONFIG}
+
+stages:
+  - security-scan
+  - build
+  - deploy
+
+security-scan:
+  stage: security-scan
+  script:
+    - trivy fs --severity HIGH,CRITICAL .
+    - secret-detection
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"  # MR 时才扫描
+
+build:
+  stage: build
+  needs: ["security-scan"]
+  script:
+    - docker build -t $CI_REGISTRY_IMAGE:latest .
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+```
+
+---
+
 ## 延伸阅读
 
 1. [GitHub Actions 安全加固](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
-2. [OWASP CI/CD Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet.html)
+2. [Jenkins 安全最佳实践](https://www.jenkins.io/doc/book/security/)
+3. [OWASP CI/CD Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet.html)

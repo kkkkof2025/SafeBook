@@ -146,7 +146,6 @@ nav:
       - 供应链安全概述: supply-chain-security/index.md
       - CI/CD 管道安全: supply-chain-security/01-cicd-security.md
       - 依赖管理与投毒防御: supply-chain-security/02-dependency-security.md
-      - SBOM 物料清单: supply-chain-security/03-sbom.md
       - SLSA 框架: supply-chain-security/04-slsa.md
       - 签名与验证: supply-chain-security/05-signing-verification.md
       - supply-chain-security/05-sbom.md
