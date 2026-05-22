@@ -106,6 +106,7 @@ nav:
       - Web 应用架构: basics/03-web-architecture.md
       - 安全工具入门: basics/04-tools.md
       - 信息收集与侦察: basics/05-reconnaissance.md
+      - basics/index.md
   - Web 安全:
       - 分类概述: chapters/01-web-security/index.md
       - SQL 注入: chapters/01-web-security/01-sql-injection.md
@@ -207,11 +208,15 @@ nav:
       - 威胁狩猎与攻击溯源: threat-intelligence/02-threat-hunting.md
       - threat-intel/03-threat-intel-analysis.md
       - threat-intel/02-tip-automation.md
+      - threat-intelligence/03-threat-intel-lifecycle.md
   - 身份与访问管理(IAM):
       - 零信任架构: iam-security/01-zero-trust.md
       - PAM 与 IGA 实战: iam-security/02-iam-pam.md
       - 零信任落地实战: iam-security/03-zero-trust-deep.md
       - iam/03-iam-advanced-scenarios.md
+      - iam-security/index.md
+      - iam/02-iam-federation-jit.md
+      - iam/index.md
   - 安全编码实践:
       - 安全编码概述: secure-coding/index.md
       - Python 安全编码: secure-coding/01-secure-coding-python.md
@@ -223,6 +228,7 @@ nav:
       - OWASP 深潜:访问控制/加密/注入: owasp-top10/03-owasp-deep.md
       - owasp-top10/04-owasp-asvs.md
       - owasp-top10/05-owasp-mobile-top10.md
+      - owasp-top10/index.md
   - API 安全:
       - api-security/index.md
       - API 安全测试: api-security/01-api-security.md
@@ -242,6 +248,7 @@ nav:
       - OSINT 进阶与社工库: osint/01-osint-advanced.md
       - OSINT 信息收集实战: osint/02-osint-practical.md
       - osint/03-dark-web-intelligence.md
+      - osint/04-osint-advanced-tools.md
   - DevSecOps:
       - devsecops/index.md
       - DevSecOps 实践: devsecops/01-devsecops.md
@@ -253,12 +260,15 @@ nav:
       - 日常安全运营: blue-team/02-blue-team-ops.md
       - DFIR 应急响应: blue-team/03-dfir.md
       - SOC 自动化与 SOAR: blue-team/04-soc-soar.md
+      - blue-team/03-blue-team-automation.md
+      - blue-team/index.md
   - CVE 漏洞库与 POC 合集:
       - POC 合集概述: cve-poc/index.md
       - Awesome-POC 实战指南: cve-poc/01-awesome-poc.md
       - 中间件 CVE 深度分析: cve-poc/02-middleware-cve.md
       - 框架漏洞 CVE: cve-poc/03-framework-cve.md
       - 重大 CVE 一览表: cve-poc/04-cve-table.md
+      - cve-poc/04-log4shell-walkthrough.md
   - HVV 护网行动:
       - HVV 护网行动指南: hvv/index.md
       - 红蓝对抗实战方法论: hvv/01-red-blue-team.md
@@ -279,6 +289,7 @@ nav:
       - NVD/CVE/MITRE/CWE/CVSS: vulnerability-databases/02-nvd-cve-mitre.md
       - 其他漏洞数据平台: vulnerability-databases/03-other-databases.md
       - Exploit-DB 搜索指南: vulnerability-databases/04-exploit-db.md
+      - vulnerability-databases/03-cnvd-cnnvd-deep.md
   - 社会工程学:
       - 社会工程学概述: social-engineering/index.md
       - 社会工程学概论: social-engineering/01-social-engineering.md
@@ -296,22 +307,27 @@ nav:
       - 红队基础设施实践: red-team-infra/01-red-team-infra.md
       - C2 框架与基础设施: red-team-infra/02-c2-framework.md
       - red-team/03-red-team-infrastructure.md
+      - red-team/01-red-team-tactics.md
+      - red-team/index.md
   - 无线安全:
       - 无线网络安全: wireless-security/01-wireless-security.md
       - WiFi/蓝牙/RFID 攻击: wireless-security/02-wireless-advanced.md
       - wireless-security/03-iot-wireless-protocols.md
       - wireless-security/04-wireless-pentesting.md
+      - wireless-security/index.md
   - 工控安全:
       - 工控系统安全: ics-security/01-ics-security.md
       - 工控安全实战: ics-security/02-ics-security.md
       - ics-security/03-ics-protocols-deep-dive.md
       - ics-security/04-ics-threat-hunting.md
+      - ics-security/index.md
   - 云原生安全深潜:
       - 云原生安全概述: cloud-native-security/index.md
       - 云原生安全实战: cloud-native-security/01-cloud-native-security.md
       - Service Mesh 安全: cloud-native-security/02-istio-security.md
       - K8s 攻击链与逃逸: cloud-native-security/03-cloud-native-security-advanced.md
       - cloud-native-security/03-kubernetes-rbac-hardening.md
+      - cloud-native-security/04-kubernetes-security-tools.md
   - 安全合规与审计:
       - 合规审计概述: compliance-audit/index.md
       - 合规框架与实践: compliance-audit/01-compliance-audit.md
@@ -319,25 +335,32 @@ nav:
       - compliance-audit/03-iso27001-implementation.md
       - compliance-audit/04-soc2-compliance.md
       - compliance-audit/05-dengbao2.md
+      - compliance/02-iso27001-overview.md
+      - compliance/index.md
   - Windows 内部安全:
       - Windows 安全机制: windows-internals/01-windows-internals.md
       - 安全加固与防御: windows-internals/02-windows-defenses.md
       - 数字取证与事件响应: windows-internals/03-windows-forensics.md
       - windows-internals/04-ad-cs-security.md
+      - windows-internals/index.md
   - 浏览器安全:
       - 浏览器安全机制: browser-security/01-browser-security.md
       - 浏览器攻击面: browser-security/02-browser-attacks.md
       - browser-security/03-browser-hardening.md
       - browser-security/04-browser-extensions-security.md
+      - browser-security/index.md
   - 勒索软件与 APT:
       - 勒索软件与 APT 案例: ransomware-apt/01-ransomware-apt.md
       - APT 组织深度分析: ransomware-apt/02-apt-groups.md
       - 勒索软件防御与恢复: ransomware-apt/03-ransomware-defense.md
       - ransomware-apt/04-incident-response-recovery.md
+      - ransomware-apt/index.md
   - 电子邮箱安全:
       - 电子邮件安全: email-security/01-email-security.md
       - 邮件攻击技术: email-security/02-email-attacks.md
       - 邮件安全防御体系: email-security/03-email-defense.md
+      - email-security/03-email-security-testing.md
+      - email-security/index.md
   - 密码安全与无密码认证:
       - 无密码认证体系: passwordless-security/index.md
       - FIDO2/Passkeys 实战: passwordless-security/01-passwordless-security.md
@@ -357,6 +380,7 @@ nav:
       - legal/04-data-security-law.md
       - legal/05-personal-information-law.md
       - china-laws/02-data-security-law-details.md
+      - legal/index.md
   - 网络架构安全:
       - 网络架构与防御: network-architecture/index.md
       - 企业网络安全架构: network-architecture/01-network-architecture-security.md
@@ -387,6 +411,7 @@ nav:
       - soc/01-soc-building.md
       - soc/02-soc-automation.md
       - soc/03-siem-rules.md
+      - soc/index.md
   - 量子安全:
       - quantum-security/index.md
       - quantum-security/01-quantum-threat-pqc.md
@@ -405,5 +430,6 @@ nav:
       - appendix/04-security-tools-reference.md
   - AWS 云安全:
       - aws-security/01-aws-security-services.md
+      - aws-security/index.md
   - 身份认证安全 (IAM/SSO):
       - iam-security/02-sso-oauth-deep.md
