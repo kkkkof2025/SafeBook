@@ -196,6 +196,7 @@ nav:
       - Web3 与智能合约安全: blockchain-security/01-blockchain-security.md
       - DeFi 安全与审计: blockchain-security/02-defi-security.md
       - blockchain-security/03-smart-contract-audit.md
+      - blockchain-security/04-mev-frontrunning.md
   - 威胁情报:
       - 威胁情报概述: threat-intelligence/index.md
       - MITRE ATT&CK 与威胁情报: threat-intelligence/01-threat-intel.md
@@ -224,10 +225,12 @@ nav:
       - IoT 安全概述: iot-security/01-iot-security.md
       - 固件分析与漏洞挖掘: iot-security/02-iot-firmware.md
       - ZigBee/BLE/MQTT 协议安全: iot-security/03-iot-protocol-security.md
+      - iot-security/04-iot-cloud-security.md
   - OSINT 进阶:
       - OSINT 情报收集: osint/index.md
       - OSINT 进阶与社工库: osint/01-osint-advanced.md
       - OSINT 信息收集实战: osint/02-osint-practical.md
+      - osint/03-dark-web-intelligence.md
   - DevSecOps:
       - DevSecOps 实践: devsecops/01-devsecops.md
       - 渗透测试方法论: devsecops/02-pentest-methodology.md
@@ -288,6 +291,7 @@ nav:
       - 工控系统安全: ics-security/01-ics-security.md
       - 工控安全实战: ics-security/02-ics-security.md
       - ics-security/03-ics-protocols-deep-dive.md
+      - ics-security/04-ics-threat-hunting.md
   - 云原生安全深潜:
       - 云原生安全概述: cloud-native-security/index.md
       - 云原生安全实战: cloud-native-security/01-cloud-native-security.md
@@ -304,10 +308,12 @@ nav:
       - Windows 安全机制: windows-internals/01-windows-internals.md
       - 安全加固与防御: windows-internals/02-windows-defenses.md
       - 数字取证与事件响应: windows-internals/03-windows-forensics.md
+      - windows-internals/04-ad-cs-security.md
   - 浏览器安全:
       - 浏览器安全机制: browser-security/01-browser-security.md
       - 浏览器攻击面: browser-security/02-browser-attacks.md
       - browser-security/03-browser-hardening.md
+      - browser-security/04-browser-extensions-security.md
   - 勒索软件与 APT:
       - 勒索软件与 APT 案例: ransomware-apt/01-ransomware-apt.md
       - APT 组织深度分析: ransomware-apt/02-apt-groups.md
@@ -348,6 +354,7 @@ nav:
       - 车联网安全概述: automotive-security/index.md
       - 车联网安全: automotive-security/01-automotive-security.md
       - automotive-security/03-vehicle-hacking.md
+      - automotive-security/04-v2x-security.md
   - 附录:
       - 资源与引用: appendix/resources.md
       - 术语表: appendix/glossary.md
