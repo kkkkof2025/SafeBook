@@ -374,6 +374,7 @@ nav:
   - 欺骗防御:
       - deception/01-deception-technology.md
       - deception/02-honeynet-deployment.md
+      - deception/03-honeypot-analysis.md
   - SOC安全运营:
       - soc/01-soc-building.md
       - soc/02-soc-automation.md
@@ -388,3 +389,5 @@ nav:
       - 术语表: appendix/glossary.md
       - 安全检查清单: appendix/checklists.md
       - appendix/04-security-tools-reference.md
+  - AWS 云安全:
+      - aws-security/01-aws-security-services.md
