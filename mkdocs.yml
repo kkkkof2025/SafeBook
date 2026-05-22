@@ -354,6 +354,7 @@ nav:
       - 数字取证与事件响应: windows-internals/03-windows-forensics.md
       - windows-internals/04-ad-cs-security.md
       - windows-internals/index.md
+      - windows-internals/06-windows-forensics.md
   - 浏览器安全:
       - 浏览器安全机制: browser-security/01-browser-security.md
       - 浏览器攻击面: browser-security/02-browser-attacks.md
@@ -385,6 +386,7 @@ nav:
       - malware-analysis/03-yara-rules.md
       - malware-analysis/04-memory-forensics.md
       - malware-analysis/05-malware-sandbox.md
+      - malware-analysis/06-malware-analysis-practical.md
   - 中国网络安全法规:
       - 法律法规全景: china-laws/index.md
       - 网络安全法/数据安全法/个保法: china-laws/01-china-cybersecurity-laws.md
