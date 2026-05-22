@@ -191,6 +191,7 @@ nav:
       - TLS/SSL 与 PKI: cryptography/03-tls-pki.md
       - 数字签名: cryptography/04-digital-signatures.md
       - 密码学攻击向量: cryptography/05-crypto-attacks.md
+      - cryptography/04-zkp-zero-knowledge.md
   - 区块链安全:
       - 区块链安全概述: blockchain-security/index.md
       - Web3 与智能合约安全: blockchain-security/01-blockchain-security.md
@@ -217,11 +218,13 @@ nav:
       - 完整条目深度解析: owasp-top10/02-owasp-detailed.md
       - OWASP 深潜:访问控制/加密/注入: owasp-top10/03-owasp-deep.md
       - owasp-top10/04-owasp-asvs.md
+      - owasp-top10/05-owasp-mobile-top10.md
   - API 安全:
       - API 安全测试: api-security/01-api-security.md
       - API 渗透测试清单: api-security/02-api-pentesting.md
       - API 认证与授权: api-security/02-api-auth.md
       - GraphQL API 安全: api-security/03-graphql-security.md
+      - api-security/05-graphql-security.md
   - IoT 安全:
       - IoT 安全概述: iot-security/01-iot-security.md
       - 固件分析与漏洞挖掘: iot-security/02-iot-firmware.md
@@ -273,11 +276,13 @@ nav:
       - 社会工程学概论: social-engineering/01-social-engineering.md
       - 网络钓鱼实战与防御: social-engineering/02-phishing-defense.md
       - 高级社工攻击: social-engineering/03-social-advanced.md
+      - social-engineering/04-insider-threat-detection.md
   - 逆向工程:
       - 逆向工程概述: reverse-engineering/index.md
       - 逆向工程基础: reverse-engineering/01-reverse-basics.md
       - Android 逆向与 Hook: reverse-engineering/02-android-reverse.md
       - Frida 高级使用: reverse-engineering/03-frida-advanced.md
+      - reverse-engineering/04-ida-pro-advanced.md
   - 红队基础设施:
       - 红队基础架构: red-team-infra/index.md
       - 红队基础设施实践: red-team-infra/01-red-team-infra.md
@@ -362,6 +367,7 @@ nav:
       - 车联网安全: automotive-security/01-automotive-security.md
       - automotive-security/03-vehicle-hacking.md
       - automotive-security/04-v2x-security.md
+      - automotive-security/05-automotive-forensics.md
   - 附录:
       - 资源与引用: appendix/resources.md
       - 术语表: appendix/glossary.md
