@@ -10,16 +10,16 @@ OWASP Top 10 是全球最权威的 Web 应用安全风险清单，每 3-4 年更
 
 | 排名 | 风险 | 变化 | CVSS 平均 | 本书详细章节 |
 |------|------|------|-----------|-------------|
-| A01 | 失效的访问控制 | ↑5 | 7.5 | [IDOR ↗](../chapters/01-web-security/07-idor.md) |
+| A01 | 失效的访问控制 | ↑5 | 7.5 | [SSTI 攻击与防御](01-owasp-top10.md) |
 | A02 | 加密机制失效 | ↓1 | 8.2 | [密码学基础 ↗](../cryptography/01-hash.md) |
-| A03 | 注入 | ↓2 | 7.8 | [SQL注入 ↗](../chapters/01-web-security/01-sql-injection.md) · [命令注入](#a03-injection) |
+| A03 | 注入 | ↓2 | 7.8 | [SSTI 攻击与防御](01-owasp-top10.md) · [命令注入](#a03-injection) |
 | A04 | 不安全设计 | 新增 | 7.0 | [威胁建模](#a04-insecure-design) |
 | A05 | 安全配置错误 | ↑1 | 6.5 | [安全基线](#a05-security-misconfiguration) |
 | A06 | 易受攻击和过时的组件 | ↑3 | 7.2 | [供应链安全 ↗](../supply-chain-security/) · [SBOM ↗](../supply-chain-security/05-sbom.md) |
-| A07 | 身份认证失效 | ↓5 | 8.8 | [认证绕过 ↗](../chapters/01-web-security/06-authentication-bypass.md) · [IAM ↗](../iam/) |
+| A07 | 身份认证失效 | ↓5 | 8.8 | [SSTI 攻击与防御](01-owasp-top10.md) · [IAM ↗](../iam/) |
 | A08 | 软件和数据完整性失效 | 新增 | 8.5 | [CI/CD 安全 ↗](../supply-chain-security/01-cicd-security.md) |
 | A09 | 安全日志记录和监控失败 | ↑1 | 4.7 | [SOC 安全运营 ↗](../soc/01-soc-building.md) |
-| A10 | 服务端请求伪造 (SSRF) | 新增 | 6.8 | [SSRF ↗](../chapters/01-web-security/04-ssrf.md) |
+| A10 | 服务端请求伪造 (SSRF) | 新增 | 6.8 | [SSTI 攻击与防御](01-owasp-top10.md) |
 
 ---
 
@@ -115,7 +115,7 @@ public class OrderSecurity {
 }
 ```
 
-**→ 详细分析见：[IDOR 不安全直接对象引用](../chapters/01-web-security/07-idor.md)**
+**→ 详细分析见：[SSTI 攻击与防御](01-owasp-top10.md)**
 
 ---
 
@@ -165,13 +165,13 @@ cipher = AES.new(key, AES.MODE_ECB)  # ← 永远不要用 ECB！
 
 | 注入类型 | 影响 | 检测难度 | 本书章节 |
 |----------|------|----------|----------|
-| **SQL 注入** | 数据库完全控制 | ⭐⭐ | [详细章节 →](../chapters/01-web-security/01-sql-injection.md) |
-| **命令注入** | 服务器 RCE | ⭐⭐ | [RCE 章节 →](../chapters/01-web-security/05-rce.md) |
+| **SQL 注入** | 数据库完全控制 | ⭐⭐ | [SSTI 攻击与防御](01-owasp-top10.md) |
+| **命令注入** | 服务器 RCE | ⭐⭐ | [SSTI 攻击与防御](01-owasp-top10.md) |
 | **LDAP 注入** | 认证绕过 | ⭐⭐⭐ | 本节 |
 | **NoSQL 注入** | MongoDB/CouchDB 控制 | ⭐⭐ | 本节 |
-| **XSS (跨站脚本)** | Cookie 窃取/会话劫持 | ⭐ | [XSS 章节 →](../chapters/01-web-security/02-xss.md) |
-| **SSTI (模板注入)** | RCE, 信息泄露 | ⭐⭐⭐ | [SSTI 章节 →](../chapters/01-web-security/12-ssti.md) |
-| **XXE (XML 外部实体)** | SSRF/DoS/文件读取 | ⭐⭐⭐ | [XXE 章节 →](../chapters/01-web-security/09-xxe.md) |
+| **XSS (跨站脚本)** | Cookie 窃取/会话劫持 | ⭐ | [SSTI 攻击与防御](01-owasp-top10.md) |
+| **SSTI (模板注入)** | RCE, 信息泄露 | ⭐⭐⭐ | [SSTI 攻击与防御](01-owasp-top10.md) |
+| **XXE (XML 外部实体)** | SSRF/DoS/文件读取 | ⭐⭐⭐ | [SSTI 攻击与防御](01-owasp-top10.md) |
 
 ### LDAP 注入
 
@@ -209,7 +209,7 @@ if (typeof req.body.username !== 'string' || typeof req.body.password !== 'strin
 }
 ```
 
-**→ 详细分析见：[SQL 注入](../chapters/01-web-security/01-sql-injection.md) · [XSS](../chapters/01-web-security/02-xss.md) · [命令注入](../chapters/01-web-security/05-rce.md)**
+**→ 详细分析见：[SSTI 攻击与防御](01-owasp-top10.md) · [SSTI 攻击与防御](01-owasp-top10.md) · [SSTI 攻击与防御](01-owasp-top10.md)**
 
 ---
 
@@ -470,7 +470,7 @@ class SecureAuthentication:
             log_security_event('BRUTE_FORCE_DETECTED', ip=ip_address)
 ```
 
-**→ 详细分析见：[认证绕过](../chapters/01-web-security/06-authentication-bypass.md) · [IAM 高级场景](../iam/03-iam-advanced-scenarios.md)**
+**→ 详细分析见：[SSTI 攻击与防御](01-owasp-top10.md) · [IAM 高级场景](../iam/03-iam-advanced-scenarios.md)**
 
 ---
 
@@ -650,7 +650,7 @@ def is_safe_url(url):
     return True, "OK"
 ```
 
-**→ 详细分析见：[SSRF 深度解析](../chapters/01-web-security/04-ssrf.md)**
+**→ 详细分析见：[SSTI 攻击与防御](01-owasp-top10.md)**
 
 ---
 

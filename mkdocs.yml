@@ -201,6 +201,7 @@ nav:
       - blockchain-security/03-smart-contract-audit.md
       - blockchain-security/04-mev-frontrunning.md
   - 威胁情报:
+      - threat-intel/index.md
       - 威胁情报概述: threat-intelligence/index.md
       - MITRE ATT&CK 与威胁情报: threat-intelligence/01-threat-intel.md
       - 威胁狩猎与攻击溯源: threat-intelligence/02-threat-hunting.md
@@ -222,12 +223,14 @@ nav:
       - owasp-top10/04-owasp-asvs.md
       - owasp-top10/05-owasp-mobile-top10.md
   - API 安全:
+      - api-security/index.md
       - API 安全测试: api-security/01-api-security.md
       - API 渗透测试清单: api-security/02-api-pentesting.md
       - API 认证与授权: api-security/02-api-auth.md
       - GraphQL API 安全: api-security/03-graphql-security.md
       - api-security/05-graphql-security.md
   - IoT 安全:
+      - iot-security/index.md
       - IoT 安全概述: iot-security/01-iot-security.md
       - 固件分析与漏洞挖掘: iot-security/02-iot-firmware.md
       - ZigBee/BLE/MQTT 协议安全: iot-security/03-iot-protocol-security.md
@@ -239,6 +242,7 @@ nav:
       - OSINT 信息收集实战: osint/02-osint-practical.md
       - osint/03-dark-web-intelligence.md
   - DevSecOps:
+      - devsecops/index.md
       - DevSecOps 实践: devsecops/01-devsecops.md
       - 渗透测试方法论: devsecops/02-pentest-methodology.md
       - SAST/DAST/Secrets 扫描: devsecops/03-sast-dast-secrets.md
@@ -373,6 +377,7 @@ nav:
       - automotive-security/04-v2x-security.md
       - automotive-security/05-automotive-forensics.md
   - 欺骗防御:
+      - deception/index.md
       - deception/01-deception-technology.md
       - deception/02-honeynet-deployment.md
       - deception/03-honeypot-analysis.md
@@ -381,12 +386,15 @@ nav:
       - soc/02-soc-automation.md
       - soc/03-siem-rules.md
   - 量子安全:
+      - quantum-security/index.md
       - quantum-security/01-quantum-threat-pqc.md
       - quantum-security/02-pqc-migration.md
   - 硬件安全:
+      - hardware-security/index.md
       - hardware-security/01-hardware-hacking.md
       - hardware-security/02-firmware-reverse.md
   - 附录:
+      - appendix/index.md
       - 资源与引用: appendix/resources.md
       - 术语表: appendix/glossary.md
       - 安全检查清单: appendix/checklists.md
