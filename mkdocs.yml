@@ -241,6 +241,7 @@ nav:
       - API 认证与授权: api-security/02-api-auth.md
       - GraphQL API 安全: api-security/03-graphql-security.md
       - api-security/05-graphql-security.md
+      - api-security/06-rate-limiting.md
   - IoT 安全:
       - iot-security/index.md
       - IoT 安全概述: iot-security/01-iot-security.md
@@ -260,6 +261,7 @@ nav:
       - 渗透测试方法论: devsecops/02-pentest-methodology.md
       - SAST/DAST/Secrets 扫描: devsecops/03-sast-dast-secrets.md
       - devsecops/03-devsecops-shift-left.md
+      - devsecops/05-security-chaos.md
   - 安全运维（蓝队）:
       - SIEM 与事件响应: blue-team/01-siem-soc.md
       - 日常安全运营: blue-team/02-blue-team-ops.md
@@ -335,6 +337,7 @@ nav:
       - K8s 攻击链与逃逸: cloud-native-security/03-cloud-native-security-advanced.md
       - cloud-native-security/03-kubernetes-rbac-hardening.md
       - cloud-native-security/04-kubernetes-security-tools.md
+      - cloud-native-security/05-cloud-native-threat-detection.md
   - 安全合规与审计:
       - 合规审计概述: compliance-audit/index.md
       - 合规框架与实践: compliance-audit/01-compliance-audit.md
