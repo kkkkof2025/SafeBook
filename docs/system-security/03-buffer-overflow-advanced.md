@@ -223,4 +223,4 @@ p.interactive()
 
 ---
 
-*上一篇：[缓冲区溢出基础](02-buffer-overflow.md)*
+*上一篇：[权限提升](02-privilege-escalation.md)*

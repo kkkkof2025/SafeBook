@@ -250,4 +250,4 @@ AI 模型安全评估 Checklist:
 
 ---
 
-*上一篇：[AI 红队](03-ai-redteam.md)*
+*上一篇：[AI 红队进阶](03-ai-redteam-advanced.md)*

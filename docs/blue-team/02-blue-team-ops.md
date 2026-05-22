@@ -198,4 +198,4 @@ class SocToolchainHealth:
 
 ---
 
-*上一篇：[蓝队防御蓝图](01-blue-team.md)*
+*上一篇：[SIEM 与 SOC](01-siem-soc.md)*

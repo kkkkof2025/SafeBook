@@ -228,4 +228,4 @@ diff <(awk '{print $2}' /tmp/ps.txt | sort -u) /tmp/proc.txt
 
 ---
 
-*上一篇：[Linux 提权](02-linux-privesc.md)*
+*上一篇：[权限提升](02-privilege-escalation.md)*

@@ -267,4 +267,4 @@ class KAnonymity:
 
 ---
 
-*上一篇：[数据脱敏技术](03-data-masking.md)*
+*上一篇：[数据泄露应急](03-data-breach-response.md)*

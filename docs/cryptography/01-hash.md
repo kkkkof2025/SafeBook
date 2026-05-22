@@ -210,4 +210,4 @@ class CryptoToolkit:
 
 ---
 
-*下一篇：[对称加密](02-symmetric-crypto.md)*
+*下一篇：[对称加密](02-symmetric-encryption.md)*
