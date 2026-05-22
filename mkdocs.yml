@@ -368,6 +368,7 @@ nav:
       - FIDO2/Passkeys 实战: passwordless-security/01-passwordless-security.md
       - passwordless-security/03-passwordless-migration.md
       - passwordless-security/04-passkeys-deep-dive.md
+      - passwordless-security/02-webauthn-implementation.md
   - 恶意软件分析:
       - 恶意软件分析概述: malware-analysis/index.md
       - 静态分析: malware-analysis/01-malware-static-analysis.md
@@ -388,6 +389,7 @@ nav:
       - 企业网络安全架构: network-architecture/01-network-architecture-security.md
       - 零信任网络设计: network-architecture/02-zero-trust-network.md
       - network-architecture/03-microsegmentation.md
+      - network-architecture/04-sdn-security.md
   - 国密算法:
       - 国密算法: sm-crypto/index.md
       - SM2/SM3/SM4/SM9: sm-crypto/01-sm-crypto.md
