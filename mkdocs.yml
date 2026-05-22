@@ -141,6 +141,7 @@ nav:
       - Docker 安全: container-security/01-docker-security.md
       - Kubernetes 安全: container-security/02-kubernetes-security.md
       - 容器供应链安全: container-security/03-supply-chain.md
+      - container-security/05-container-escape.md
   - 供应链安全:
       - 供应链安全概述: supply-chain-security/index.md
       - CI/CD 管道安全: supply-chain-security/01-cicd-security.md
@@ -148,6 +149,7 @@ nav:
       - SBOM 物料清单: supply-chain-security/03-sbom.md
       - SLSA 框架: supply-chain-security/04-slsa.md
       - 签名与验证: supply-chain-security/05-signing-verification.md
+      - supply-chain-security/05-sbom.md
   - 移动安全:
       - 移动安全概述: mobile-security/index.md
       - Android 安全测试: mobile-security/01-android-security.md
@@ -230,6 +232,7 @@ nav:
       - 固件分析与漏洞挖掘: iot-security/02-iot-firmware.md
       - ZigBee/BLE/MQTT 协议安全: iot-security/03-iot-protocol-security.md
       - iot-security/04-iot-cloud-security.md
+      - iot-security/05-iot-security-testing.md
   - OSINT 进阶:
       - OSINT 情报收集: osint/index.md
       - OSINT 进阶与社工库: osint/01-osint-advanced.md
@@ -368,6 +371,14 @@ nav:
       - automotive-security/03-vehicle-hacking.md
       - automotive-security/04-v2x-security.md
       - automotive-security/05-automotive-forensics.md
+  - 欺骗防御:
+      - deception/01-deception-technology.md
+  - SOC安全运营:
+      - soc/01-soc-building.md
+  - 量子安全:
+      - quantum-security/01-quantum-threat-pqc.md
+  - 硬件安全:
+      - hardware-security/01-hardware-hacking.md
   - 附录:
       - 资源与引用: appendix/resources.md
       - 术语表: appendix/glossary.md
