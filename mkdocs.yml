@@ -211,6 +211,7 @@ nav:
       - threat-intel/03-threat-intel-analysis.md
       - threat-intel/02-tip-automation.md
       - threat-intelligence/03-threat-intel-lifecycle.md
+      - threat-intel/01-threat-intel-intro.md
   - 身份与访问管理(IAM):
       - 零信任架构: iam-security/01-zero-trust.md
       - PAM 与 IGA 实战: iam-security/02-iam-pam.md
@@ -219,6 +220,7 @@ nav:
       - iam-security/index.md
       - iam/02-iam-federation-jit.md
       - iam/index.md
+      - iam/03-pam-deep.md
   - 安全编码实践:
       - 安全编码概述: secure-coding/index.md
       - Python 安全编码: secure-coding/01-secure-coding-python.md
@@ -313,6 +315,7 @@ nav:
       - red-team/01-red-team-tactics.md
       - red-team/index.md
       - red-team-infra/03-anti-detection.md
+      - red-team/02-red-team-opsec.md
   - 无线安全:
       - 无线网络安全: wireless-security/01-wireless-security.md
       - WiFi/蓝牙/RFID 攻击: wireless-security/02-wireless-advanced.md
