@@ -273,4 +273,4 @@ trivy fs --scanners vuln .
 
 ---
 
-*上一篇：[安全编码实践](01-secure-coding-python.md)*
+*上一篇：[Web/JS 安全编码](02-secure-coding-web.md)*

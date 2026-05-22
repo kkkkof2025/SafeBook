@@ -201,6 +201,7 @@ nav:
       - DeFi 安全与审计: blockchain-security/02-defi-security.md
       - blockchain-security/03-smart-contract-audit.md
       - blockchain-security/04-mev-frontrunning.md
+      - blockchain-security/05-mev-deep.md
   - 威胁情报:
       - threat-intel/index.md
       - 威胁情报概述: threat-intelligence/index.md
@@ -222,6 +223,7 @@ nav:
       - Python 安全编码: secure-coding/01-secure-coding-python.md
       - Web/JS 安全编码: secure-coding/02-secure-coding-web.md
       - secure-coding/04-secure-coding-checklist.md
+      - secure-coding/03-code-review.md
   - OWASP Top 10 深度解析:
       - OWASP Top 10: owasp-top10/01-owasp-top10.md
       - 完整条目深度解析: owasp-top10/02-owasp-detailed.md
