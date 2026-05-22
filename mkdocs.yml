@@ -216,6 +216,7 @@ nav:
       - OWASP Top 10: owasp-top10/01-owasp-top10.md
       - 完整条目深度解析: owasp-top10/02-owasp-detailed.md
       - OWASP 深潜:访问控制/加密/注入: owasp-top10/03-owasp-deep.md
+      - owasp-top10/04-owasp-asvs.md
   - API 安全:
       - API 安全测试: api-security/01-api-security.md
       - API 渗透测试清单: api-security/02-api-pentesting.md
@@ -327,16 +328,20 @@ nav:
       - 无密码认证体系: passwordless-security/index.md
       - FIDO2/Passkeys 实战: passwordless-security/01-passwordless-security.md
       - passwordless-security/03-passwordless-migration.md
+      - passwordless-security/04-passkeys-deep-dive.md
   - 恶意软件分析:
       - 恶意软件分析概述: malware-analysis/index.md
       - 静态分析: malware-analysis/01-malware-static-analysis.md
       - 动态分析: malware-analysis/02-malware-dynamic-analysis.md
       - malware-analysis/03-yara-rules.md
       - malware-analysis/04-memory-forensics.md
+      - malware-analysis/05-malware-sandbox.md
   - 中国网络安全法规:
       - 法律法规全景: china-laws/index.md
       - 网络安全法/数据安全法/个保法: china-laws/01-china-cybersecurity-laws.md
       - legal/03-cybersecurity-law-enforcement.md
+      - legal/04-data-security-law.md
+      - legal/05-personal-information-law.md
   - 网络架构安全:
       - 网络架构与防御: network-architecture/index.md
       - 企业网络安全架构: network-architecture/01-network-architecture-security.md
@@ -346,10 +351,12 @@ nav:
       - 国密算法: sm-crypto/index.md
       - SM2/SM3/SM4/SM9: sm-crypto/01-sm-crypto.md
       - sm-crypto/03-sm-crypto-implementation.md
+      - sm-crypto/04-gm-certificate-pki.md
   - 5G 安全:
       - 5G 安全概述: 5g-security/index.md
       - 5G 网络安全: 5g-security/01-5g-security.md
       - 5g-security/03-5g-core-security.md
+      - 5g-security/04-5g-network-slicing.md
   - 车联网安全:
       - 车联网安全概述: automotive-security/index.md
       - 车联网安全: automotive-security/01-automotive-security.md
@@ -359,3 +366,4 @@ nav:
       - 资源与引用: appendix/resources.md
       - 术语表: appendix/glossary.md
       - 安全检查清单: appendix/checklists.md
+      - appendix/04-security-tools-reference.md
