@@ -313,6 +313,7 @@ nav:
       - compliance/03-pci-dss-implementation.md
       - compliance-audit/03-iso27001-implementation.md
       - compliance-audit/04-soc2-compliance.md
+      - compliance-audit/05-dengbao2.md
   - Windows 内部安全:
       - Windows 安全机制: windows-internals/01-windows-internals.md
       - 安全加固与防御: windows-internals/02-windows-defenses.md
@@ -378,6 +379,7 @@ nav:
   - SOC安全运营:
       - soc/01-soc-building.md
       - soc/02-soc-automation.md
+      - soc/03-siem-rules.md
   - 量子安全:
       - quantum-security/01-quantum-threat-pqc.md
       - quantum-security/02-pqc-migration.md
@@ -391,3 +393,5 @@ nav:
       - appendix/04-security-tools-reference.md
   - AWS 云安全:
       - aws-security/01-aws-security-services.md
+  - 身份认证安全 (IAM/SSO):
+      - iam-security/02-sso-oauth-deep.md
