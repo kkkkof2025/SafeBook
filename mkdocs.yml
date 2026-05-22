@@ -1,4 +1,4 @@
-﻿site_name: 安全漏洞实战手册
+site_name: 安全漏洞实战手册
 site_description: 从 Web 安全到 AI 安全 — 每个漏洞的原理、案例、POC 与修复 — 从入门到精通的安全成长之路
 site_url: https://kkkkof2025.github.io/SafeBook/
 repo_url: https://github.com/kkkkof2025/SafeBook
@@ -194,14 +194,17 @@ nav:
       - 区块链安全概述: blockchain-security/index.md
       - Web3 与智能合约安全: blockchain-security/01-blockchain-security.md
       - DeFi 安全与审计: blockchain-security/02-defi-security.md
+      - blockchain-security/03-smart-contract-audit.md
   - 威胁情报:
       - 威胁情报概述: threat-intelligence/index.md
       - MITRE ATT&CK 与威胁情报: threat-intelligence/01-threat-intel.md
       - 威胁狩猎与攻击溯源: threat-intelligence/02-threat-hunting.md
+      - threat-intel/03-threat-intel-analysis.md
   - 身份与访问管理(IAM):
       - 零信任架构: iam-security/01-zero-trust.md
       - PAM 与 IGA 实战: iam-security/02-iam-pam.md
       - 零信任落地实战: iam-security/03-zero-trust-deep.md
+      - iam/03-iam-advanced-scenarios.md
   - 安全编码实践:
       - 安全编码概述: secure-coding/index.md
       - Python 安全编码: secure-coding/01-secure-coding-python.md
@@ -227,6 +230,7 @@ nav:
       - DevSecOps 实践: devsecops/01-devsecops.md
       - 渗透测试方法论: devsecops/02-pentest-methodology.md
       - SAST/DAST/Secrets 扫描: devsecops/03-sast-dast-secrets.md
+      - devsecops/03-devsecops-shift-left.md
   - 安全运维（蓝队）:
       - SIEM 与事件响应: blue-team/01-siem-soc.md
       - 日常安全运营: blue-team/02-blue-team-ops.md
@@ -272,31 +276,46 @@ nav:
       - 红队基础架构: red-team-infra/index.md
       - 红队基础设施实践: red-team-infra/01-red-team-infra.md
       - C2 框架与基础设施: red-team-infra/02-c2-framework.md
+      - red-team/03-red-team-infrastructure.md
   - 无线安全:
       - 无线网络安全: wireless-security/01-wireless-security.md
       - WiFi/蓝牙/RFID 攻击: wireless-security/02-wireless-advanced.md
+      - wireless-security/03-iot-wireless-protocols.md
+      - wireless-security/04-wireless-pentesting.md
   - 工控安全:
       - 工控系统安全: ics-security/01-ics-security.md
       - 工控安全实战: ics-security/02-ics-security.md
+      - ics-security/03-ics-protocols-deep-dive.md
   - 云原生安全深潜:
       - 云原生安全概述: cloud-native-security/index.md
       - 云原生安全实战: cloud-native-security/01-cloud-native-security.md
       - Service Mesh 安全: cloud-native-security/02-istio-security.md
       - K8s 攻击链与逃逸: cloud-native-security/03-cloud-native-security-advanced.md
+      - cloud-native-security/03-kubernetes-rbac-hardening.md
   - 安全合规与审计:
       - 合规审计概述: compliance-audit/index.md
       - 合规框架与实践: compliance-audit/01-compliance-audit.md
+      - compliance/03-pci-dss-implementation.md
   - Windows 内部安全:
       - Windows 安全机制: windows-internals/01-windows-internals.md
+      - 安全加固与防御: windows-internals/02-windows-defenses.md
+      - 数字取证与事件响应: windows-internals/03-windows-forensics.md
   - 浏览器安全:
       - 浏览器安全机制: browser-security/01-browser-security.md
+      - 浏览器攻击面: browser-security/02-browser-attacks.md
+      - browser-security/03-browser-hardening.md
   - 勒索软件与 APT:
       - 勒索软件与 APT 案例: ransomware-apt/01-ransomware-apt.md
+      - APT 组织深度分析: ransomware-apt/02-apt-groups.md
+      - 勒索软件防御与恢复: ransomware-apt/03-ransomware-defense.md
   - 电子邮箱安全:
       - 电子邮件安全: email-security/01-email-security.md
+      - 邮件攻击技术: email-security/02-email-attacks.md
+      - 邮件安全防御体系: email-security/03-email-defense.md
   - 密码安全与无密码认证:
       - 无密码认证体系: passwordless-security/index.md
       - FIDO2/Passkeys 实战: passwordless-security/01-passwordless-security.md
+      - passwordless-security/03-passwordless-migration.md
   - 恶意软件分析:
       - 恶意软件分析概述: malware-analysis/index.md
       - 静态分析: malware-analysis/01-malware-static-analysis.md
@@ -304,12 +323,23 @@ nav:
   - 中国网络安全法规:
       - 法律法规全景: china-laws/index.md
       - 网络安全法/数据安全法/个保法: china-laws/01-china-cybersecurity-laws.md
+      - legal/03-cybersecurity-law-enforcement.md
   - 网络架构安全:
       - 网络架构与防御: network-architecture/index.md
       - 企业网络安全架构: network-architecture/01-network-architecture-security.md
+      - 零信任网络设计: network-architecture/02-zero-trust-network.md
   - 国密算法:
       - 国密算法: sm-crypto/index.md
       - SM2/SM3/SM4/SM9: sm-crypto/01-sm-crypto.md
+      - sm-crypto/03-sm-crypto-implementation.md
+  - 5G 安全:
+      - 5G 安全概述: 5g-security/index.md
+      - 5G 网络安全: 5g-security/01-5g-security.md
+      - 5g-security/03-5g-core-security.md
+  - 车联网安全:
+      - 车联网安全概述: automotive-security/index.md
+      - 车联网安全: automotive-security/01-automotive-security.md
+      - automotive-security/03-vehicle-hacking.md
   - 附录:
       - 资源与引用: appendix/resources.md
       - 术语表: appendix/glossary.md
