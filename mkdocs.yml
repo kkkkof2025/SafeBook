@@ -259,6 +259,7 @@ nav:
   - api-security/05-graphql-security.md
   - api-security/06-rate-limiting.md
   - GraphQL 深度攻击与防御: api-security/05-graphql-defense.md
+  - API 安全测试自动化: api-security/06-api-security-testing.md
 - IoT 安全:
   - iot-security/index.md
   - IoT 安全概述: iot-security/01-iot-security.md
@@ -328,6 +329,7 @@ nav:
   - Android 逆向与 Hook: reverse-engineering/02-android-reverse.md
   - Frida 高级使用: reverse-engineering/03-frida-advanced.md
   - reverse-engineering/04-ida-pro-advanced.md
+  - Ghidra 逆向实战: reverse-engineering/ghidra-practical.md
 - 红队基础设施:
   - 红队基础架构: red-team-infra/index.md
   - 红队基础设施实践: red-team-infra/01-red-team-infra.md
