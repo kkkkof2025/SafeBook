@@ -302,3 +302,5 @@ IOC 生命周期:
 ---
 
 *上一篇：[威胁情报分析](./03-threat-intel-analysis.md)*
+
+*下一篇：[威胁情报分析实战](03-threat-intel-analysis.md)*

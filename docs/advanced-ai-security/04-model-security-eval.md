@@ -251,3 +251,5 @@ AI 模型安全评估 Checklist:
 ---
 
 *上一篇：[AI 红队进阶](03-ai-redteam-advanced.md)*
+
+*下一篇：[数据投毒与模型劫持](05-data-poisoning.md)*

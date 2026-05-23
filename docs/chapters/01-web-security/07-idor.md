@@ -273,3 +273,7 @@ def test_idor():
 2. [PortSwigger IDOR 教程](https://portswigger.net/web-security/access-control/idor)
 3. [OWASP Authorization Testing Guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/04-Testing_for_Insecure_Direct_Object_References)
 4. [Burp Suite Autorize 教程](https://github.com/Quitten/Autorize)
+
+*上一篇：[认证绕过（Authentication Bypass）](06-authentication-bypass.md)*
+
+*下一篇：[文件上传漏洞（File Upload Vulnerability）](08-file-upload.md)*

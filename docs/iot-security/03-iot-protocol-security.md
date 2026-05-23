@@ -203,3 +203,7 @@ set_tcp_nodelay true
 [ ] 异常行为检测
 [ ] 安全日志审计
 ```
+
+*上一篇：[IoT 固件分析与漏洞挖掘](02-iot-firmware.md)*
+
+*下一篇：[IoT 云端安全](04-iot-cloud-security.md)*

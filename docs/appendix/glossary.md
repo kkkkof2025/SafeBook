@@ -32,3 +32,7 @@
 | SIEM | Security Information and Event Management | 安全信息与事件管理 |
 | EDR | Endpoint Detection and Response | 端点检测与响应 |
 | CSO/CISO | Chief Security/Information Security Officer | 首席安全官 |
+
+*上一篇：[安全检查清单](checklists.md)*
+
+*下一篇：[安全工具与资源大全](resources.md)*

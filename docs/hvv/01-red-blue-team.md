@@ -293,3 +293,5 @@ quake         # 360 网络空间测绘
 - [Hvv2021-2024 漏洞 POC 合集](https://www.cnblogs.com/chen-w/category/1961203.html)
 - [Awesome-POC HVV 目录](https://github.com/Threekiii/Awesome-POC/tree/master/2023-HVV-POC)
 - [2022 HVV POC 整理](https://github.com/caine111/2022-HW-POC)
+
+*下一篇：[HVV 红队攻击技术实战](02-attack-techniques.md)*

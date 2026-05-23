@@ -316,3 +316,7 @@ def sanitize_image(filepath):
 3. [PortSwigger File Upload 教程](https://portswigger.net/web-security/file-upload)
 4. [PHP WebShell 分析](https://www.sans.org/white-papers/36892/)
 5. [SVG 文件上传攻击](https://portswigger.net/research/svg-file-upload-vulnerability)
+
+*上一篇：[IDOR 越权访问（Insecure Direct Object Reference）](07-idor.md)*
+
+*下一篇：[XXE 外部实体注入（XML External Entity）](09-xxe.md)*

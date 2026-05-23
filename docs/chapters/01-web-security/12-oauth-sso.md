@@ -83,3 +83,7 @@ def verify_token(token):
     except jwt.InvalidTokenError:
         return None
 ```
+
+*上一篇：[WebSocket 安全深度](11-websocket-security.md)*
+
+*下一篇：[SSTI（服务端模板注入）深度](13-ssti.md)*

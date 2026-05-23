@@ -325,3 +325,5 @@ class CrossBorderTransferSelfAssessment:
 ---
 
 *上一篇：[网络安全法执法实践](./03-cybersecurity-law-enforcement.md)*
+
+*下一篇：[个人信息保护法合规实践](05-personal-information-law.md)*

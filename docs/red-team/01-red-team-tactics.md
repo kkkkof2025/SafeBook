@@ -243,3 +243,5 @@ Invoke-CimMethod -ClassName Win32_Process `
 ---
 
 *上一篇：[红队概述](index.md)*
+
+*下一篇：[红队 OPSEC 与行动安全](02-red-team-opsec.md)*

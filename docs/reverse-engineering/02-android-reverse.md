@@ -170,3 +170,7 @@ keytool -printcert -jarfile app.apk
 | 抓包 | 证书校验 + 双向认证 |
 | 重打包 | 签名校验 + 完整性校验 |
 | 动态调试 | 反调试 + 时间戳校验 |
+
+*上一篇：[逆向工程基础](01-reverse-basics.md)*
+
+*下一篇：[Frida 高级使用与脱壳](03-frida-advanced.md)*

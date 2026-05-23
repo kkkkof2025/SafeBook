@@ -448,3 +448,5 @@ curl -u "$QUALYS_USER:$QUALYS_PASSWORD" "https://$QUALYS_SERVER/api/2.0/ams/wind
 ---
 
 *上一篇：[PCI-DSS 实施指南](03-pci-dss-implementation.md)*
+
+*下一篇：[GDPR 与中国数据法律对比](04-gdpr-vs-china-laws.md)*

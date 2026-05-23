@@ -178,3 +178,7 @@ PurpleKnight.exe --domain corp.com --output report.html
 # PingCastle（AD 风险评估）
 PingCastle.exe --healthcheck --server dc01.corp.com
 ```
+
+*上一篇：[Windows 安全加固实战](05-windows-security.md)*
+
+*下一篇：[Active Directory 攻击路径与防御](07-ad-attack-paths.md)*

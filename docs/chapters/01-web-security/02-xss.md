@@ -313,3 +313,7 @@ def sanitize_input(user_input):
 3. [CSP 规范](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
 4. [Samy Kamkar — MySpace Worm 技术分析](https://samy.pl/myspace/tech.html)
 5. [OWASP XSS Filter Evasion Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html)
+
+*上一篇：[SQL 注入（SQL Injection）](01-sql-injection.md)*
+
+*下一篇：[CSRF 跨站请求伪造（Cross-Site Request Forgery）](03-csrf.md)*

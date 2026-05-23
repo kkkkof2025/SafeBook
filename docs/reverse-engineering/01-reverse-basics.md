@@ -127,3 +127,5 @@ upx -d packed.exe -o unpacked.exe
 | **PwnableKr** | ⭐⭐~⭐⭐⭐⭐ | 包含逆向 |
 | **Root-Me** | ⭐~⭐⭐⭐⭐⭐ | 分级体系明确 |
 | **Flare-On** | ⭐⭐⭐~⭐⭐⭐⭐⭐ | 年度挑战赛 |
+
+*下一篇：[Android 逆向与 Hook](02-android-reverse.md)*

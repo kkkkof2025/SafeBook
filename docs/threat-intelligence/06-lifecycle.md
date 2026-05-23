@@ -168,4 +168,6 @@ Diamond Model 四要素:
 
 ---
 
-*下一篇：[威胁情报分析进阶](../threat-intel/03-threat-intel-analysis.md)*
+*下一篇：[威胁情报分析进阶](03-threat-intel-analysis.md)*
+
+*上一篇：[威胁狩猎与攻击溯源](05-threat-hunting.md)*

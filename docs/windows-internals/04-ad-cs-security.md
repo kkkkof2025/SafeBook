@@ -317,3 +317,5 @@ Reset-ADAccountPassword -Identity krbtgt -ResetPasswordOnNextLogon $false
 ---
 
 *上一篇：[Windows 数字取证](./03-windows-forensics.md)*
+
+*下一篇：[Windows 取证深度](06-windows-forensics.md)*

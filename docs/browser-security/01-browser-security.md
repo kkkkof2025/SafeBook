@@ -163,3 +163,5 @@ HTTPS 降级:
 [ ] Cross-Origin-Opener-Policy（COOP）
 [ ] Permissions-Policy（禁用不必要 API）
 ```
+
+*下一篇：[浏览器安全攻击面](02-browser-attacks.md)*

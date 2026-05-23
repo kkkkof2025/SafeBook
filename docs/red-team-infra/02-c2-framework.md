@@ -174,3 +174,7 @@ certbot revoke --cert-path /etc/letsencrypt/live/domain
 # Shodan 搜索公开服务
 # Censys 扫描留存迹
 ```
+
+*上一篇：[红队基础设施](01-red-team-infra.md)*
+
+*下一篇：[C2 反检测与规避技术](03-anti-detection.md)*

@@ -179,3 +179,5 @@ OWASP IoT Top 10 (2018):
 ---
 
 *上一篇：[车联网安全概述](../automotive-security/01-automotive-security.md)*
+
+*下一篇：[IoT 固件分析与漏洞挖掘](02-iot-firmware.md)*

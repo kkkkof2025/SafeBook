@@ -246,3 +246,5 @@ kube-bench run --targets master,node
 ---
 
 *上一篇：[安全术语表](./glossary.md)*
+
+*下一篇：[安全检查清单](checklists.md)*

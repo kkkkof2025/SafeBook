@@ -136,3 +136,7 @@ const gl = document.createElement('canvas').getContext('webgl')
 ## 总结
 
 浏览器是现代攻击链的重要入口点。理解多进程架构、V8 漏洞原理和 SOP/CSP 机制，是防御基于浏览器的客户端攻击的基础。
+
+*上一篇：[浏览器安全机制详解](01-browser-security.md)*
+
+*下一篇：[浏览器安全加固](03-browser-hardening.md)*

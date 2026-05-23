@@ -145,3 +145,7 @@ def analyze_url(url):
 ## 总结
 
 电子邮件安全需要协议层（SPF/DKIM/DMARC/MTA-STS）、检测层（邮件头分析、URL 沙箱）和培训层（钓鱼演练、安全意识）的三层防御。没有任何单层能完全阻止邮件攻击。
+
+*上一篇：[电子邮件安全](01-email-security.md)*
+
+*下一篇：[电子邮件安全防御体系](03-email-defense.md)*

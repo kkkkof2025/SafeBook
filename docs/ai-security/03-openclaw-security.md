@@ -237,3 +237,7 @@ def validate_tool_call(tool_name: str, params: dict, context: dict) -> bool:
 3. [MCP 安全指南](https://modelcontextprotocol.io/)
 4. [Anthropic Agent 安全指南](https://docs.anthropic.com/en/docs/agent-security)
 5. [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/)
+
+*上一篇：[Prompt 注入攻击](02-prompt-injection.md)*
+
+*下一篇：[AI 辅助钓鱼与防护](04-phishing-ai.md)*

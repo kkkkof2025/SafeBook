@@ -173,3 +173,7 @@ class ThreatHunter:
                         "priority": "HIGH"
                     })
 ```
+
+*上一篇：[威胁情报与 MITRE ATT&CK](04-mitre-attack.md)*
+
+*下一篇：[威胁情报基础](06-lifecycle.md)*

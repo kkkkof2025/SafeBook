@@ -272,3 +272,7 @@ def sanitize_xml(xml_data):
 3. [Billion Laughs 攻击详解](https://en.wikipedia.org/wiki/Billion_laughs_attack)
 4. [Python defusedxml 文档](https://pypi.org/project/defusedxml/)
 5. [OWASP Testing Guide — XXE](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/07-Testing_for_XML_Injection)
+
+*上一篇：[文件上传漏洞（File Upload Vulnerability）](08-file-upload.md)*
+
+*下一篇：[反序列化攻击（Deserialization Attack）](10-deserialization.md)*

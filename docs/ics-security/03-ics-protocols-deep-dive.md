@@ -335,3 +335,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 ---
 
 **下一步：** 学习 响应)，掌握 ICS 应急响应流程。
+
+*上一篇：[工控安全实战（上篇）](02-ics-security.md)*
+
+*下一篇：[工控威胁狩猎](04-ics-threat-hunting.md)*

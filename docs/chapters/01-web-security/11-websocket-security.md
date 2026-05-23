@@ -204,3 +204,5 @@ ffuf -w payloads/ssti.txt -u wss://target.com/ws \
 ---
 
 *上一篇：[OAuth 与 SSO 安全](12-oauth-sso.md)*
+
+*下一篇：[OAuth 2.0 与 SSO 安全](12-oauth-sso.md)*

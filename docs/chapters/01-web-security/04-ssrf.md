@@ -277,3 +277,7 @@ spec:
 3. [AWS 元数据服务 SSRF 指南](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html)
 4. [Capital One 数据泄露技术分析](https://www.zdnet.com/article/capital-one-data-breach-how-the-attacker-executed-it/)
 5. [Gopher 协议 SSRF 利用](https://blog.chaitanyapillai.com/what-is-gopher-protocol-how-to-exploit-ssrf-with-gopher/)
+
+*上一篇：[CSRF 跨站请求伪造（Cross-Site Request Forgery）](03-csrf.md)*
+
+*下一篇：[RCE 远程代码执行（Remote Code Execution）](05-rce.md)*

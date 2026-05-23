@@ -97,3 +97,7 @@ netsh advfirewall set allprofiles firewallpolicy blockinbound,blockoutbound
 ## 总结
 
 Windows 加固是纵深防御的关键环节。合理配置 AMSI、ASR、WDAC、Credential Guard 和防火墙，可以大幅减少攻击面并提高检测响应能力。
+
+*上一篇：[Windows 安全机制内部](01-windows-internals.md)*
+
+*下一篇：[Windows 数字取证与事件响应](03-windows-forensics.md)*

@@ -318,3 +318,5 @@ class SBOMVulnerabilityMonitor:
 ---
 
 *上一篇：[CI/CD 安全加固](./01-cicd-security.md)*
+
+*下一篇：[软件签名与验证深度](05-signing-verification.md)*

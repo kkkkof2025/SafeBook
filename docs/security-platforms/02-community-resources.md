@@ -220,3 +220,7 @@ YouTube 频道:
 - [安全客 — 漏洞情报](https://www.anquanke.com/)
 - [OSCP 认证详情](https://www.offsec.com/courses/pen-200/)
 - [CISP 认证详情](https://www.cisp.org.cn/)
+
+*上一篇：[CTF 赛事与练习策略](01-ctf-practice.md)*
+
+*下一篇：[CTF Web 题型与解题思路](03-ctf-web.md)*

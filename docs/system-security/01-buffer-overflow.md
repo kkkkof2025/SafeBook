@@ -196,3 +196,5 @@ gcc -fpie -pie -o vuln_pie vuln.c
 3. [ROP Emporium — ROP 链教程](https://ropemporium.com/)
 4. [Google Project Zero](https://googleprojectzero.com/)
 5. [Nightmare — CTF Pwn 入门](https://guyinatuxedo.github.io/)
+
+*下一篇：[Linux 提权技术](02-privilege-escalation.md)*

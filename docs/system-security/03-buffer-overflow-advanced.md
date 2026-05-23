@@ -224,3 +224,5 @@ p.interactive()
 ---
 
 *上一篇：[权限提升](02-privilege-escalation.md)*
+
+*下一篇：[Linux 持久化与权限维持](04-linux-persistence.md)*

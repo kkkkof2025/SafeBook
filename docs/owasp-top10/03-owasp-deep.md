@@ -223,3 +223,7 @@ A05: Security Misconfiguration
   - CORS 白名单
   - 环境分离（dev/staging/prod）
 ```
+
+*上一篇：[OWASP Top 10 完整条目解析](02-owasp-detailed.md)*
+
+*下一篇：[OWASP ASVS 标准深度解析](04-owasp-asvs.md)*

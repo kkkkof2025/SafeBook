@@ -117,3 +117,7 @@ cd RansomLook && docker-compose up -d
 ## 总结
 
 防御勒索软件的最佳策略是预防优于恢复。实施 3-2-1-1-0 备份策略、部署 EDR 并配置 ASR 规则、定期演练恢复流程，可以显著降低勒索软件的影响。
+
+*上一篇：[APT 组织深度分析](02-apt-groups.md)*
+
+*下一篇：[勒索软件应急响应与恢复](04-incident-response-recovery.md)*

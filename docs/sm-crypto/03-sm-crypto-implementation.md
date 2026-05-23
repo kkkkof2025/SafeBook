@@ -498,3 +498,7 @@ random_bytes = hsm.generate_random(32)  # 256 位
 ---
 
 **下一步：** 学习 )，掌握第五代移动通信安全技术。
+
+*上一篇：[国密算法（SM2/SM3/SM4）](01-sm-crypto.md)*
+
+*下一篇：[国密证书与 PKI 体系](04-gm-certificate-pki.md)*

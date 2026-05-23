@@ -323,3 +323,7 @@ class CrossValidationGuard:
 3. [Prompt Injection & Agent Security — Arxiv 2306.05499](https://arxiv.org/abs/2306.05499)
 4. [LangSmith — Agent 可观测性](https://smith.langchain.com/)
 5. [Stanford AI Safety](https://aisafety.stanford.edu/)
+
+*上一篇：[AI 红队测试实战手册](01-red-team.md)*
+
+*下一篇：[AI 红队测试进阶](03-ai-redteam-advanced.md)*

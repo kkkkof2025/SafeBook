@@ -190,3 +190,5 @@ class PasswordVault:
   - 阻止常见密码（rockyou top 10000）
   - 禁用密码复制粘贴限制（诱导用户设简单密码）
 ```
+
+*下一篇：[WebAuthn 实战实现](02-webauthn-implementation.md)*

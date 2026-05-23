@@ -175,3 +175,5 @@ Scarlet Mimic:
   - TTP: VPN 漏洞 + 凭证窃取
   - 特征: DDoS + 数据擦除
 ```
+
+*下一篇：[APT 组织深度分析](02-apt-groups.md)*

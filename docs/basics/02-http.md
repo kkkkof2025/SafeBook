@@ -138,3 +138,7 @@ curl -L https://example.com
 - 安全响应头是最简单有效的防御手段之一
 
 [上一章：计算机网络基础](01-networking.md) | [下一章：Web 应用架构 →](03-web-architecture.md)
+
+*上一篇：[计算机网络基础](01-networking.md)*
+
+*下一篇：[Web 应用架构](03-web-architecture.md)*

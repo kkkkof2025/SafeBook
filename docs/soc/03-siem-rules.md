@@ -338,3 +338,5 @@ class TestLateralMovementRule(unittest.TestCase):
 ---
 
 *上一篇：[SOC 自动化响应](02-soc-automation.md)*
+
+*下一篇：[SOC 自动化与 SOAR 实战](04-soc-automation.md)*

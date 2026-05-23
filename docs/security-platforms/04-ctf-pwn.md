@@ -167,3 +167,7 @@ libc.symbols['__libc_start_main']
 | ROP Emporium | ROP 专项训练 | ⭐⭐⭐ |
 | HeapLAB | 堆专项 | ⭐⭐⭐⭐ |
 | How2Heap | 堆技巧大全 | ⭐⭐⭐~⭐⭐⭐⭐⭐ |
+
+*上一篇：[CTF Web 题型与解题思路](03-ctf-web.md)*
+
+*下一篇：[CTF 密码学与取证分析](05-ctf-crypto-forensics.md)*

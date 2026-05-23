@@ -157,3 +157,7 @@ SASE 组件:
 ## 总结
 
 零信任网络架构已经从理论走向落地。从 DNSSEC/加密 DNS 开始，到网络微分段、ZTNA、SASE，逐步演进才能建立真正的零信任网络。
+
+*上一篇：[网络架构安全](01-network-architecture-security.md)*
+
+*下一篇：[微分段与零信任网络](03-microsegmentation.md)*

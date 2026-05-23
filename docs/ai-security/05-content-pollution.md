@@ -348,3 +348,5 @@ CONTENT_TRUST_LEVELS = {
 3. [Prompt Injection in RAG Systems — Simon Willison](https://simonwillison.net/2023/Apr/14/worst-prompt-injection/)
 4. [Trusted Source Verification — CISA](https://www.cisa.gov/resources-tools/resources/trusted-information)
 5. [SEO Poisoning — MITRE ATT&CK](https://attack.mitre.org/techniques/T1608/004/)
+
+*上一篇：[AI 辅助钓鱼与防护](04-phishing-ai.md)*

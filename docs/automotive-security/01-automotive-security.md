@@ -215,3 +215,5 @@ caringcaribou uds --target 0x7DF scan
 ## 总结
 
 车联网安全涉及从芯片到云的完整攻击面。CAN 总线缺乏认证是最根本的安全缺陷，而随着自动驾驶的发展，传感器欺骗攻击将越来越重要。
+
+*下一篇：[车辆黑客攻击技术](03-vehicle-hacking.md)*

@@ -299,3 +299,5 @@ location / {
 3. [OWASP Testing Guide - SQL Injection](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection)
 4. [SQL Injection - Wikipedia](https://en.wikipedia.org/wiki/SQL_injection)
 5. [SQLMap Wiki](https://github.com/sqlmapproject/sqlmap/wiki)
+
+*下一篇：[XSS 跨站脚本（Cross-Site Scripting）](02-xss.md)*

@@ -195,3 +195,7 @@ async def premium_api(request: Request):
 [ ] 异常调用模式告警（暴力破解/爬虫）
 [ ] 敏感操作（删除/权限变更）额外确认
 ```
+
+*上一篇：[API 安全设计](01-api-security.md)*
+
+*下一篇：[API 渗透测试实战](02-api-pentesting.md)*

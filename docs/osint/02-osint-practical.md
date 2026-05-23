@@ -168,3 +168,7 @@ class EmailDiscovery:
         # site:linkedin.com/in "company" "name"
         pass
 ```
+
+*上一篇：[OSINT 进阶与社工库](01-osint-advanced.md)*
+
+*下一篇：[暗网情报收集](03-dark-web-intelligence.md)*

@@ -398,3 +398,5 @@ V2X 威胁矩阵 (STRIDE):
 ---
 
 *上一篇：[车辆黑客攻击技术](./03-vehicle-hacking.md)*
+
+*下一篇：[车载系统数字取证](05-automotive-forensics.md)*

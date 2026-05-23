@@ -305,3 +305,5 @@ class DPSGD(torch.optim.SGD):
 4. [NIST 隐私框架](https://www.nist.gov/privacy-framework)
 5. [OWASP 数据保护 Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Data_Protection_Cheat_Sheet.html)
 6. [中国信通院 — 数据脱敏白皮书](http://www.caict.ac.cn/)
+
+*下一篇：[﻿# 全球数据保护法规对比](02-data-protection-laws.md)*

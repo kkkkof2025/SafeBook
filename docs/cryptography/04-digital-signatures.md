@@ -147,3 +147,7 @@ echo "data" | openssl dgst -sha256 -sign private.pem -out data.sig
 # 验签
 echo "data" | openssl dgst -sha256 -verify public.pem -signature data.sig
 ```
+
+*上一篇：[TLS/HTTPS 与 PKI](03-tls-pki.md)*
+
+*下一篇：[零知识证明与隐私计算](04-zkp-zero-knowledge.md)*

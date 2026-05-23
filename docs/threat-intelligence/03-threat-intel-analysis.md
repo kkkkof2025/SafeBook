@@ -385,4 +385,6 @@ curl -X POST https://api.crowdstrike.com/indicators/entities/v1 \
 
 ---
 
-*上一篇：[威胁情报分析入门](../threat-intelligence/01-threat-intel.md)*
+*上一篇：[威胁情报分析入门](04-mitre-attack.md)*
+
+*下一篇：[威胁情报与 MITRE ATT&CK](04-mitre-attack.md)*

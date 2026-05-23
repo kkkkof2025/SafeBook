@@ -150,3 +150,5 @@
 3. [GCP Shared Responsibility](https://cloud.google.com/security/shared-responsibility)
 4. [阿里云安全责任模型](https://www.alibabacloud.com/trust-center)
 5. [CIS Benchmarks for Cloud](https://www.cisecurity.org/benchmark/cloud)
+
+*下一篇：[IAM 与身份安全](02-iam.md)*

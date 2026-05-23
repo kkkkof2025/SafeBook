@@ -120,3 +120,7 @@ alert tls $EXTERNAL_NET any -> $HOME_NET any (
 ## 总结
 
 APT 防御需要从供应链安全、端点检测、网络检测到事件响应的全链路能力。仅依靠任何一种单一防御手段都不足以防御 APT 级别的攻击。
+
+*上一篇：[勒索软件攻防与 APT 案例分析](01-ransomware-apt.md)*
+
+*下一篇：[勒索软件防御与恢复](03-ransomware-defense.md)*

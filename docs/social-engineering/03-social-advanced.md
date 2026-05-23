@@ -132,3 +132,7 @@ def check_company_leaks(domain):
         if resp.status_code == 200:
             print(f"[!] {email} 已泄露: {resp.json()}")
 ```
+
+*上一篇：[网络钓鱼实战与防御](02-phishing-defense.md)*
+
+*下一篇：[内部威胁检测与防御](04-insider-threat-detection.md)*

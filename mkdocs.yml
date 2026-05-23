@@ -24,429 +24,435 @@ theme:
   language: zh
   font: false
   features:
-    - navigation.sections
-    - navigation.indexes
-    - navigation.path
-    - navigation.top
-    - navigation.footer
-    - navigation.tracking
-    - navigation.instant
-    - navigation.instant.progress
-    - toc.follow
-    - content.action.edit
-    - content.action.view
-    - content.code.copy
-    - content.code.select
-    - search.highlight
-    - search.suggest
-    - search.share
+  - navigation.sections
+  - navigation.indexes
+  - navigation.path
+  - navigation.top
+  - navigation.footer
+  - navigation.tracking
+  - navigation.instant
+  - navigation.instant.progress
+  - toc.follow
+  - content.action.edit
+  - content.action.view
+  - content.code.copy
+  - content.code.select
+  - search.highlight
+  - search.suggest
+  - search.share
   palette:
-    - scheme: default
-      primary: red
-      accent: amber
+  - scheme: default
+    primary: red
+    accent: amber
 extra_css:
-  - stylesheets/extra.css
+- stylesheets/extra.css
 plugins:
-  - search:
-      lang:
-        - zh
-        - en
+- search:
+    lang:
+    - zh
+    - en
 markdown_extensions:
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - tables
-  - toc:
-      permalink: true
-      toc_depth: 3
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.magiclink:
-      repo_url_shortener: true
-      social_url_shortener: true
-      user: kkkkof2025
-      repo: SafeBook
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      auto_append:
-        - includes/abbreviations.md
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+- admonition
+- attr_list
+- def_list
+- footnotes
+- md_in_html
+- tables
+- toc:
+    permalink: true
+    toc_depth: 3
+- pymdownx.arithmatex:
+    generic: true
+- pymdownx.betterem:
+    smart_enable: all
+- pymdownx.caret
+- pymdownx.critic
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+- pymdownx.inlinehilite
+- pymdownx.keys
+- pymdownx.magiclink:
+    repo_url_shortener: true
+    social_url_shortener: true
+    user: kkkkof2025
+    repo: SafeBook
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.snippets:
+    auto_append:
+    - includes/abbreviations.md
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde
 nav:
-  - 首页: index.md
-  - 入门基础:
-      - 成为白帽黑客之路: basics/00-intro.md
-      - 计算机网络基础: basics/01-networking.md
-      - HTTP 协议详解: basics/02-http.md
-      - Web 应用架构: basics/03-web-architecture.md
-      - 安全工具入门: basics/04-tools.md
-      - 信息收集与侦察: basics/05-reconnaissance.md
-      - basics/index.md
-  - Web 安全:
-      - 分类概述: chapters/01-web-security/index.md
-      - SQL 注入: chapters/01-web-security/01-sql-injection.md
-      - XSS 跨站脚本: chapters/01-web-security/02-xss.md
-      - CSRF 跨站请求伪造: chapters/01-web-security/03-csrf.md
-      - SSRF 服务端请求伪造: chapters/01-web-security/04-ssrf.md
-      - 远程代码执行: chapters/01-web-security/05-rce.md
-      - 认证绕过: chapters/01-web-security/06-authentication-bypass.md
-      - IDOR 越权访问: chapters/01-web-security/07-idor.md
-      - 文件上传漏洞: chapters/01-web-security/08-file-upload.md
-      - XXE 外部实体注入: chapters/01-web-security/09-xxe.md
-      - 反序列化攻击: chapters/01-web-security/10-deserialization.md
-      - WebSocket 安全: chapters/01-web-security/11-websocket-security.md
-      - OAuth/SSO 安全: chapters/01-web-security/12-oauth-sso.md
-      - SSTI 模板注入: chapters/01-web-security/13-ssti.md
-  - 学习路径:
-      - 学习路线总览: learning/index.md
-      - 安全学习路线图: learning/01-learning-path.md
-      - 推荐学习平台: learning/02-platforms.md
-      - 安全职业发展: learning/03-career-development.md
-  - 云安全:
-      - 云安全概述: cloud-security/index.md
-      - 共享责任模型: cloud-security/01-shared-responsibility.md
-      - IAM 与身份安全: cloud-security/02-iam.md
-      - 云存储安全: cloud-security/03-storage-security.md
-      - 云网络安全: cloud-security/04-network-security.md
-      - Serverless 安全: cloud-security/05-serverless-security.md
-      - 云合规与治理: cloud-security/06-compliance-governance.md
-      - CSPM 与工具链: cloud-security/07-cspm-tools.md
-      - AWS 安全实战: aws-security/01-aws-security.md
-      - aws-security/02-azure-security.md
-  - 容器与 K8s 安全:
-      - 容器安全概述: container-security/index.md
-      - Docker 安全: container-security/01-docker-security.md
-      - Kubernetes 安全: container-security/02-kubernetes-security.md
-      - 容器供应链安全: container-security/03-supply-chain.md
-      - container-security/05-container-escape.md
-      - container-security/04-container-image-security.md
-  - 供应链安全:
-      - 供应链安全概述: supply-chain-security/index.md
-      - CI/CD 管道安全: supply-chain-security/01-cicd-security.md
-      - 依赖管理与投毒防御: supply-chain-security/02-dependency-security.md
-      - SLSA 框架: supply-chain-security/04-slsa.md
-      - 签名与验证: supply-chain-security/05-signing-verification.md
-      - supply-chain-security/05-sbom.md
-  - 移动安全:
-      - 移动安全概述: mobile-security/index.md
-      - Android 安全测试: mobile-security/01-android-security.md
-      - iOS 安全测试: mobile-security/02-ios-security.md
-      - Android 加固: mobile-security/03-android-hardening.md
-      - iOS 安全测试进阶: mobile-security/04-ios-security.md
-  - 系统安全:
-      - 系统安全概述: system-security/index.md
-      - 缓冲区溢出实战: system-security/01-buffer-overflow.md
-      - Linux 提权技术: system-security/02-privilege-escalation.md
-      - 缓冲区溢出进阶: system-security/03-buffer-overflow-advanced.md
-      - Linux 权限维持: system-security/04-linux-persistence.md
-      - Windows 安全机制: system-security/05-windows-security.md
-      - Active Directory 安全: system-security/06-ad-security.md
-      - system-security/07-ad-attack-paths.md
-  - 数据隐私与合规:
-      - 数据隐私与合规: data-privacy/index.md
-      - 数据脱敏与隐私保护技术: data-privacy/01-data-masking.md
-      - 全球数据保护法规: data-privacy/02-data-protection-laws.md
-      - 数据泄露应急响应: data-privacy/03-data-breach-response.md
-      - Privacy by Design: data-privacy/04-privacy-by-design.md
-      - 数据分类与 DLP: data-privacy/05-data-classification.md
-  - AI 安全进阶:
-      - AI 安全进阶: advanced-ai-security/index.md
-      - AI 红队测试实战手册: advanced-ai-security/01-red-team.md
-      - Agent 多步攻击与权限逃逸: advanced-ai-security/02-agent-security.md
-      - AI 红队进阶: advanced-ai-security/03-ai-redteam-advanced.md
-      - 模型安全评估: advanced-ai-security/04-model-security-eval.md
-      - 数据投毒与模型劫持: advanced-ai-security/05-data-poisoning.md
-  - AI 安全（大语言模型）:
-      - AI 安全概述: ai-security/index.md
-      - LLM 安全漏洞: ai-security/01-llm-vulns.md
-      - Prompt 注入攻击: ai-security/02-prompt-injection.md
-      - OpenClaw 安全: ai-security/03-openclaw-security.md
-      - AI 辅助钓鱼与防护: ai-security/04-phishing-ai.md
-      - 内容污染鉴别: ai-security/05-content-pollution.md
-  - 密码学基础:
-      - 密码学概述: cryptography/index.md
-      - 哈希算法: cryptography/01-hash.md
-      - 对称与非对称加密: cryptography/02-symmetric-encryption.md
-      - TLS/SSL 与 PKI: cryptography/03-tls-pki.md
-      - 数字签名: cryptography/04-digital-signatures.md
-      - 密码学攻击向量: cryptography/05-crypto-attacks.md
-      - cryptography/04-zkp-zero-knowledge.md
-  - 区块链安全:
-      - 区块链安全概述: blockchain-security/index.md
-      - Web3 与智能合约安全: blockchain-security/01-blockchain-security.md
-      - DeFi 安全与审计: blockchain-security/02-defi-security.md
-      - blockchain-security/03-smart-contract-audit.md
-      - blockchain-security/04-mev-frontrunning.md
-      - blockchain-security/05-mev-deep.md
-  - 威胁情报:
-      - threat-intel/index.md
-      - 威胁情报概述: threat-intelligence/index.md
-      - MITRE ATT&CK 与威胁情报: threat-intelligence/01-threat-intel.md
-      - 威胁狩猎与攻击溯源: threat-intelligence/02-threat-hunting.md
-      - threat-intel/03-threat-intel-analysis.md
-      - threat-intel/02-tip-automation.md
-      - threat-intelligence/03-threat-intel-lifecycle.md
-      - threat-intel/01-threat-intel-intro.md
-  - 身份与访问管理(IAM):
-      - 零信任架构: iam-security/01-zero-trust.md
-      - PAM 与 IGA 实战: iam-security/02-iam-pam.md
-      - 零信任落地实战: iam-security/03-zero-trust-deep.md
-      - iam/03-iam-advanced-scenarios.md
-      - iam-security/index.md
-      - iam/02-iam-federation-jit.md
-      - iam/index.md
-      - iam/03-pam-deep.md
-  - 安全编码实践:
-      - 安全编码概述: secure-coding/index.md
-      - Python 安全编码: secure-coding/01-secure-coding-python.md
-      - Web/JS 安全编码: secure-coding/02-secure-coding-web.md
-      - secure-coding/04-secure-coding-checklist.md
-      - secure-coding/03-code-review.md
-  - OWASP Top 10 深度解析:
-      - OWASP Top 10: owasp-top10/01-owasp-top10.md
-      - 完整条目深度解析: owasp-top10/02-owasp-detailed.md
-      - OWASP 深潜:访问控制/加密/注入: owasp-top10/03-owasp-deep.md
-      - owasp-top10/04-owasp-asvs.md
-      - owasp-top10/05-owasp-mobile-top10.md
-      - owasp-top10/index.md
-  - API 安全:
-      - api-security/index.md
-      - API 安全测试: api-security/01-api-security.md
-      - API 渗透测试清单: api-security/02-api-pentesting.md
-      - API 认证与授权: api-security/02-api-auth.md
-      - GraphQL API 安全: api-security/03-graphql-security.md
-      - api-security/05-graphql-security.md
-      - api-security/06-rate-limiting.md
-  - IoT 安全:
-      - iot-security/index.md
-      - IoT 安全概述: iot-security/01-iot-security.md
-      - 固件分析与漏洞挖掘: iot-security/02-iot-firmware.md
-      - ZigBee/BLE/MQTT 协议安全: iot-security/03-iot-protocol-security.md
-      - iot-security/04-iot-cloud-security.md
-      - iot-security/05-iot-security-testing.md
-  - OSINT 进阶:
-      - OSINT 情报收集: osint/index.md
-      - OSINT 进阶与社工库: osint/01-osint-advanced.md
-      - OSINT 信息收集实战: osint/02-osint-practical.md
-      - osint/03-dark-web-intelligence.md
-      - osint/04-osint-advanced-tools.md
-  - DevSecOps:
-      - devsecops/index.md
-      - DevSecOps 实践: devsecops/01-devsecops.md
-      - 渗透测试方法论: devsecops/02-pentest-methodology.md
-      - SAST/DAST/Secrets 扫描: devsecops/03-sast-dast-secrets.md
-      - devsecops/03-devsecops-shift-left.md
-      - devsecops/05-security-chaos.md
-  - 安全运维（蓝队）:
-      - SIEM 与事件响应: blue-team/01-siem-soc.md
-      - 日常安全运营: blue-team/02-blue-team-ops.md
-      - DFIR 应急响应: blue-team/03-dfir.md
-      - SOC 自动化与 SOAR: blue-team/04-soc-soar.md
-      - blue-team/03-blue-team-automation.md
-      - blue-team/index.md
-  - CVE 漏洞库与 POC 合集:
-      - POC 合集概述: cve-poc/index.md
-      - Awesome-POC 实战指南: cve-poc/01-awesome-poc.md
-      - 中间件 CVE 深度分析: cve-poc/02-middleware-cve.md
-      - 框架漏洞 CVE: cve-poc/03-framework-cve.md
-      - 重大 CVE 一览表: cve-poc/04-cve-table.md
-      - cve-poc/04-log4shell-walkthrough.md
-  - HVV 护网行动:
-      - HVV 护网行动指南: hvv/index.md
-      - 红蓝对抗实战方法论: hvv/01-red-blue-team.md
-      - HVV 攻击技术实战: hvv/02-attack-techniques.md
-      - HVV 防御策略: hvv/03-defense-strategy.md
-  - 安全学习平台与 CTF:
-      - 安全学习平台全览: security-platforms/index.md
-      - CTF 赛事与练习策略: security-platforms/01-ctf-practice.md
-      - 社区与深度资源: security-platforms/02-community-resources.md
-      - CTF Web 题型精讲: security-platforms/03-ctf-web.md
-      - CTF PWN 二进制安全: security-platforms/04-ctf-pwn.md
-      - CTF 密码学与取证: security-platforms/05-ctf-crypto-forensics.md
-      - CTF 工具箱速查: security-platforms/06-ctf-toolkit.md
-      - CTF 赛题精讲: security-platforms/07-ctf-writeups.md
-  - 漏洞数据库平台:
-      - 漏洞数据库全览: vulnerability-databases/index.md
-      - CNVD 与 CNNVD 详解: vulnerability-databases/01-cnvd-cnnvd.md
-      - NVD/CVE/MITRE/CWE/CVSS: vulnerability-databases/02-nvd-cve-mitre.md
-      - 其他漏洞数据平台: vulnerability-databases/03-other-databases.md
-      - Exploit-DB 搜索指南: vulnerability-databases/04-exploit-db.md
-      - vulnerability-databases/03-cnvd-cnnvd-deep.md
-  - 社会工程学:
-      - 社会工程学概述: social-engineering/index.md
-      - 社会工程学概论: social-engineering/01-social-engineering.md
-      - 网络钓鱼实战与防御: social-engineering/02-phishing-defense.md
-      - 高级社工攻击: social-engineering/03-social-advanced.md
-      - social-engineering/04-insider-threat-detection.md
-  - 逆向工程:
-      - 逆向工程概述: reverse-engineering/index.md
-      - 逆向工程基础: reverse-engineering/01-reverse-basics.md
-      - Android 逆向与 Hook: reverse-engineering/02-android-reverse.md
-      - Frida 高级使用: reverse-engineering/03-frida-advanced.md
-      - reverse-engineering/04-ida-pro-advanced.md
-  - 红队基础设施:
-      - 红队基础架构: red-team-infra/index.md
-      - 红队基础设施实践: red-team-infra/01-red-team-infra.md
-      - C2 框架与基础设施: red-team-infra/02-c2-framework.md
-      - red-team/03-red-team-infrastructure.md
-      - red-team/01-red-team-tactics.md
-      - red-team/index.md
-      - red-team-infra/03-anti-detection.md
-      - red-team/02-red-team-opsec.md
-  - 无线安全:
-      - 无线网络安全: wireless-security/01-wireless-security.md
-      - WiFi/蓝牙/RFID 攻击: wireless-security/02-wireless-advanced.md
-      - wireless-security/03-iot-wireless-protocols.md
-      - wireless-security/04-wireless-pentesting.md
-      - wireless-security/index.md
-  - 工控安全:
-      - 工控系统安全: ics-security/01-ics-security.md
-      - 工控安全实战: ics-security/02-ics-security.md
-      - ics-security/03-ics-protocols-deep-dive.md
-      - ics-security/04-ics-threat-hunting.md
-      - ics-security/index.md
-  - 云原生安全深潜:
-      - 云原生安全概述: cloud-native-security/index.md
-      - 云原生安全实战: cloud-native-security/01-cloud-native-security.md
-      - Service Mesh 安全: cloud-native-security/02-istio-security.md
-      - K8s 攻击链与逃逸: cloud-native-security/03-cloud-native-security-advanced.md
-      - cloud-native-security/03-kubernetes-rbac-hardening.md
-      - cloud-native-security/04-kubernetes-security-tools.md
-      - cloud-native-security/05-cloud-native-threat-detection.md
-  - 安全合规与审计:
-      - 合规审计概述: compliance-audit/index.md
-      - 合规框架与实践: compliance-audit/01-compliance-audit.md
-      - compliance/03-pci-dss-implementation.md
-      - compliance-audit/03-iso27001-implementation.md
-      - compliance-audit/04-soc2-compliance.md
-      - compliance-audit/05-dengbao2.md
-      - compliance/02-iso27001-overview.md
-      - compliance/index.md
-      - compliance/04-gdpr-vs-china-laws.md
-  - Windows 内部安全:
-      - Windows 安全机制: windows-internals/01-windows-internals.md
-      - 安全加固与防御: windows-internals/02-windows-defenses.md
-      - 数字取证与事件响应: windows-internals/03-windows-forensics.md
-      - windows-internals/04-ad-cs-security.md
-      - windows-internals/index.md
-      - windows-internals/06-windows-forensics.md
-  - 浏览器安全:
-      - 浏览器安全机制: browser-security/01-browser-security.md
-      - 浏览器攻击面: browser-security/02-browser-attacks.md
-      - browser-security/03-browser-hardening.md
-      - browser-security/04-browser-extensions-security.md
-      - browser-security/index.md
-  - 勒索软件与 APT:
-      - 勒索软件与 APT 案例: ransomware-apt/01-ransomware-apt.md
-      - APT 组织深度分析: ransomware-apt/02-apt-groups.md
-      - 勒索软件防御与恢复: ransomware-apt/03-ransomware-defense.md
-      - ransomware-apt/04-incident-response-recovery.md
-      - ransomware-apt/index.md
-  - 电子邮箱安全:
-      - 电子邮件安全: email-security/01-email-security.md
-      - 邮件攻击技术: email-security/02-email-attacks.md
-      - 邮件安全防御体系: email-security/03-email-defense.md
-      - email-security/03-email-security-testing.md
-      - email-security/index.md
-  - 密码安全与无密码认证:
-      - 无密码认证体系: passwordless-security/index.md
-      - FIDO2/Passkeys 实战: passwordless-security/01-passwordless-security.md
-      - passwordless-security/03-passwordless-migration.md
-      - passwordless-security/04-passkeys-deep-dive.md
-      - passwordless-security/02-webauthn-implementation.md
-  - 恶意软件分析:
-      - 恶意软件分析概述: malware-analysis/index.md
-      - 静态分析: malware-analysis/01-malware-static-analysis.md
-      - 动态分析: malware-analysis/02-malware-dynamic-analysis.md
-      - malware-analysis/03-yara-rules.md
-      - malware-analysis/04-memory-forensics.md
-      - malware-analysis/05-malware-sandbox.md
-      - malware-analysis/06-malware-analysis-practical.md
-  - 中国网络安全法规:
-      - 法律法规全景: china-laws/index.md
-      - 网络安全法/数据安全法/个保法: china-laws/01-china-cybersecurity-laws.md
-      - legal/03-cybersecurity-law-enforcement.md
-      - legal/04-data-security-law.md
-      - legal/05-personal-information-law.md
-      - china-laws/02-data-security-law-details.md
-      - legal/index.md
-      - china-laws/03-pip-cross-border-data.md
-  - 网络架构安全:
-      - 网络架构与防御: network-architecture/index.md
-      - 企业网络安全架构: network-architecture/01-network-architecture-security.md
-      - 零信任网络设计: network-architecture/02-zero-trust-network.md
-      - network-architecture/03-microsegmentation.md
-      - network-architecture/04-sdn-security.md
-  - 国密算法:
-      - 国密算法: sm-crypto/index.md
-      - SM2/SM3/SM4/SM9: sm-crypto/01-sm-crypto.md
-      - sm-crypto/03-sm-crypto-implementation.md
-      - sm-crypto/04-gm-certificate-pki.md
-  - 5G 安全:
-      - 5G 安全概述: 5g-security/index.md
-      - 5G 网络安全: 5g-security/01-5g-security.md
-      - 5g-security/03-5g-core-security.md
-      - 5g-security/04-5g-network-slicing.md
-  - 车联网安全:
-      - 车联网安全概述: automotive-security/index.md
-      - 车联网安全: automotive-security/01-automotive-security.md
-      - automotive-security/03-vehicle-hacking.md
-      - automotive-security/04-v2x-security.md
-      - automotive-security/05-automotive-forensics.md
-  - 欺骗防御:
-      - deception/index.md
-      - deception/01-deception-technology.md
-      - deception/02-honeynet-deployment.md
-      - deception/03-honeypot-analysis.md
-  - SOC安全运营:
-      - soc/01-soc-building.md
-      - soc/02-soc-automation.md
-      - soc/03-siem-rules.md
-      - soc/index.md
-      - soc/04-soc-automation.md
-  - 量子安全:
-      - quantum-security/index.md
-      - quantum-security/01-quantum-threat-pqc.md
-      - quantum-security/02-pqc-migration.md
-      - quantum-security/03-quantum-key-distribution.md
-  - 硬件安全:
-      - hardware-security/index.md
-      - hardware-security/01-hardware-hacking.md
-      - hardware-security/02-firmware-reverse.md
-      - hardware-security/03-chip-security.md
-  - 附录:
-      - appendix/index.md
-      - 资源与引用: appendix/resources.md
-      - 术语表: appendix/glossary.md
-      - 安全检查清单: appendix/checklists.md
-      - appendix/04-security-tools-reference.md
-  - AWS 云安全:
-      - aws-security/01-aws-security-services.md
-      - aws-security/index.md
-  - 身份认证安全 (IAM/SSO):
-      - iam-security/02-sso-oauth-deep.md
+- - 威胁情报: threat-intelligence/index.md
+    威胁情报概述 IOC 与 TTP: threat-intelligence/01-threat-intel-intro.md
+    威胁情报平台 TIP 与自动化: threat-intelligence/02-tip-automation.md
+    威胁情报分析实战: threat-intelligence/03-threat-intel-analysis.md
+    MITRE ATT&CK 与威胁情报: threat-intelligence/04-mitre-attack.md
+    威胁狩猎与攻击模拟: threat-intelligence/05-threat-hunting.md
+    威胁情报生命周期: threat-intelligence/06-lifecycle.md
+- 入门基础:
+  - 成为白帽黑客之路: basics/00-intro.md
+  - 计算机网络基础: basics/01-networking.md
+  - HTTP 协议详解: basics/02-http.md
+  - Web 应用架构: basics/03-web-architecture.md
+  - 安全工具入门: basics/04-tools.md
+  - 信息收集与侦察: basics/05-reconnaissance.md
+  - basics/index.md
+- Web 安全:
+  - 分类概述: chapters/01-web-security/index.md
+  - SQL 注入: chapters/01-web-security/01-sql-injection.md
+  - XSS 跨站脚本: chapters/01-web-security/02-xss.md
+  - CSRF 跨站请求伪造: chapters/01-web-security/03-csrf.md
+  - SSRF 服务端请求伪造: chapters/01-web-security/04-ssrf.md
+  - 远程代码执行: chapters/01-web-security/05-rce.md
+  - 认证绕过: chapters/01-web-security/06-authentication-bypass.md
+  - IDOR 越权访问: chapters/01-web-security/07-idor.md
+  - 文件上传漏洞: chapters/01-web-security/08-file-upload.md
+  - XXE 外部实体注入: chapters/01-web-security/09-xxe.md
+  - 反序列化攻击: chapters/01-web-security/10-deserialization.md
+  - WebSocket 安全: chapters/01-web-security/11-websocket-security.md
+  - OAuth/SSO 安全: chapters/01-web-security/12-oauth-sso.md
+  - SSTI 模板注入: chapters/01-web-security/13-ssti.md
+- 学习路径:
+  - 学习路线总览: learning/index.md
+  - 安全学习路线图: learning/01-learning-path.md
+  - 推荐学习平台: learning/02-platforms.md
+  - 安全职业发展: learning/03-career-development.md
+- 云安全:
+  - 云安全概述: cloud-security/index.md
+  - 共享责任模型: cloud-security/01-shared-responsibility.md
+  - IAM 与身份安全: cloud-security/02-iam.md
+  - 云存储安全: cloud-security/03-storage-security.md
+  - 云网络安全: cloud-security/04-network-security.md
+  - Serverless 安全: cloud-security/05-serverless-security.md
+  - 云合规与治理: cloud-security/06-compliance-governance.md
+  - CSPM 与工具链: cloud-security/07-cspm-tools.md
+  - AWS 安全实战: aws-security/01-aws-security.md
+  - aws-security/02-azure-security.md
+- 容器与 K8s 安全:
+  - 容器安全概述: container-security/index.md
+  - Docker 安全: container-security/01-docker-security.md
+  - Kubernetes 安全: container-security/02-kubernetes-security.md
+  - 容器供应链安全: container-security/03-supply-chain.md
+  - container-security/05-container-escape.md
+  - container-security/04-container-image-security.md
+- 供应链安全:
+  - 供应链安全概述: supply-chain-security/index.md
+  - CI/CD 管道安全: supply-chain-security/01-cicd-security.md
+  - 依赖管理与投毒防御: supply-chain-security/02-dependency-security.md
+  - SLSA 框架: supply-chain-security/04-slsa.md
+  - 签名与验证: supply-chain-security/05-signing-verification.md
+  - supply-chain-security/05-sbom.md
+- 移动安全:
+  - 移动安全概述: mobile-security/index.md
+  - Android 安全测试: mobile-security/01-android-security.md
+  - iOS 安全测试: mobile-security/02-ios-security.md
+  - Android 加固: mobile-security/03-android-hardening.md
+  - iOS 安全测试进阶: mobile-security/04-ios-security.md
+- 系统安全:
+  - 系统安全概述: system-security/index.md
+  - 缓冲区溢出实战: system-security/01-buffer-overflow.md
+  - Linux 提权技术: system-security/02-privilege-escalation.md
+  - 缓冲区溢出进阶: system-security/03-buffer-overflow-advanced.md
+  - Linux 权限维持: system-security/04-linux-persistence.md
+  - Windows 安全机制: system-security/05-windows-security.md
+  - Active Directory 安全: system-security/06-ad-security.md
+  - system-security/07-ad-attack-paths.md
+- 数据隐私与合规:
+  - 数据隐私与合规: data-privacy/index.md
+  - 数据脱敏与隐私保护技术: data-privacy/01-data-masking.md
+  - 全球数据保护法规: data-privacy/02-data-protection-laws.md
+  - 数据泄露应急响应: data-privacy/03-data-breach-response.md
+  - Privacy by Design: data-privacy/04-privacy-by-design.md
+  - 数据分类与 DLP: data-privacy/05-data-classification.md
+- AI 安全进阶:
+  - AI 安全进阶: advanced-ai-security/index.md
+  - AI 红队测试实战手册: advanced-ai-security/01-red-team.md
+  - Agent 多步攻击与权限逃逸: advanced-ai-security/02-agent-security.md
+  - AI 红队进阶: advanced-ai-security/03-ai-redteam-advanced.md
+  - 模型安全评估: advanced-ai-security/04-model-security-eval.md
+  - 数据投毒与模型劫持: advanced-ai-security/05-data-poisoning.md
+- AI 安全（大语言模型）:
+  - AI 安全概述: ai-security/index.md
+  - LLM 安全漏洞: ai-security/01-llm-vulns.md
+  - Prompt 注入攻击: ai-security/02-prompt-injection.md
+  - OpenClaw 安全: ai-security/03-openclaw-security.md
+  - AI 辅助钓鱼与防护: ai-security/04-phishing-ai.md
+  - 内容污染鉴别: ai-security/05-content-pollution.md
+- 密码学基础:
+  - 密码学概述: cryptography/index.md
+  - 哈希算法: cryptography/01-hash.md
+  - 对称与非对称加密: cryptography/02-symmetric-encryption.md
+  - TLS/SSL 与 PKI: cryptography/03-tls-pki.md
+  - 数字签名: cryptography/04-digital-signatures.md
+  - 密码学攻击向量: cryptography/05-crypto-attacks.md
+  - cryptography/04-zkp-zero-knowledge.md
+- 区块链安全:
+  - 区块链安全概述: blockchain-security/index.md
+  - Web3 与智能合约安全: blockchain-security/01-blockchain-security.md
+  - DeFi 安全与审计: blockchain-security/02-defi-security.md
+  - blockchain-security/03-smart-contract-audit.md
+  - blockchain-security/04-mev-frontrunning.md
+  - blockchain-security/05-mev-deep.md
+- 威胁情报:
+  - threat-intel/index.md
+  - 威胁情报概述: threat-intelligence/index.md
+  - MITRE ATT&CK 与威胁情报: threat-intelligence/01-threat-intel.md
+  - 威胁狩猎与攻击溯源: threat-intelligence/02-threat-hunting.md
+  - threat-intel/03-threat-intel-analysis.md
+  - threat-intel/02-tip-automation.md
+  - threat-intelligence/03-threat-intel-lifecycle.md
+  - threat-intel/01-threat-intel-intro.md
+- 身份与访问管理(IAM):
+  - 零信任架构: iam-security/01-zero-trust.md
+  - PAM 与 IGA 实战: iam-security/02-iam-pam.md
+  - 零信任落地实战: iam-security/03-zero-trust-deep.md
+  - iam/03-iam-advanced-scenarios.md
+  - iam-security/index.md
+  - iam/02-iam-federation-jit.md
+  - iam/index.md
+  - iam/03-pam-deep.md
+- 安全编码实践:
+  - 安全编码概述: secure-coding/index.md
+  - Python 安全编码: secure-coding/01-secure-coding-python.md
+  - Web/JS 安全编码: secure-coding/02-secure-coding-web.md
+  - secure-coding/04-secure-coding-checklist.md
+  - secure-coding/03-code-review.md
+- OWASP Top 10 深度解析:
+  - OWASP Top 10: owasp-top10/01-owasp-top10.md
+  - 完整条目深度解析: owasp-top10/02-owasp-detailed.md
+  - OWASP 深潜:访问控制/加密/注入: owasp-top10/03-owasp-deep.md
+  - owasp-top10/04-owasp-asvs.md
+  - owasp-top10/05-owasp-mobile-top10.md
+  - owasp-top10/index.md
+- API 安全:
+  - api-security/index.md
+  - API 安全测试: api-security/01-api-security.md
+  - API 渗透测试清单: api-security/02-api-pentesting.md
+  - API 认证与授权: api-security/02-api-auth.md
+  - GraphQL API 安全: api-security/03-graphql-security.md
+  - api-security/05-graphql-security.md
+  - api-security/06-rate-limiting.md
+- IoT 安全:
+  - iot-security/index.md
+  - IoT 安全概述: iot-security/01-iot-security.md
+  - 固件分析与漏洞挖掘: iot-security/02-iot-firmware.md
+  - ZigBee/BLE/MQTT 协议安全: iot-security/03-iot-protocol-security.md
+  - iot-security/04-iot-cloud-security.md
+  - iot-security/05-iot-security-testing.md
+- OSINT 进阶:
+  - OSINT 情报收集: osint/index.md
+  - OSINT 进阶与社工库: osint/01-osint-advanced.md
+  - OSINT 信息收集实战: osint/02-osint-practical.md
+  - osint/03-dark-web-intelligence.md
+  - osint/04-osint-advanced-tools.md
+- DevSecOps:
+  - devsecops/index.md
+  - DevSecOps 实践: devsecops/01-devsecops.md
+  - 渗透测试方法论: devsecops/02-pentest-methodology.md
+  - SAST/DAST/Secrets 扫描: devsecops/03-sast-dast-secrets.md
+  - devsecops/03-devsecops-shift-left.md
+  - devsecops/05-security-chaos.md
+- 安全运维（蓝队）:
+  - SIEM 与事件响应: blue-team/01-siem-soc.md
+  - 日常安全运营: blue-team/02-blue-team-ops.md
+  - DFIR 应急响应: blue-team/03-dfir.md
+  - SOC 自动化与 SOAR: blue-team/04-soc-soar.md
+  - blue-team/03-blue-team-automation.md
+  - blue-team/index.md
+- CVE 漏洞库与 POC 合集:
+  - POC 合集概述: cve-poc/index.md
+  - Awesome-POC 实战指南: cve-poc/01-awesome-poc.md
+  - 中间件 CVE 深度分析: cve-poc/02-middleware-cve.md
+  - 框架漏洞 CVE: cve-poc/03-framework-cve.md
+  - 重大 CVE 一览表: cve-poc/04-cve-table.md
+  - cve-poc/04-log4shell-walkthrough.md
+- HVV 护网行动:
+  - HVV 护网行动指南: hvv/index.md
+  - 红蓝对抗实战方法论: hvv/01-red-blue-team.md
+  - HVV 攻击技术实战: hvv/02-attack-techniques.md
+  - HVV 防御策略: hvv/03-defense-strategy.md
+- 安全学习平台与 CTF:
+  - 安全学习平台全览: security-platforms/index.md
+  - CTF 赛事与练习策略: security-platforms/01-ctf-practice.md
+  - 社区与深度资源: security-platforms/02-community-resources.md
+  - CTF Web 题型精讲: security-platforms/03-ctf-web.md
+  - CTF PWN 二进制安全: security-platforms/04-ctf-pwn.md
+  - CTF 密码学与取证: security-platforms/05-ctf-crypto-forensics.md
+  - CTF 工具箱速查: security-platforms/06-ctf-toolkit.md
+  - CTF 赛题精讲: security-platforms/07-ctf-writeups.md
+- 漏洞数据库平台:
+  - 漏洞数据库全览: vulnerability-databases/index.md
+  - CNVD 与 CNNVD 详解: vulnerability-databases/01-cnvd-cnnvd.md
+  - NVD/CVE/MITRE/CWE/CVSS: vulnerability-databases/02-nvd-cve-mitre.md
+  - 其他漏洞数据平台: vulnerability-databases/03-other-databases.md
+  - Exploit-DB 搜索指南: vulnerability-databases/04-exploit-db.md
+  - vulnerability-databases/03-cnvd-cnnvd-deep.md
+- 社会工程学:
+  - 社会工程学概述: social-engineering/index.md
+  - 社会工程学概论: social-engineering/01-social-engineering.md
+  - 网络钓鱼实战与防御: social-engineering/02-phishing-defense.md
+  - 高级社工攻击: social-engineering/03-social-advanced.md
+  - social-engineering/04-insider-threat-detection.md
+- 逆向工程:
+  - 逆向工程概述: reverse-engineering/index.md
+  - 逆向工程基础: reverse-engineering/01-reverse-basics.md
+  - Android 逆向与 Hook: reverse-engineering/02-android-reverse.md
+  - Frida 高级使用: reverse-engineering/03-frida-advanced.md
+  - reverse-engineering/04-ida-pro-advanced.md
+- 红队基础设施:
+  - 红队基础架构: red-team-infra/index.md
+  - 红队基础设施实践: red-team-infra/01-red-team-infra.md
+  - C2 框架与基础设施: red-team-infra/02-c2-framework.md
+  - red-team/03-red-team-infrastructure.md
+  - red-team/01-red-team-tactics.md
+  - red-team/index.md
+  - red-team-infra/03-anti-detection.md
+  - red-team/02-red-team-opsec.md
+- 无线安全:
+  - 无线网络安全: wireless-security/01-wireless-security.md
+  - WiFi/蓝牙/RFID 攻击: wireless-security/02-wireless-advanced.md
+  - wireless-security/03-iot-wireless-protocols.md
+  - wireless-security/04-wireless-pentesting.md
+  - wireless-security/index.md
+- 工控安全:
+  - 工控系统安全: ics-security/01-ics-security.md
+  - 工控安全实战: ics-security/02-ics-security.md
+  - ics-security/03-ics-protocols-deep-dive.md
+  - ics-security/04-ics-threat-hunting.md
+  - ics-security/index.md
+- 云原生安全深潜:
+  - 云原生安全概述: cloud-native-security/index.md
+  - 云原生安全实战: cloud-native-security/01-cloud-native-security.md
+  - Service Mesh 安全: cloud-native-security/02-istio-security.md
+  - K8s 攻击链与逃逸: cloud-native-security/03-cloud-native-security-advanced.md
+  - cloud-native-security/03-kubernetes-rbac-hardening.md
+  - cloud-native-security/04-kubernetes-security-tools.md
+  - cloud-native-security/05-cloud-native-threat-detection.md
+- 安全合规与审计:
+  - 合规审计概述: compliance-audit/index.md
+  - 合规框架与实践: compliance-audit/01-compliance-audit.md
+  - compliance/03-pci-dss-implementation.md
+  - compliance-audit/03-iso27001-implementation.md
+  - compliance-audit/04-soc2-compliance.md
+  - compliance-audit/05-dengbao2.md
+  - compliance/02-iso27001-overview.md
+  - compliance/index.md
+  - compliance/04-gdpr-vs-china-laws.md
+- Windows 内部安全:
+  - Windows 安全机制: windows-internals/01-windows-internals.md
+  - 安全加固与防御: windows-internals/02-windows-defenses.md
+  - 数字取证与事件响应: windows-internals/03-windows-forensics.md
+  - windows-internals/04-ad-cs-security.md
+  - windows-internals/index.md
+  - windows-internals/06-windows-forensics.md
+- 浏览器安全:
+  - 浏览器安全机制: browser-security/01-browser-security.md
+  - 浏览器攻击面: browser-security/02-browser-attacks.md
+  - browser-security/03-browser-hardening.md
+  - browser-security/04-browser-extensions-security.md
+  - browser-security/index.md
+- 勒索软件与 APT:
+  - 勒索软件与 APT 案例: ransomware-apt/01-ransomware-apt.md
+  - APT 组织深度分析: ransomware-apt/02-apt-groups.md
+  - 勒索软件防御与恢复: ransomware-apt/03-ransomware-defense.md
+  - ransomware-apt/04-incident-response-recovery.md
+  - ransomware-apt/index.md
+- 电子邮箱安全:
+  - 电子邮件安全: email-security/01-email-security.md
+  - 邮件攻击技术: email-security/02-email-attacks.md
+  - 邮件安全防御体系: email-security/03-email-defense.md
+  - email-security/03-email-security-testing.md
+  - email-security/index.md
+- 密码安全与无密码认证:
+  - 无密码认证体系: passwordless-security/index.md
+  - FIDO2/Passkeys 实战: passwordless-security/01-passwordless-security.md
+  - passwordless-security/03-passwordless-migration.md
+  - passwordless-security/04-passkeys-deep-dive.md
+  - passwordless-security/02-webauthn-implementation.md
+- 恶意软件分析:
+  - 恶意软件分析概述: malware-analysis/index.md
+  - 静态分析: malware-analysis/01-malware-static-analysis.md
+  - 动态分析: malware-analysis/02-malware-dynamic-analysis.md
+  - malware-analysis/03-yara-rules.md
+  - malware-analysis/04-memory-forensics.md
+  - malware-analysis/05-malware-sandbox.md
+  - malware-analysis/06-malware-analysis-practical.md
+- 中国网络安全法规:
+  - 法律法规全景: china-laws/index.md
+  - 网络安全法/数据安全法/个保法: china-laws/01-china-cybersecurity-laws.md
+  - legal/03-cybersecurity-law-enforcement.md
+  - legal/04-data-security-law.md
+  - legal/05-personal-information-law.md
+  - china-laws/02-data-security-law-details.md
+  - legal/index.md
+  - china-laws/03-pip-cross-border-data.md
+- 网络架构安全:
+  - 网络架构与防御: network-architecture/index.md
+  - 企业网络安全架构: network-architecture/01-network-architecture-security.md
+  - 零信任网络设计: network-architecture/02-zero-trust-network.md
+  - network-architecture/03-microsegmentation.md
+  - network-architecture/04-sdn-security.md
+- 国密算法:
+  - 国密算法: sm-crypto/index.md
+  - SM2/SM3/SM4/SM9: sm-crypto/01-sm-crypto.md
+  - sm-crypto/03-sm-crypto-implementation.md
+  - sm-crypto/04-gm-certificate-pki.md
+- 5G 安全:
+  - 5G 安全概述: 5g-security/index.md
+  - 5G 网络安全: 5g-security/01-5g-security.md
+  - 5g-security/03-5g-core-security.md
+  - 5g-security/04-5g-network-slicing.md
+- 车联网安全:
+  - 车联网安全概述: automotive-security/index.md
+  - 车联网安全: automotive-security/01-automotive-security.md
+  - automotive-security/03-vehicle-hacking.md
+  - automotive-security/04-v2x-security.md
+  - automotive-security/05-automotive-forensics.md
+- 欺骗防御:
+  - deception/index.md
+  - deception/01-deception-technology.md
+  - deception/02-honeynet-deployment.md
+  - deception/03-honeypot-analysis.md
+- SOC安全运营:
+  - soc/01-soc-building.md
+  - soc/02-soc-automation.md
+  - soc/03-siem-rules.md
+  - soc/index.md
+  - soc/04-soc-automation.md
+- 量子安全:
+  - quantum-security/index.md
+  - quantum-security/01-quantum-threat-pqc.md
+  - quantum-security/02-pqc-migration.md
+  - quantum-security/03-quantum-key-distribution.md
+- 硬件安全:
+  - hardware-security/index.md
+  - hardware-security/01-hardware-hacking.md
+  - hardware-security/02-firmware-reverse.md
+  - hardware-security/03-chip-security.md
+- 附录:
+  - appendix/index.md
+  - 资源与引用: appendix/resources.md
+  - 术语表: appendix/glossary.md
+  - 安全检查清单: appendix/checklists.md
+  - appendix/04-security-tools-reference.md
+- AWS 云安全:
+  - aws-security/01-aws-security-services.md
+  - aws-security/index.md
+- 身份认证安全 (IAM/SSO):
+  - iam-security/02-sso-oauth-deep.md

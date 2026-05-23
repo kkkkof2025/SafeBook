@@ -375,3 +375,5 @@ class DarknetIntel2MISP:
 ---
 
 *上一篇：[OSINT 信息收集实战](./02-osint-practical.md)*
+
+*下一篇：[OSINT 高级工具与自主情报挖掘](04-osint-advanced-tools.md)*

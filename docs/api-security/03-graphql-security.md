@@ -195,3 +195,7 @@ location /graphql {
     proxy_pass http://graphql-server;
 }
 ```
+
+*上一篇：[API 渗透测试实战](02-api-pentesting.md)*
+
+*下一篇：[GraphQL API 安全攻防](05-graphql-security.md)*

@@ -259,3 +259,7 @@ wget https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh
 4. [Exploit Database](https://www.exploit-db.com/)
 5. [CVE Mitre](https://cve.mitre.org/)
 6. [Linux Capabilities 详解](https://man7.org/linux/man-pages/man7/capabilities.7.html)
+
+*上一篇：[缓冲区溢出实战](01-buffer-overflow.md)*
+
+*下一篇：[缓冲区溢出进阶：ROP 与绕过 DEP](03-buffer-overflow-advanced.md)*

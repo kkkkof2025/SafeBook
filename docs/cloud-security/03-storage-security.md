@@ -187,3 +187,7 @@ prowler aws --services s3
 3. [Azure Blob 存储安全](https://learn.microsoft.com/en-us/azure/storage/blobs/security-recommendations)
 4. [CIS AWS Foundations — S3 部分](https://www.cisecurity.org/benchmark/amazon_web_services)
 5. [OWASP Cloud Security — Object Storage](https://owasp.org/www-project-cloud-security/)
+
+*上一篇：[IAM 与身份安全](02-iam.md)*
+
+*下一篇：[云网络安全](04-network-security.md)*

@@ -192,3 +192,5 @@ class SMKeyManager:
         hash_digest = sm3.sm3_hash(func.bytes_to_list(data))
         return self.backend.sign("SM2", key_id, hash_digest)
 ```
+
+*下一篇：[国密算法实现指南](03-sm-crypto-implementation.md)*

@@ -192,3 +192,7 @@ res.setHeader('X-Content-Type-Options', 'nosniff');
 res.setHeader('X-Frame-Options', 'DENY');
 res.setHeader('X-XSS-Protection', '0'); // 废弃，用 CSP 替代
 ```
+
+*上一篇：[安全编码实践（Python）](01-secure-coding-python.md)*
+
+*下一篇：[安全代码审查实战](03-code-review.md)*

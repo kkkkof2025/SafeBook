@@ -160,3 +160,7 @@ class LeastPrivilegeEnforcer:
 | L2 | 受控 | SSO+MFA、PAM特权管理、基础审计 |
 | L3 | 可衡量 | JIT权限、定期重审、自动回收、基线符合 |
 | L4 | 持续优化 | 自适应访问、用户行为分析、零信任架构 |
+
+*上一篇：[零信任架构](01-zero-trust.md)*
+
+*下一篇：[SSO 与 OAuth 2.0 安全实战](02-sso-oauth-deep.md)*

@@ -69,3 +69,7 @@
 | 《The Web Application Hacker's Handbook》 | 中级→高级 |
 | 《红队技术手册》 | 高级 |
 | 《威胁建模：安全设计》 | 高级 |
+
+*上一篇：[安全学习路线图](01-learning-path.md)*
+
+*下一篇：[安全职业发展](03-career-development.md)*

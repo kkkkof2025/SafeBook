@@ -175,3 +175,5 @@ code = str(secrets.randbelow(1000000)).zfill(6)
 | SHA-3 | 2^128 理论 | ✅ 未来标准 |
 | BLAKE2/3 | 2^128 理论 | ✅ 高性能安全 |
 | SM3 | 2^128 理论 | ✅ 国密标准 |
+
+*上一篇：[零知识证明与隐私计算](04-zkp-zero-knowledge.md)*

@@ -107,3 +107,7 @@ def is_safe_url(url):
         ip = ipaddress.ip_address(resolved)
         return not (ip.is_private or ip.is_loopback)
 ```
+
+*上一篇：[OWASP Top 10 (2021) 深度解析](01-owasp-top10.md)*
+
+*下一篇：[OWASP Top 10 深潜：访问控制与加密](03-owasp-deep.md)*

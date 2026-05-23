@@ -135,3 +135,5 @@ sudo kismet -c wlan0mon
 [ ] RFID 卡升级为 MIFARE DESFire
 [ ] WIDS/WIPS 部署覆盖
 ```
+
+*下一篇：[无线安全进阶：WiFi 与蓝牙攻击](02-wireless-advanced.md)*

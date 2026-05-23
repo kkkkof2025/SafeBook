@@ -286,3 +286,7 @@ subprocess.call(['nslookup', domain])
 3. [Jinja2 SSTI 指南](https://portswigger.net/research/server-side-template-injection)
 4. [CVE-2021-44228 Log4j 漏洞分析](https://www.lunasec.io/docs/blog/log4j-zero-day/)
 5. [CVE-2017-5638 Struts2 漏洞分析](https://cwiki.apache.org/confluence/display/WW/S2-045)
+
+*上一篇：[SSRF 服务端请求伪造（Server-Side Request Forgery）](04-ssrf.md)*
+
+*下一篇：[认证绕过（Authentication Bypass）](06-authentication-bypass.md)*

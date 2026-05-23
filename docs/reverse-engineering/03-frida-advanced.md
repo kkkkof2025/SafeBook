@@ -243,3 +243,7 @@ frida -U -l bypass-root.js -f com.target.app --no-pause
 # 跟踪特定类方法
 frida-trace -U com.target.app -m "com.example.*"
 ```
+
+*上一篇：[Android 逆向与 Hook](02-android-reverse.md)*
+
+*下一篇：[IDA Pro 高级逆向技术](04-ida-pro-advanced.md)*

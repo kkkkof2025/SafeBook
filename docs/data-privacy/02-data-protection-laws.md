@@ -61,3 +61,7 @@
 | GDPR | 数据映射、同意管理 | Cookie 横幅、DSR 自动化 |
 | PIPL | 本地化部署、最小收集 | 数据分类分级、敏感数据加密 |
 | CCPA | 退出机制、隐私政策 | Opt-out 按钮、数据目录 |
+
+*上一篇：[数据脱敏与隐私保护技术](01-data-masking.md)*
+
+*下一篇：[﻿# 数据泄露应急响应](03-data-breach-response.md)*

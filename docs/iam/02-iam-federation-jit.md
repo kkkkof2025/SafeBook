@@ -292,3 +292,5 @@ class ContinuousAdaptiveAuth:
 ---
 
 *上一篇：[IAM 概述](index.md)*
+
+*下一篇：[IAM 高级场景配置](03-iam-advanced-scenarios.md)*

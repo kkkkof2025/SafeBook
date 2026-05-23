@@ -199,3 +199,5 @@ class SocToolchainHealth:
 ---
 
 *上一篇：[SIEM 与 SOC](01-siem-soc.md)*
+
+*下一篇：[蓝队自动化防御](03-blue-team-automation.md)*

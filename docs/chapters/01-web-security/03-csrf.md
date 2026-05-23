@@ -278,3 +278,7 @@ def api_transfer():
 2. [SameSite Cookie 详解 — MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#samesitesamesite-value)
 3. [Understanding CSRF — PortSwigger](https://portswigger.net/web-security/csrf)
 4. [CSRF Token 的最佳实践](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet#Synchronizer_Token_Pattern)
+
+*上一篇：[XSS 跨站脚本（Cross-Site Scripting）](02-xss.md)*
+
+*下一篇：[SSRF 服务端请求伪造（Server-Side Request Forgery）](04-ssrf.md)*

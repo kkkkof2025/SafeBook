@@ -259,3 +259,5 @@ class BlueTeamAutoResponder:
 ---
 
 *上一篇：[蓝队防御运营](02-blue-team-ops.md)*
+
+*下一篇：[数字取证与事件响应（DFIR）](03-dfir.md)*

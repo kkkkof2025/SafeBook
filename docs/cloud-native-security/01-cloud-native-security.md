@@ -171,3 +171,5 @@ docker scout recommendations nginx:latest
 [ ] Secret 加密存储（KMS + etcd 加密）
 [ ] 节点自动更新（Kured/OS 自动补丁）
 ```
+
+*下一篇：[Service Mesh 安全（Istio 实战）](02-istio-security.md)*

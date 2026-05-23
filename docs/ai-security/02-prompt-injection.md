@@ -292,3 +292,7 @@ def execute_with_approval(tool_name: str, params: dict) -> str:
 3. [Not what you've signed up for: Compromising Real-World LLM-Integrated Applications](https://arxiv.org/abs/2302.12173)
 4. [PortSwigger LLM 攻击教程](https://portswigger.net/web-security/llm-attacks)
 5. [Gandalf — Prompt 注入训练游戏](https://gandalf.lakera.ai/)
+
+*上一篇：[LLM 安全漏洞](01-llm-vulns.md)*
+
+*下一篇：[Agent 平台安全实战](03-openclaw-security.md)*

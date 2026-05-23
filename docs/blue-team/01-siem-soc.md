@@ -91,3 +91,5 @@ def detect_exfiltration():
 - 加强监控和防御
 - 编写事件报告
 - 更新安全策略
+
+*下一篇：[蓝队安全运营](02-blue-team-ops.md)*

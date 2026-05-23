@@ -249,3 +249,5 @@ class IocCorrelation:
 [ ] 公开的 GitHub 泄露
 [ ] 资料库（RaidForums/BreachForums）
 ```
+
+*下一篇：[OSINT 信息收集实战](02-osint-practical.md)*

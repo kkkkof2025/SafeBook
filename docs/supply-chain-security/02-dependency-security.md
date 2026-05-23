@@ -182,3 +182,7 @@ AI 项目的高风险依赖：
 3. [npm audit 官方文档](https://docs.npmjs.com/cli/v10/commands/npm-audit)
 4. [pip-audit 工具](https://github.com/pypa/pip-audit)
 5. [Dependency Confusion 攻击详解](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
+
+*上一篇：[CI/CD 管道安全](01-cicd-security.md)*
+
+*下一篇：[SLSA 框架深度实施](04-slsa.md)*

@@ -87,3 +87,7 @@ def add_laplace_noise(value, epsilon=1.0, sensitivity=1.0):
 | 身份证 | 掩码 | 110***********0012 |
 | 手机 | 掩码 | 138****1234 |
 | 邮箱 | 替换 | u***@example.com |
+
+*上一篇：[﻿# 全球数据保护法规对比](02-data-protection-laws.md)*
+
+*下一篇：[Privacy by Design（隐私设计）深度](04-privacy-by-design.md)*

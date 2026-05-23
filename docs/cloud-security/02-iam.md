@@ -245,3 +245,7 @@ aws secretsmanager get-secret-value --secret-id ai-api-key
 4. [GCP IAM 概览](https://cloud.google.com/iam/docs/overview)
 5. [CIS AWS Foundations Benchmark](https://www.cisecurity.org/benchmark/amazon_web_services)
 6. [Capital One 数据泄露回顾](https://www.justice.gov/usao-wdwa/pr/capital-one-data-breach)
+
+*上一篇：[共享责任模型](01-shared-responsibility.md)*
+
+*下一篇：[云存储安全](03-storage-security.md)*

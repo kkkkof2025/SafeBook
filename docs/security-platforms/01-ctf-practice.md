@@ -227,3 +227,5 @@ King of the Hill（抢旗混战）
 - [WeChall 全球排名](https://www.wechall.net/)
 - [青少年 CTF 练习平台](https://developer.aliyun.com/article/1526105)
 - [推荐 CTF 网站和工具](https://blog.csdn.net/hackerqy/article/details/128219920)
+
+*下一篇：[安全社区、公众号与深度资源](02-community-resources.md)*

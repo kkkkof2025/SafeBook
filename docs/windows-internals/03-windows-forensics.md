@@ -105,3 +105,7 @@ Get-Content "$env:LOCALAPPDATA\Google\Chrome\User Data\Default\History" -Encodin
 ## 总结
 
 Windows 取证需要系统化的方法论：内存取证→磁盘取证→日志分析→时间线重建。掌握 Volatility、KAPE 和金相显微镜级的时间戳分析是事件响应成功的关键。
+
+*上一篇：[Windows 安全加固与攻击防御](02-windows-defenses.md)*
+
+*下一篇：[Active Directory 证书服务安全](04-ad-cs-security.md)*

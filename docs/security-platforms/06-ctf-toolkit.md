@@ -156,3 +156,7 @@ Ctrl+Z
 stty raw -echo; fg
 reset
 ```
+
+*上一篇：[CTF 密码学与取证分析](05-ctf-crypto-forensics.md)*
+
+*下一篇：[CTF 赛题精讲与实战复盘](07-ctf-writeups.md)*

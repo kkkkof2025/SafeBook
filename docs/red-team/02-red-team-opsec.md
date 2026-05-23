@@ -202,3 +202,5 @@ class OpsecValidator:
 ---
 
 *上一篇：[红队战术深度](01-red-team-tactics.md)*
+
+*下一篇：[红队基础设施搭建](03-red-team-infrastructure.md)*

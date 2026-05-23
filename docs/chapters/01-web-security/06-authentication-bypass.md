@@ -347,3 +347,7 @@ def login():
 3. [JWT Algorithm Confusion 详解](https://portswigger.net/web-security/jwt/algorithm-confusion)
 4. [PortSwigger Authentication 教程](https://portswigger.net/web-security/authentication)
 5. [OWASP Password Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
+
+*上一篇：[RCE 远程代码执行（Remote Code Execution）](05-rce.md)*
+
+*下一篇：[IDOR 越权访问（Insecure Direct Object Reference）](07-idor.md)*

@@ -121,3 +121,5 @@ pkt = NAS5G(NAS5GMMHeader(msg_type=0x41))  # Registration Request
 ## 总结
 
 5G 安全远不止于无线加密。服务化架构、网络切片和 MEC 带来了全新的攻击面。5G 安全测试需要结合协议模糊测试、核心网渗透测试和切片隔离验证三大方向。
+
+*下一篇：[5G 核心网安全](03-5g-core-security.md)*

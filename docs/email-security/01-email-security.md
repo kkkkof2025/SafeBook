@@ -168,3 +168,5 @@ Phase 3: p=reject (持续)
 # whois suspicious-url.com
 # VirusTotal URL 检查
 ```
+
+*下一篇：[电子邮件安全攻击技术](02-email-attacks.md)*

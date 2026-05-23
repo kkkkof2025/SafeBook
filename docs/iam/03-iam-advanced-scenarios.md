@@ -412,3 +412,7 @@ report.to_excel('iam_compliance_report.xlsx', index=False)
 ---
 
 **下一步：** 学习 )，掌握安全左移实践。
+
+*上一篇：[IAM 高级场景实践](02-iam-federation-jit.md)*
+
+*下一篇：[PAM 特权访问管理深度](03-pam-deep.md)*

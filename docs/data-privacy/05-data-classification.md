@@ -194,3 +194,5 @@ Phase 4 [持续]:
   ├─ DLP 规则优化（减少误报）
   └─ 员工数据安全意识持续培训
 ```
+
+*上一篇：[Privacy by Design（隐私设计）深度](04-privacy-by-design.md)*

@@ -155,3 +155,5 @@ contract VulnerableBridge {
 | SWC Registry | 漏洞分类 | swcregistry.io |
 | REKT News | 攻击事件 | rekt.news |
 | Immunefi | Bug Bounty | immunefi.com |
+
+*下一篇：[DeFi 安全与智能合约审计](02-defi-security.md)*

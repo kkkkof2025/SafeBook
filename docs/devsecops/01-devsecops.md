@@ -78,3 +78,5 @@ DevSecOps 的核心思想：安全嵌入开发流程的每个阶段。
 | 密钥泄露 | 任何匹配 | truffleHog |
 | 容器扫描 | High 以上 | Trivy |
 | 许可证合规 | GPL/AGPL 商用 | FOSSA |
+
+*下一篇：[渗透测试方法论实战](02-pentest-methodology.md)*

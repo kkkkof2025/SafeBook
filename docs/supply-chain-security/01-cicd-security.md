@@ -270,3 +270,5 @@ build:
 1. [GitHub Actions 安全加固](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
 2. [Jenkins 安全最佳实践](https://www.jenkins.io/doc/book/security/)
 3. [OWASP CI/CD Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet.html)
+
+*下一篇：[依赖管理与投毒防御](02-dependency-security.md)*

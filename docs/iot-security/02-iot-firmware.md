@@ -136,3 +136,7 @@ nmap -p 23,80,443,5555,2323,32764 192.168.1.1
 利用路径: 扫描 → Telnet 尝试默认密码 → 命令注入获得 shell
          → 写入后门固件 → 持久控制
 ```
+
+*上一篇：[IoT 安全全景](01-iot-security.md)*
+
+*下一篇：[IoT ZigBee/BLE 协议安全](03-iot-protocol-security.md)*

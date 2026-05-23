@@ -225,3 +225,7 @@ scout aws --report-dir ./compliance-report
 4. [等保 2.0 云安全扩展要求](https://www.cac.gov.cn/)
 5. [CIS AWS Foundations Benchmark](https://www.cisecurity.org/benchmark/amazon_web_services)
 6. [Cloud Security Alliance — Cloud Controls Matrix](https://cloudsecurityalliance.org/research/cloud-controls-matrix/)
+
+*上一篇：[Serverless 安全](05-serverless-security.md)*
+
+*下一篇：[CSPM 与云安全工具链](07-cspm-tools.md)*

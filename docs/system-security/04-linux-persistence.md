@@ -229,3 +229,5 @@ diff <(awk '{print $2}' /tmp/ps.txt | sort -u) /tmp/proc.txt
 ---
 
 *上一篇：[权限提升](02-privilege-escalation.md)*
+
+*下一篇：[Windows 安全加固实战](05-windows-security.md)*

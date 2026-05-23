@@ -151,3 +151,5 @@ results = api.search('title:"SCADA"')
   - 异常 Modbus 功能码告警
   - PLC 梯形图变更审计
 ```
+
+*下一篇：[工控安全实战（上篇）](02-ics-security.md)*

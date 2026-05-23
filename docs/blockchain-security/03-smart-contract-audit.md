@@ -274,3 +274,7 @@ function splitDAO(
 ---
 
 **下一步：** 学习 底层安全。
+
+*上一篇：[DeFi 安全与智能合约审计](02-defi-security.md)*
+
+*下一篇：[MEV 与 DeFi 抢跑攻击](04-mev-frontrunning.md)*

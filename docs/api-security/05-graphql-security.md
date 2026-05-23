@@ -456,3 +456,5 @@ GraphQL 安全基线:
 ---
 
 *上一篇：[GraphQL 安全入门](./03-graphql-security.md)*
+
+*下一篇：[API 速率限制与 DDoS 防护](06-rate-limiting.md)*

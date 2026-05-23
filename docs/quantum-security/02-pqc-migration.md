@@ -374,3 +374,5 @@ class CryptoAgilityManager:
 ---
 
 *上一篇：[量子计算对密码学的威胁](./01-quantum-threat-pqc.md)*
+
+*下一篇：[量子密钥分发 (QKD)](03-quantum-key-distribution.md)*

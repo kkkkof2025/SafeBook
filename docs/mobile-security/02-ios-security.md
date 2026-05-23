@@ -248,3 +248,7 @@ class KeychainManager {
 3. [Frida iOS 文档](https://frida.re/docs/ios/)
 4. [HackTricks iOS](https://book.hacktricks.xyz/mobile-apps/ios-pentesting)
 5. [iOS 应用安全评估 (NSC)](https://developer.apple.com/documentation/security)
+
+*上一篇：[Android 安全测试与逆向](01-android-security.md)*
+
+*下一篇：[Android 应用安全加固](03-android-hardening.md)*

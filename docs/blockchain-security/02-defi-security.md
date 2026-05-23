@@ -145,3 +145,7 @@ SWC-107 - Reentrancy
 | **Tenderly** | 交易模拟 + 调试 |
 | **Dune** | 链上数据分析 |
 | **Uniswap Hooks** | 安全注意事项 |
+
+*上一篇：[区块链与Web3安全概述](01-blockchain-security.md)*
+
+*下一篇：[智能合约审计实战](03-smart-contract-audit.md)*

@@ -165,3 +165,7 @@ cp user.js/user.js %APPDATA%\Mozilla\Firefox\Profiles\<profile>\user.js
 ---
 
 **下一步：** 学习 与无密码认证)，掌握现代认证技术。
+
+*上一篇：[浏览器安全攻击面](02-browser-attacks.md)*
+
+*下一篇：[浏览器扩展安全](04-browser-extensions-security.md)*

@@ -188,3 +188,5 @@ pip freeze > requirements.txt
 [ ] 异常处理不泄露内部信息
 [ ] HTTPS 强制（HSTS + CSP + CORS 配置）
 ```
+
+*下一篇：[安全编码实践（Web/JavaScript）](02-secure-coding-web.md)*

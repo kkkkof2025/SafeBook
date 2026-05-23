@@ -296,3 +296,7 @@ $user = unserialize($data, ['allowed_classes' => ['User']]);
 3. [Java Deserialization — Marshalsec](https://github.com/mbechler/marshalsec)
 4. [Python Pickle 安全问题](https://docs.python.org/3/library/pickle.html#restricting-globals)
 5. [ysoserial 项目主页](https://github.com/frohoff/ysoserial)
+
+*上一篇：[XXE 外部实体注入（XML External Entity）](09-xxe.md)*
+
+*下一篇：[WebSocket 安全深度](11-websocket-security.md)*

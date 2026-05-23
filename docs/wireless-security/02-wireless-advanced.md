@@ -193,3 +193,7 @@ WiFi 防御:
   - 访客网络与内部网络严格隔离
   - 有线等效安全（禁用无线管理）
 ```
+
+*上一篇：[无线网络安全](01-wireless-security.md)*
+
+*下一篇：[IoT 无线协议安全](03-iot-wireless-protocols.md)*
