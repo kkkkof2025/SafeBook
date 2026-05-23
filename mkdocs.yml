@@ -155,6 +155,7 @@ nav:
   - 容器供应链安全: container-security/03-supply-chain.md
   - container-security/05-container-escape.md
   - container-security/04-container-image-security.md
+  - 容器逃逸技术与防御: container-security/container-escape.md
 - 供应链安全:
   - 供应链安全概述: supply-chain-security/index.md
   - CI/CD 管道安全: supply-chain-security/01-cicd-security.md
@@ -453,6 +454,8 @@ nav:
   - soc/03-siem-rules.md
   - soc/index.md
   - soc/04-soc-automation.md
+  - SOAR Playbook 深度: soc/soar-playbook-deep.md
+  - 安全指标与 KPI: soc/security-metrics.md
 - 量子安全:
   - quantum-security/index.md
   - quantum-security/01-quantum-threat-pqc.md
