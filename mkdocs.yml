@@ -147,6 +147,7 @@ nav:
   - AWS 安全实战: aws-security/01-aws-security.md
   - aws-security/02-azure-security.md
   - AWS 安全最佳实践: aws-security/04-aws-best-practices.md
+  - 多云安全架构: cloud-security/multi-cloud-security.md
 - 容器与 K8s 安全:
   - 容器安全概述: container-security/index.md
   - Docker 安全: container-security/01-docker-security.md
@@ -254,6 +255,7 @@ nav:
   - GraphQL API 安全: api-security/03-graphql-security.md
   - api-security/05-graphql-security.md
   - api-security/06-rate-limiting.md
+  - GraphQL 深度攻击与防御: api-security/05-graphql-defense.md
 - IoT 安全:
   - iot-security/index.md
   - IoT 安全概述: iot-security/01-iot-security.md
