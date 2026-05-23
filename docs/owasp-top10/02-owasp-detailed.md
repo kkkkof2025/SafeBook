@@ -31,13 +31,47 @@ db.users.find({ username: String(req.body.username),
                 password: hash(req.body.password) });
 ```
 
-### LDAP 注入
-```ldap
-# 利用：通过注入关闭现有过滤器
-user*)(uid=*))(|(uid=*
-# 实际构造的查询
-(&(uid=user*)(uid=*))(|(uid=*)(password=test))
+---
+
+## A02: 密码学失效
+
+```python
+# ❌ ECB 模式 — 相同明文 = 相同密文（企鹅图效应）
+cipher = AES.new(key, AES.MODE_ECB)
+
+# ❌ 固定 IV — 多次加密可恢复明文
+iv = b"1234567890123456"  # 绝不复用!
+
+# ✅ GCM 模式 + 随机 IV
+from Crypto.Cipher import AES
+iv = os.urandom(12)
+cipher = AES.new(key, AES.MODE_GCM, nonce=iv)
+ciphertext, tag = cipher.encrypt_and_digest(plaintext)
+return iv + ciphertext + tag  # 无需额外 MAC
 ```
+
+---
+
+## A04: 不安全的设计
+
+```python
+# 威胁建模 (STRIDE)
+threats = {
+    'Spoofing': 'OAuth + 2FA + 证书验证',
+    'Tampering': 'HMAC 签名 + TLS + 完整性校验',
+    'Repudiation': '审计日志 + 数字签名 + 不可篡改',
+    'Information Disclosure': '加密 + 脱敏 + 最小权限',
+    'Denial of Service': '限流 + CDN + WAF',
+    'Elevation of Privilege': 'RBAC + 审批流 + 最小权限'
+}
+
+# 安全设计原则
+# 1. 默认安全: 新功能默认最小权限
+# 2. 纵深防御: 不依赖单一安全层
+# 3. 失效安全: 安全控制故障时 ≤ 原始风险
+```
+
+---
 
 ## A06: 易受攻击和过时的组件
 
@@ -45,10 +79,10 @@ user*)(uid=*))(|(uid=*
 
 | 扫描时机 | 工具 | 频率 |
 |---------|------|------|
-| 拉取请求 | Dependabot | 每次提交 |
+| Pull Request | Dependabot | 每次提交 |
 | 构建阶段 | Trivy/Snyk | 每次构建 |
-| 定时扫描 | OWASP DC | 每天 |
-| 夜间扫描 | Grype | 每天 |
+| 定时扫描 | OWASP DC/Grype | 每日 |
+| 容器镜像 | Trivy | 每次推送 |
 
 ```yaml
 # GitHub Dependabot 配置
@@ -65,48 +99,78 @@ updates:
       - "dependencies"
 ```
 
-## A08: 软件和数据完整性失效
+---
 
-### CI/CD 管道安全
-```yaml
-# 检查依赖完整性
-- name: Verify SBOM
-  run: |
-    sbom-tool verify --sbom sbom.spdx.json
-    cosign verify-blob --signature image.sig attestation.json
+## A07: 认证失效
+
+```python
+# ❌ 错误 1: 弱密码策略
+MIN_PASSWORD_LENGTH = 6  # 太短!
+# ✅ 强密码: ≥12 位 + 大小写 + 数字 + 特殊字符
+
+# ❌ 错误 2: 无登录限速
+# ✅ 速率限制
+key = f"login:{ip}:{username}"
+attempts = redis.get(key) or 0
+if int(attempts) > 5:
+    raise RateLimitExceeded(block_duration=300)
+redis.incr(key); redis.expire(key, 60)
+
+# ❌ 错误 3: "用户名不存在" vs "密码错误"
+# ✅ 统一信息: "用户名或密码错误"
 ```
 
-## A09: 安全日志记录和监控失败
+---
 
-### 日志设计清单
-- 所有认证事件（成功/失败）
-- 权限变更操作
-- 敏感数据访问
-- 管理员操作
-- 异常错误和异常
-- 日志禁止包含：密码、Token、PII
+## A08: 软件和数据完整性失效
+
+```yaml
+# CI/CD 管道完整性检查
+- name: Verify integrity
+  run: |
+    # SBOM 验证
+    sbom-tool verify --sbom sbom.spdx.json
+    # 容器镜像签名验证
+    cosign verify --key cosign.pub myimage:latest
+    # 依赖来源校验
+    npm audit --audit-level=critical
+```
+
+---
 
 ## A10: SSRF 服务端请求伪造
 
 ```python
-import ipaddress
+import ipaddress, socket
+from urllib.parse import urlparse
 
-# ❌ 简单域名单不抵
-BLOCKED_HOSTS = ['169.254.169.254', 'localhost']
-
-# ✅ 使用 IP 范围校验
 def is_safe_url(url):
+    """防御 SSRF: 阻止内网/回环/链接本地地址"""
     parsed = urlparse(url)
-    host = parsed.hostname
+    hostname = parsed.hostname
+
+    # 直接 IP 检查
     try:
-        ip = ipaddress.ip_address(host)
-        return not (ip.is_private or ip.is_loopback or ip.is_link_local)
+        ip = ipaddress.ip_address(hostname)
+        return not (
+            ip.is_private or ip.is_loopback or
+            ip.is_link_local or ip.is_multicast
+        )
     except ValueError:
-        # 域名需 DNS 解析后再次检查
-        resolved = socket.gethostbyname(host)
+        pass
+
+    # DNS 解析后检查
+    try:
+        resolved = socket.gethostbyname(hostname)
         ip = ipaddress.ip_address(resolved)
-        return not (ip.is_private or ip.is_loopback)
+        return not (
+            ip.is_private or ip.is_loopback
+        )
+    except socket.gaierror:
+        return False
 ```
+
+---
 
 *上一篇：[OWASP Top 10 (2021) 深度解析](01-owasp-top10.md)*
 
