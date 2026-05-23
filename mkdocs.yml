@@ -128,6 +128,7 @@ nav:
   - WebSocket 安全: chapters/01-web-security/11-websocket-security.md
   - OAuth/SSO 安全: chapters/01-web-security/12-oauth-sso.md
   - SSTI 模板注入: chapters/01-web-security/13-ssti.md
+  - HTTP 请求走私与缓存投毒: chapters/01-web-security/14-request-smuggling.md
 - 学习路径:
   - 学习路线总览: learning/index.md
   - 安全学习路线图: learning/01-learning-path.md
@@ -189,6 +190,7 @@ nav:
   - AI 红队进阶: advanced-ai-security/03-ai-redteam-advanced.md
   - 模型安全评估: advanced-ai-security/04-model-security-eval.md
   - 数据投毒与模型劫持: advanced-ai-security/05-data-poisoning.md
+  - RAG 安全模式与架构: ai-security/06-rag-security.md
 - AI 安全（大语言模型）:
   - AI 安全概述: ai-security/index.md
   - LLM 安全漏洞: ai-security/01-llm-vulns.md
@@ -196,6 +198,7 @@ nav:
   - OpenClaw 安全: ai-security/03-openclaw-security.md
   - AI 辅助钓鱼与防护: ai-security/04-phishing-ai.md
   - 内容污染鉴别: ai-security/05-content-pollution.md
+  - RAG 安全模式与架构: ai-security/06-rag-security.md
 - 密码学基础:
   - 密码学概述: cryptography/index.md
   - 哈希算法: cryptography/01-hash.md
@@ -271,6 +274,7 @@ nav:
   - SAST/DAST/Secrets 扫描: devsecops/03-sast-dast-secrets.md
   - devsecops/03-devsecops-shift-left.md
   - devsecops/05-security-chaos.md
+  - 安全混沌工程: devsecops/06-security-chaos-engineering.md
 - 安全运维（蓝队）:
   - SIEM 与事件响应: blue-team/01-siem-soc.md
   - 日常安全运营: blue-team/02-blue-team-ops.md
