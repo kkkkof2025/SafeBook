@@ -343,6 +343,7 @@ nav:
   - wireless-security/03-iot-wireless-protocols.md
   - wireless-security/04-wireless-pentesting.md
   - wireless-security/index.md
+  - Wi-Fi 渗透测试实战: wireless-security/wifi-pentesting.md
 - 工控安全:
   - 工控系统安全: ics-security/01-ics-security.md
   - 工控安全实战: ics-security/02-ics-security.md
@@ -375,6 +376,7 @@ nav:
   - windows-internals/04-ad-cs-security.md
   - windows-internals/index.md
   - windows-internals/06-windows-forensics.md
+  - 令牌操纵与权限提升: windows-internals/token-manipulation.md
 - 浏览器安全:
   - 浏览器安全机制: browser-security/01-browser-security.md
   - 浏览器攻击面: browser-security/02-browser-attacks.md
@@ -427,6 +429,7 @@ nav:
   - 零信任网络设计: network-architecture/02-zero-trust-network.md
   - network-architecture/03-microsegmentation.md
   - network-architecture/04-sdn-security.md
+  - 零信任网络设计: network-architecture/zero-trust-design.md
 - 国密算法:
   - 国密算法: sm-crypto/index.md
   - SM2/SM3/SM4/SM9: sm-crypto/01-sm-crypto.md
