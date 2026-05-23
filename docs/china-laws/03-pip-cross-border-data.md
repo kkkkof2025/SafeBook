@@ -227,3 +227,5 @@ def assess_data_export_requirement(data_type, volume, processor_type):
 ---
 
 *上一篇：[数据安全法解读](02-data-security-law-details.md)*
+
+*下一篇：[数据安全法实战合规](04-data-security-law.md)*

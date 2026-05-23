@@ -242,3 +242,5 @@ PAM 实施路线图:
 ---
 
 *上一篇：[IAM 联邦](02-iam-federation-jit.md)*
+
+*下一篇：[零信任架构实践](05-zero-trust.md)*

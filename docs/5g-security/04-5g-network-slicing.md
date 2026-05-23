@@ -323,3 +323,5 @@ class InterSliceFirewall:
 ---
 
 *上一篇：[5G 核心网安全](./03-5g-core-security.md)*
+
+*下一篇：[5G 安全架构深度](04-5g-security-architecture.md)*

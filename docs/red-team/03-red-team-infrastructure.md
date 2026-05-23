@@ -599,3 +599,5 @@ echo "0 0 * * * /usr/local/bin/self_destruct.sh" | crontab -
 **下一步：** 学习 。
 
 *上一篇：[红队 OPSEC 与行动安全](02-red-team-opsec.md)*
+
+*下一篇：[C2 框架对比与选型](04-c2-frameworks.md)*

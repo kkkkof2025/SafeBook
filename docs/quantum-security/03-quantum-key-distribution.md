@@ -200,3 +200,5 @@ QKD 实际限制:
 ---
 
 *上一篇：[PQC 迁移实践](02-pqc-migration.md)*
+
+*下一篇：[后量子密码迁移实战](04-pqc-migration.md)*

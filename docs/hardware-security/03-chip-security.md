@@ -198,3 +198,5 @@ class VoltageGlitch:
 ---
 
 *上一篇：[固件逆向](02-firmware-reverse.md)*
+
+*下一篇：[硬件安全模块 (HSM) 实践](04-hsm-tpm.md)*

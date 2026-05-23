@@ -396,3 +396,5 @@ server {
 ---
 
 *上一篇：[SM 系列算法实现](./03-sm-crypto-implementation.md)*
+
+*下一篇：[国密算法应用指南](04-sm-application-guide.md)*

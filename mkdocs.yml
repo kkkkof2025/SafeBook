@@ -133,6 +133,7 @@ nav:
   - 安全学习路线图: learning/01-learning-path.md
   - 推荐学习平台: learning/02-platforms.md
   - 安全职业发展: learning/03-career-development.md
+  - 安全认证完全指南: learning/04-certifications.md
 - 云安全:
   - 云安全概述: cloud-security/index.md
   - 共享责任模型: cloud-security/01-shared-responsibility.md
@@ -144,6 +145,7 @@ nav:
   - CSPM 与工具链: cloud-security/07-cspm-tools.md
   - AWS 安全实战: aws-security/01-aws-security.md
   - aws-security/02-azure-security.md
+  - AWS 安全最佳实践: aws-security/04-aws-best-practices.md
 - 容器与 K8s 安全:
   - 容器安全概述: container-security/index.md
   - Docker 安全: container-security/01-docker-security.md
@@ -227,6 +229,7 @@ nav:
   - iam/02-iam-federation-jit.md
   - iam/index.md
   - iam/03-pam-deep.md
+  - 零信任架构实践: iam/05-zero-trust.md
 - 安全编码实践:
   - 安全编码概述: secure-coding/index.md
   - Python 安全编码: secure-coding/01-secure-coding-python.md
@@ -287,6 +290,7 @@ nav:
   - 红蓝对抗实战方法论: hvv/01-red-blue-team.md
   - HVV 攻击技术实战: hvv/02-attack-techniques.md
   - HVV 防御策略: hvv/03-defense-strategy.md
+  - HVV 实战工具与技巧: hvv/04-hvv-tools.md
 - 安全学习平台与 CTF:
   - 安全学习平台全览: security-platforms/index.md
   - CTF 赛事与练习策略: security-platforms/01-ctf-practice.md
@@ -324,6 +328,8 @@ nav:
   - red-team/index.md
   - red-team-infra/03-anti-detection.md
   - red-team/02-red-team-opsec.md
+  - C2 框架对比与选型: red-team/04-c2-frameworks.md
+  - 域前置与流量伪装: red-team-infra/04-domain-fronting.md
 - 无线安全:
   - 无线网络安全: wireless-security/01-wireless-security.md
   - WiFi/蓝牙/RFID 攻击: wireless-security/02-wireless-advanced.md
@@ -354,6 +360,7 @@ nav:
   - compliance/02-iso27001-overview.md
   - compliance/index.md
   - compliance/04-gdpr-vs-china-laws.md
+  - SOC 2 审计实战: compliance/04-soc2-audit.md
 - Windows 内部安全:
   - Windows 安全机制: windows-internals/01-windows-internals.md
   - 安全加固与防御: windows-internals/02-windows-defenses.md
@@ -402,6 +409,8 @@ nav:
   - china-laws/02-data-security-law-details.md
   - legal/index.md
   - china-laws/03-pip-cross-border-data.md
+  - 数据安全法实战合规: china-laws/04-data-security-law.md
+  - 网络安全法深度: legal/04-cybersecurity-law.md
 - 网络架构安全:
   - 网络架构与防御: network-architecture/index.md
   - 企业网络安全架构: network-architecture/01-network-architecture-security.md
@@ -413,11 +422,13 @@ nav:
   - SM2/SM3/SM4/SM9: sm-crypto/01-sm-crypto.md
   - sm-crypto/03-sm-crypto-implementation.md
   - sm-crypto/04-gm-certificate-pki.md
+  - 国密算法应用指南: sm-crypto/04-sm-application-guide.md
 - 5G 安全:
   - 5G 安全概述: 5g-security/index.md
   - 5G 网络安全: 5g-security/01-5g-security.md
   - 5g-security/03-5g-core-security.md
   - 5g-security/04-5g-network-slicing.md
+  - 5G 安全架构深度: 5g-security/04-5g-security-architecture.md
 - 车联网安全:
   - 车联网安全概述: automotive-security/index.md
   - 车联网安全: automotive-security/01-automotive-security.md
@@ -429,6 +440,7 @@ nav:
   - deception/01-deception-technology.md
   - deception/02-honeynet-deployment.md
   - deception/03-honeypot-analysis.md
+  - 蜜罐部署实战: deception/04-honeypot-deployment.md
 - SOC安全运营:
   - soc/01-soc-building.md
   - soc/02-soc-automation.md
@@ -440,11 +452,13 @@ nav:
   - quantum-security/01-quantum-threat-pqc.md
   - quantum-security/02-pqc-migration.md
   - quantum-security/03-quantum-key-distribution.md
+  - 后量子密码迁移: quantum-security/04-pqc-migration.md
 - 硬件安全:
   - hardware-security/index.md
   - hardware-security/01-hardware-hacking.md
   - hardware-security/02-firmware-reverse.md
   - hardware-security/03-chip-security.md
+  - HSM 与 TPM 实践: hardware-security/04-hsm-tpm.md
 - 附录:
   - appendix/index.md
   - 资源与引用: appendix/resources.md
@@ -454,5 +468,7 @@ nav:
 - AWS 云安全:
   - aws-security/01-aws-security-services.md
   - aws-security/index.md
+  - AWS 安全最佳实践: aws-security/04-aws-best-practices.md
 - 身份认证安全 (IAM/SSO):
   - iam-security/02-sso-oauth-deep.md
+  - 零信任架构实践: iam/05-zero-trust.md
