@@ -225,6 +225,8 @@ nav:
   - threat-intel/02-tip-automation.md
   - threat-intelligence/03-threat-intel-lifecycle.md
   - threat-intel/01-threat-intel-intro.md
+  - IOC 生命周期管理: threat-intelligence/ioc-lifecycle.md
+  - 威胁狩猎方法论: threat-intelligence/threat-hunting-methodology.md
 - 身份与访问管理(IAM):
   - 零信任架构: iam-security/01-zero-trust.md
   - PAM 与 IGA 实战: iam-security/02-iam-pam.md
@@ -350,6 +352,7 @@ nav:
   - ics-security/03-ics-protocols-deep-dive.md
   - ics-security/04-ics-threat-hunting.md
   - ics-security/index.md
+  - 工控安全实战: ics-security/ics-practical.md
 - 云原生安全深潜:
   - 云原生安全概述: cloud-native-security/index.md
   - 云原生安全实战: cloud-native-security/01-cloud-native-security.md
